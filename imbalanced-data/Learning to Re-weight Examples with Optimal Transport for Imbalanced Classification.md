@@ -15,6 +15,8 @@ $f(x, \theta)$: model, parameterized by $\theta$
 - OT distance between $p$ and $q$:
 <img width="911" alt="Screen Shot 2022-11-04 at 15 24 12" src="https://user-images.githubusercontent.com/46414159/199896486-a30591f5-9350-4c40-bc34-1a0054ee73a0.png">
 
+- [More OT things](https://zhuanlan.zhihu.com/p/458312488)
+
 ### Method
 
 ### Experiments
