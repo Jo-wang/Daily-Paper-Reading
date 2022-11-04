@@ -32,8 +32,14 @@ $f(x, \theta)$: model, parameterized by $\theta$
 
 ##### 2. Cost Function
 - Label-aware cost
+<img width="227" alt="Screen Shot 2022-11-04 at 17 04 51" src="https://user-images.githubusercontent.com/46414159/199912222-01f964d4-33ad-43b5-a103-bf5d0c7a513b.png">, euclidean distance (0-1 matrix)
+
 - Feature-aware cost
+<img width="233" alt="Screen Shot 2022-11-04 at 17 05 12" src="https://user-images.githubusercontent.com/46414159/199912344-7040321a-67f6-408e-87e6-477c7ff0875a.png">, uses cosine distance
+
 - Combined Cost
+<img width="401" alt="Screen Shot 2022-11-04 at 17 05 28" src="https://user-images.githubusercontent.com/46414159/199912434-a7ae9aee-d831-4eeb-8522-1c8fb1b7ea37.png">
+
 ##### 3. Learn the Weight Vector
 
 #### Overall Algorithm and Implementation
