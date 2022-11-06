@@ -42,9 +42,17 @@ $f(x, \theta)$: model, parameterized by $\theta$
 
 ##### 3. Learn the Weight Vector
 - Uses entropy regularized OT loss to learn the weight vector: 
-<img width="947" alt="Screen Shot 2022-11-06 at 13 00 05" src="https://user-images.githubusercontent.com/46414159/200151898-84866ee7-c0a1-4119-8082-fb0c234aed6c.png">
+<img width="800" alt="Screen Shot 2022-11-06 at 13 00 05" src="https://user-images.githubusercontent.com/46414159/200151898-84866ee7-c0a1-4119-8082-fb0c234aed6c.png">
 
 #### Overall Algorithm and Implementation
+- Stage 1 trains the model f(θ) by the standard cross-entropy loss on the imbalanced training set.
+- Stage 2 aims to learn the weight vector w and meanwhile continue to update the model f(θ).
+
+<img width="782" alt="Screen Shot 2022-11-06 at 13 25 08" src="https://user-images.githubusercontent.com/46414159/200152523-d5db5c34-0fe0-4340-8dd5-03fe713cfad1.png">
+
+- Prototype-oriented OT loss (POT):  
+Average all samples from each class in the meta set to achieve its prototype and propose a new Q distribution (meta set distribution) over K prototypes: <img width="350" alt="Screen Shot 2022-11-06 at 13 29 11" src="https://user-images.githubusercontent.com/46414159/200152628-056b5b8e-fb7b-426c-837b-cce7987eb1a8.png">
+
 
 ### Experiments  
 *Mainly focusing on image classification*
