@@ -38,9 +38,11 @@ $f(x, \theta)$: model, parameterized by $\theta$
 <img width="233" alt="Screen Shot 2022-11-04 at 17 05 12" src="https://user-images.githubusercontent.com/46414159/199912344-7040321a-67f6-408e-87e6-477c7ff0875a.png">, uses cosine distance
 
 - Combined Cost
-<img width="401" alt="Screen Shot 2022-11-04 at 17 05 28" src="https://user-images.githubusercontent.com/46414159/199912434-a7ae9aee-d831-4eeb-8522-1c8fb1b7ea37.png">
+<img width="401" alt="Screen Shot 2022-11-04 at 17 05 28" src="https://user-images.githubusercontent.com/46414159/199912434-a7ae9aee-d831-4eeb-8522-1c8fb1b7ea37.png">, where $d^{ fea}=1-cosine(.,.)$ and $d^{ lab}$ is duclidean distance.
 
 ##### 3. Learn the Weight Vector
+- Uses entropy regularized OT loss to learn the weight vector: 
+<img width="947" alt="Screen Shot 2022-11-06 at 13 00 05" src="https://user-images.githubusercontent.com/46414159/200151898-84866ee7-c0a1-4119-8082-fb0c234aed6c.png">
 
 #### Overall Algorithm and Implementation
 
