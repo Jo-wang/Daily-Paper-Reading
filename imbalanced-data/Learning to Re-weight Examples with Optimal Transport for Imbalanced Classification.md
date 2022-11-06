@@ -56,6 +56,7 @@ Average all samples from each class in the meta set to achieve its prototype and
 
 ### Experiments  
 *Mainly focusing on image classification*
+
 <img width="300" alt="Screen Shot 2022-11-06 at 13 50 27" src="https://user-images.githubusercontent.com/46414159/200153249-7011efe1-3e58-4f0f-ac21-98b405cceccd.png">
 
 ### Notes
