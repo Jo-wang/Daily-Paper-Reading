@@ -11,6 +11,13 @@ Ranking: 4.5
 ### Method
 ![Screen Shot 2022-11-07 at 16 19 10](https://user-images.githubusercontent.com/46414159/200239162-01979919-4579-47ac-a188-cfe5760eeba6.png)
 
+#### Cycle Self-training
+- Forward Step
+- Reverse Step
+- Bi-level Optimization
+
+#### Tsallis Entropy Minimization
+
 ### Experiments
 
 ### Notes
