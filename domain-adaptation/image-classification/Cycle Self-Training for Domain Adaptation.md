@@ -1,7 +1,7 @@
 ## [Cycle Self-Training for Domain Adaptation](https://arxiv.org/abs/2103.03571)
-Publish? Conference?
+NeurIPS 2021
 
-Ranking: 1 - 5, 5 means very important
+Ranking: 5
 ### Introduction and background
 - xxx
 - xxx
