@@ -7,5 +7,6 @@ Daily paper reading records
 ## Domain Adaptation (DA)
 
 ### DA for Image Classification
+[Cycle Self-Training for Domain Adaptation]()
 
 ### DA for Semantic Segmentation
