@@ -14,7 +14,7 @@ Ranking: 5
 - $\hat{\theta}^{n}$ is model learned from task $n$, it depends on $\phi$ (init parameter).
 
 ### Method
-- learn a initialization parameter
+- learn a initialization parameter by loss $L(\phi)$: considering one-step training. $\hat{\theta} = \phi - \epsilon\Delta _{\phi}l(\phi)$
 - 
 
 ### Experiments
