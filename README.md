@@ -8,5 +8,8 @@ Daily paper reading records
 
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation]()
+[Toalign: Task-oriented alignment for unsupervised domain adaptation]()
+
+https://arxiv.org/abs/2106.10812
 
 ### DA for Semantic Segmentation
