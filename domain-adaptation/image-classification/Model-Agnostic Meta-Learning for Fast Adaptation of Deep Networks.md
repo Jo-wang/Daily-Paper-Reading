@@ -16,7 +16,8 @@ Ranking: 5
 ### Method
 - learn a initialization parameter by loss $L(\phi)$: Considering one-step training. $\hat{\theta} = \phi - \epsilon\Delta _{\phi}l(\phi)$
 - Update parameter for multiple steps on meta test: 
-
+- $\phi \gets \phi - \eta\Delta_{\phi}L(\phi)$
+- $L(\phi)=$
 ### Experiments
 
 ### Notes
