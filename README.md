@@ -13,4 +13,6 @@ Daily paper reading records
 
 https://arxiv.org/abs/2106.10812
 
+[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks]()
+
 ### DA for Semantic Segmentation
