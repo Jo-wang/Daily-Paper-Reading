@@ -7,7 +7,7 @@ Daily paper reading records
 ## Domain Adaptation (DA)
 
 ### DA for Image Classification
-[Cycle Self-Training for Domain Adaptation]()
+[Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
 [Toalign: Task-oriented alignment for unsupervised domain adaptation]()
 
 https://arxiv.org/abs/2106.10812
