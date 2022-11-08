@@ -28,7 +28,7 @@ Update the shared feature extractor $\phi$ to predict accurately on source and j
 - Bi-level Optimization
 1. inner loop: target pseudo labeling + target classifier training  
 2. outer loop: update feature extractor $\phi$ for one step  
-Since inner loop only update linear classifier, we can calculate the analytical form of $\hat{\theta} _{t}(\phi)$ and directly back-propagate to the feature extractor $\phi$ instead of calculating the second-order derivatives. We follow vanilla self-training and do not consider the gradient of $\hat{\theta} _{t}(\phi)$) w.r.t. $y'$ in the outer loop optimization.  
+Since inner loop only update linear classifier, we can calculate the analytical form of $\hat{\theta} _{t}(\phi)$ and directly back-propagate to the feature extractor $\phi$ instead of calculating the second-order derivatives. We follow vanilla self-training and do not consider the gradient of $\hat{\theta} _{t}(\phi)$ w.r.t. $y'$ in the outer loop optimization.  
 **(就是一个线性层不值得nested loop，所以想办法优化到和joint learning速度相近)**
 
 #### Tsallis Entropy Minimization
@@ -36,6 +36,10 @@ Since inner loop only update linear classifier, we can calculate the analytical 
 - Gibbs Entropy -> Tsallis Entropy: <img width="200" alt="Screen Shot 2022-11-07 at 23 44 59" src="https://user-images.githubusercontent.com/46414159/200325523-c3694353-dbbf-4c6e-a3e9-5352b7d702c6.png">, where $y$ is the softmax output of a model, $\alpha > 0$.
 - Tsallis entropy minimization: <img width="250" alt="Screen Shot 2022-11-08 at 00 45 14" src="https://user-images.githubusercontent.com/46414159/200338601-577c12c5-2dac-4bcc-9f19-3d659005dbc0.png">
 
+- Auto-find $\alpha$: semi-supervisedly train a classiﬁer on the source domain with target domain's $\alpha$-Tsallis entropy regularization   
+![Screen Shot 2022-11-08 at 12 17 25](https://user-images.githubusercontent.com/46414159/200458727-b53e1529-b841-4afe-bdef-7e73c56ec554.png),   
+then train another head $\hat{\theta} _{t,\alpha}$ with plabel. Finally $\alpha$ can be found:   
+![Screen Shot 2022-11-08 at 12 19 41](https://user-images.githubusercontent.com/46414159/200459061-06d395b4-2771-44af-af5d-a739e950307f.png)
 
 
 
