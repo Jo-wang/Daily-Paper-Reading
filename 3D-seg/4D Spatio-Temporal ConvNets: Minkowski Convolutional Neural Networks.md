@@ -11,7 +11,8 @@ Ranking: 4.5
   1. 3D needs heterogeneous representation, not user friendly
   2. difficult to integate into larger system
   3. 3D convolutional neural net not very well inproved compared with 2D one
-  4. there is not many open-source library
+  4. there is not many open-source library  
+- [Sparse convolution understanding](https://zhuanlan.zhihu.com/p/382365889)
 
 ### Method
 
