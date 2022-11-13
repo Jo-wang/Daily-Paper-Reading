@@ -17,3 +17,6 @@ Daily paper reading records
 
 ### DA for online 3D segmentation
 [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation]()
+
+## 3D point cloud
+[4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks]()
