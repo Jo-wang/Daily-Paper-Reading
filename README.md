@@ -19,4 +19,4 @@ Daily paper reading records
 [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation]()
 
 ## 3D point cloud
-[4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks]()
+[4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/3D-seg/4D%20Spatio-Temporal%20ConvNets:%20Minkowski%20Convolutional%20Neural%20Networks.md)
