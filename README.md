@@ -26,6 +26,8 @@ Daily paper reading records
 
 [Domain Generalization by Learning and Removing Domain-specific Features]()
 
+**09/12/2022** [Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization]()
+
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
 
