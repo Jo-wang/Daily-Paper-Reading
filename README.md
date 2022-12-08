@@ -29,7 +29,7 @@ Daily paper reading records
 
 [Domain Generalization by Learning and Removing Domain-specific Features]()
 
-**09/12/2022** [Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization]()
+**09/12/2022** [Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-generalization/Ensemble%20of%20Averages:%20Improving%20Model%20Selection%20and%20Boosting%20Performance%20in%20Domain%20Generalization.md)
 
 ## OOD 
 **13/12/2022** [Assaying Out-Of-Distribution Generalization in Transfer Learning]()
