@@ -1,5 +1,5 @@
 ## [Domain Generalization by Learning and Removing Domain-specific Features](https://openreview.net/pdf?id=37Rf7BTAtAM)
-NeurIPS 2022
+NeurIPS 2022   
 Ranking: 3
 ### Introduction and background
 - The features learned by the DNNs may only belong to specific domains and are not generalized for other domains. 
