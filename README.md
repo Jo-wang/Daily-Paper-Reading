@@ -29,6 +29,9 @@ Daily paper reading records
 
 **09/12/2022** [Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization]()
 
+## OOD 
+**13/12/2022** [Assaying Out-Of-Distribution Generalization in Transfer Learning]()
+
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
 
