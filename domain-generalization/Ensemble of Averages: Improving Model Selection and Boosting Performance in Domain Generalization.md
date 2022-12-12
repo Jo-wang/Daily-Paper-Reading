@@ -24,5 +24,7 @@ Ensemble of multiple independently trained models (i.e., with different hyper-pa
 ![1670806510385](https://user-images.githubusercontent.com/46414159/206940008-156a19d6-d91b-4d16-b133-16e4a62666f8.png)
 
 ### Experiments
+- DATASET: PACS, VLCS, OfficeHome, TerraIncognita and DomainNet datasets in DomainBed. 
+- ![1670809773299](https://user-images.githubusercontent.com/46414159/206944076-bc20b21d-ce2e-44c2-abe0-61e7f4a968d0.png)
+![1670809826749](https://user-images.githubusercontent.com/46414159/206944154-6a31b015-04ef-4825-9e95-362d21b9edae.png)
 
-### Notes
