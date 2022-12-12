@@ -19,6 +19,9 @@ where $\hat{\theta_{t}}$ is the online model. Then choose the best validation $\
 ![1670804568600](https://user-images.githubusercontent.com/46414159/206938074-18710ac8-cf5b-4b15-9617-8cd0e028db13.png)
 
 2. Ensemble of Averages (EoA)
+![1670806620354](https://user-images.githubusercontent.com/46414159/206940136-b216a280-f14a-4cb4-837b-72717b5b1a67.png)
+Ensemble of multiple independently trained models (i.e., with different hyper-parameters and seeds), and each of these models are **moving average models from their corresponding runs**.
+![1670806510385](https://user-images.githubusercontent.com/46414159/206940008-156a19d6-d91b-4d16-b133-16e4a62666f8.png)
 
 ### Experiments
 
