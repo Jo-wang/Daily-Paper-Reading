@@ -16,7 +16,7 @@ Daily paper reading records
 **14/12/2022** [HyperDomainNet: Universal Domain Adaptation for Generative Adversarial Networks]()
 
 ### DA for Semantic Segmentation
-**12/12/2022** [Unsupervised Domain Adaptation for Semantic Segmentation using Depth Distribution]()  
+[Unsupervised Domain Adaptation for Semantic Segmentation using Depth Distribution](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Unsupervised%20Domain%20Adaptation%20for%20Semantic%20Segmentation%20using%20Depth%20Distribution.md)  
 
 ### DA for online 3D segmentation
 [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation]()
