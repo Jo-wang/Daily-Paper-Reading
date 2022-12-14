@@ -11,6 +11,9 @@ Ranking:
 
 
 ### Method
+#### Factor analysis
+![Screen Shot 2022-12-14 at 16 38 11](https://user-images.githubusercontent.com/46414159/207524187-e2e4c012-bada-43f4-b5b7-626d7c1f1e03.png)
+![Screen Shot 2022-12-14 at 17 04 30](https://user-images.githubusercontent.com/46414159/207528439-de0a64c8-a5e1-4a7e-909b-8f3dcb8ca81d.png)
 
 ### Experiments
 #### Setup
