@@ -10,6 +10,7 @@ Ranking: 3.8
 - **this paper propose to train a hyper-network that predicts the vector d for the StyleGAN2 depending on the target domain.**
 
 ### Method
+![1671060513852](https://user-images.githubusercontent.com/46414159/207737343-242059f6-2ea8-43c0-9dc1-b6f643bb2fd1.png)
 
 ### Experiments
 
