@@ -1,11 +1,13 @@
 ## [HyperDomainNet: Universal Domain Adaptation for Generative Adversarial Networks](https://arxiv.org/abs/2210.08884)
-Publish? Conference?
+NeurIPS2022
 
-Ranking: 1 - 5, 5 means very important
+Ranking: 3.8
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- The standard approach of GAN TL methods is to fine-tune almost all weights of the pretrained model. (reasonable if target domain is very far from the source one)
+- there is a wide range of cases when the distance between data domains is not so far (no need to fine-tune all weights of the source generator)
+- **propose a novel domain-modulation operation that reduces the parameter space for fine-tuning the StyleGAN2 (to optimize for each target domain only a single vector d. We incorporate this vector into the StyleGAN2 architecture through the modulation operation at each convolution layer. )**
+- conventional multi-source train separate generators
+- **this paper propose to train a hyper-network that predicts the vector d for the StyleGAN2 depending on the target domain.**
 
 ### Method
 
