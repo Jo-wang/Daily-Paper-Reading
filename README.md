@@ -9,6 +9,8 @@ Daily paper reading records
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
 
+[Divide and Contrast: Source-free Domain Adaptation via Adaptive Contrastive Learning]()
+
 [Toalign: Task-oriented alignment for unsupervised domain adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Toalign:%20Task-oriented%20alignment%20for%20unsupervised%20domain%20adaptation.md)
 
 [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.md)
