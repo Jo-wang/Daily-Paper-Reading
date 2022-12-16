@@ -41,3 +41,6 @@ Daily paper reading records
 
 ## semi-supervised SS
 [Re-distributing Biased Pseudo Labels for Semi-supervised Semantic Segmentation: A Baseline Investigation]()
+
+## Continual Learning
+[Learning To Prompt for Continual Learning]()
