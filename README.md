@@ -43,4 +43,4 @@ Daily paper reading records
 [Re-distributing Biased Pseudo Labels for Semi-supervised Semantic Segmentation: A Baseline Investigation]()
 
 ## Continual Learning
-[Learning To Prompt for Continual Learning]()
+[Learning To Prompt for Continual Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/continual%20learning/Learning%20To%20Prompt%20for%20Continual%20Learning.md)
