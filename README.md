@@ -36,6 +36,8 @@ Daily paper reading records
 ## OOD 
 [Assaying Out-Of-Distribution Generalization in Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Assaying%20Out-Of-Distribution%20Generalization%20in%20Transfer%20Learning.md)
 
+[Visual Prompting via Image Inpainting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Visual%20Prompting%20via%20Image%20Inpainting.md)
+
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
 
@@ -45,5 +47,5 @@ Daily paper reading records
 ## Continual Learning
 [Learning To Prompt for Continual Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/continual%20learning/Learning%20To%20Prompt%20for%20Continual%20Learning.md)
 
-## Visual
-Visual Prompting via Image Inpainting
+
+
