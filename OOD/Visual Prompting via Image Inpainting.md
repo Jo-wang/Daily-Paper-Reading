@@ -23,4 +23,7 @@ Ranking: 4
 
 ### Notes
 - MAE (Masked Autoencoder): https://www.zhihu.com/question/498364155/answer/2240224120
-- VQGAN
+- MAE implementation: https://zhuanlan.zhihu.com/p/439554945
+- VQGAN: [Framework](https://pic1.zhimg.com/v2-0ff3d5ed6cdce24603c2e58091e3341c_b.webp)
+- 详解VQGAN（一）| 结合离散化编码与Transformer的百万像素图像生成 - 卡卡猡特的文章 - 知乎
+https://zhuanlan.zhihu.com/p/515214329
