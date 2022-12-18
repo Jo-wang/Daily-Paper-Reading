@@ -15,9 +15,12 @@ Ranking: 4
 #### Proposed inpainting model
 - Given an image x, a binary mask m, the goal of inpainting function f is to synthesize a new image y with the masked regions filled: $y=f(x, m)$
 - This paper propose MAE-VQGAN model.
+
 #### Visual prompting
 ### Experiments
 - Dataset: ﬁgures and infographics from computer vision articles available on Arxiv. Contain grids of images and their corresponding task results (e.g. images and their segmentation masks/stylized versions/edges, etc.).
 - Predict randomly masked patches from ﬁgures given other patches from the same ﬁgure.
 
 ### Notes
+- MAE (Masked Autoencoder): https://www.zhihu.com/question/498364155/answer/2240224120
+- VQGAN
