@@ -6,7 +6,6 @@ Ranking:
 ### Introduction and background
 - existing methods have to perform backward computation for each test sample, resulting in unbearable prediction cost to many applications
 - Other TTA solution suffer from severe performance degradation on in-distribution data after TTA (known as catastrophic forgetting)
-- xxx
 
 ### Method
 
@@ -28,13 +27,17 @@ The sample-efficient entropy minimization:
   - Reliable Sample Identification: low-entropy sample more contribute to the learning; high entropy on test sample will hurt the performance (uncertain)
 ![Screen Shot 2022-12-20 at 16 41 19](https://user-images.githubusercontent.com/46414159/208600481-4b07d5cc-2afa-4d65-88eb-d22925db5b7c.png)
 This exclude partial unreliable samples, but the remaining samples may have redundancy.
+
 - Non-redundant Sample Identification: Use EMA to track average model outputs of all seen test samples
+
 ![Screen Shot 2022-12-20 at 16 58 50](https://user-images.githubusercontent.com/46414159/208603170-e39f4ffa-679e-4a04-b2f2-6b86a1b11aa3.png)
+
 **All in all, do not backward of a sample is high entropy or redundant.**
 
 - Anti-forgetting with Fisher Regularization
    - Use a importance-aware regularizer $R$ yp prevent the model para from changing too much:
    - ![Screen Shot 2022-12-20 at 17 20 24](https://user-images.githubusercontent.com/46414159/208606775-155a60eb-a71f-4761-8d8e-b5056b008f33.png)
+   - 
 $w(\theta_{i})$ is the importance of $\theta_{i}$ and measure it via the diagonal Fisher information matrix. 
 Since there is no ID training data during test-time, we use ID test and their corresponding plabels as pseudo-labeled ID test set $D_{F}={ x_{q},\hat {y_{q}} }$
 
