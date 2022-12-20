@@ -52,6 +52,7 @@ The final optim is:
   - 1. Clean accuracy/error on origional ID test samples; 
   - 2. OOD accuracy/error on OOD test samples; 
   - 3. Num of forward and backward passes
+
 ![Screen Shot 2022-12-20 at 17 30 59](https://user-images.githubusercontent.com/46414159/208608745-54652715-5539-4b6d-90b7-46a17b39107f.png)
 ![Screen Shot 2022-12-20 at 17 31 16](https://user-images.githubusercontent.com/46414159/208608802-73f8e9af-7ce1-4f19-a3ef-8f32494fa35f.png)
 
