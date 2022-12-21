@@ -34,8 +34,11 @@ the adversarial loss.
 
 #### Sample selection: 
 <img width="526" alt="Screen Shot 2022-12-21 at 22 40 19" src="https://user-images.githubusercontent.com/46414159/208907517-7440888f-d242-4b5e-9128-2c06019873a4.png">
+
 **Identifying and selecting source samples that are better aligned with the target semantic distribution**
-- simultaneously train a global image-wise domain discriminator $D_{g}$:  <img width="420" alt="Screen Shot 2022-12-21 at 23 00 10" src="https://user-images.githubusercontent.com/46414159/208911232-97cf5c65-be0c-4c70-862a-56fe17ab26a8.png">
+
+- simultaneously train a global image-wise domain discriminator $D_{g}$:   
+<img width="420" alt="Screen Shot 2022-12-21 at 23 00 10" src="https://user-images.githubusercontent.com/46414159/208911232-97cf5c65-be0c-4c70-862a-56fe17ab26a8.png">
 distinguish source from target and to capture both semantic and visual domain information.    
 - For each epoch, choose a subset of source and ignore others. the set of epoch k is smaller than epoch k-1. An image can be added to this set if $D_{g}(x^{s})< \delta$
 
