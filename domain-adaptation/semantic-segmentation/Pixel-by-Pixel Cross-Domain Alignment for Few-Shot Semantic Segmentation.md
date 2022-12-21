@@ -7,9 +7,10 @@ Ranking: 3
 ### Introduction and background
 - intrinsic imbalance between source and target data 
 - Adversarial learning previously focusing on global-level 
-- xxx
 
 ### Method
+
+<img width="1000" alt="Screen Shot 2022-12-21 at 23 10 39" src="https://user-images.githubusercontent.com/46414159/208913096-5b8ae633-9061-4d35-95df-243c38b860a7.png">
 
 #### PixAdv
 
