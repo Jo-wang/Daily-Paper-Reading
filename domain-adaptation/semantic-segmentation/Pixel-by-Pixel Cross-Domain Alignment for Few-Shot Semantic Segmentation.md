@@ -35,6 +35,7 @@ the adversarial loss.
 simultaneously train a global image-wise domain discriminator $D_{g}$:
 ![1671603216535](https://user-images.githubusercontent.com/46414159/208834521-ab5b213f-91b7-49c8-ac5b-906c1f768318.png)
 distinguish source from target and to capture both semantic and visual domain information.
+Also use this to avoid bad source alignment.
 
 #### Fine-Tuning and Knowledge Distillation
 
