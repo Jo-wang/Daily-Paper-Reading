@@ -49,7 +49,13 @@ distinguish source from target and to capture both semantic and visual domain in
 ### Experiments
 - some few-shot knowledge during validation:
   - N-way-K-Shot-classification: N stands for the number of classes, and K for the number of samples from each class to train on.
-- dataset:
-- 
+- dataset: GTA5, Synthia, Cityscapes
+- Model: Deeplab v2, ResNet101 pretrained on ImageNet.
+- Performance:
+<img width="1000" alt="Screen Shot 2022-12-21 at 23 04 05" src="https://user-images.githubusercontent.com/46414159/208911957-583ddefa-d93d-4aeb-831a-c0d384dae87e.png">
+<img width="1000" alt="Screen Shot 2022-12-21 at 23 04 43" src="https://user-images.githubusercontent.com/46414159/208912061-b092dd5f-aa9e-477f-b8f8-4494a467c5f7.png">
+
 ### Notes
 - Few-shot learning: https://neptune.ai/blog/understanding-few-shot-learning-in-computer-vision
+- Ablation Study: 
+<img width="300" alt="Screen Shot 2022-12-21 at 23 07 25" src="https://user-images.githubusercontent.com/46414159/208912557-15b48221-7004-4d3f-aadd-373831d80bb5.png">
