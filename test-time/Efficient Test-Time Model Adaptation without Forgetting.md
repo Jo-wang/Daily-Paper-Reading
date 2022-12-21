@@ -61,3 +61,4 @@ The final optim is:
 
 
 ### Notes
+![1671588418345](https://user-images.githubusercontent.com/46414159/208803686-8babc638-3684-4602-bf2c-79118f724a08.png)
