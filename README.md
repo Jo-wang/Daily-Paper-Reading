@@ -23,6 +23,8 @@ Daily paper reading records
 ### DA for Semantic Segmentation
 [Unsupervised Domain Adaptation for Semantic Segmentation using Depth Distribution](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Unsupervised%20Domain%20Adaptation%20for%20Semantic%20Segmentation%20using%20Depth%20Distribution.md)  
 
+[Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation]()
+
 ### DA for online 3D segmentation
 [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation]()
 
