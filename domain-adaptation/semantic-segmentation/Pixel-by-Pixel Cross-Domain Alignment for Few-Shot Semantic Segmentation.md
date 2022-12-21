@@ -31,13 +31,20 @@ the adversarial loss.
 
 - The overall segmentation network training loss function is: source_seg + target_seg + $\lambda$ PixAdv
 
-#### Sample selection
-simultaneously train a global image-wise domain discriminator $D_{g}$:
+#### Sample selection: 
+<img width="526" alt="Screen Shot 2022-12-21 at 22 40 19" src="https://user-images.githubusercontent.com/46414159/208907517-7440888f-d242-4b5e-9128-2c06019873a4.png">
+**Identifying and selecting source samples that are better aligned with the target semantic distribution**
+- simultaneously train a global image-wise domain discriminator $D_{g}$:
 ![1671603216535](https://user-images.githubusercontent.com/46414159/208834521-ab5b213f-91b7-49c8-ac5b-906c1f768318.png)
-distinguish source from target and to capture both semantic and visual domain information.
-Also use this to avoid bad source alignment.
+distinguish source from target and to capture both semantic and visual domain information. 
+- For each epoch, choose a subset of source and ignore others. the set of epoch k is smaller than epoch k-1. An image can be added to this set if $D_{g}(x^{s})< \delta$
+
 
 #### Fine-Tuning and Knowledge Distillation
+- target fine-tuning ignores target alignment may lead to overfitting few target samples.   
+- Use KD, student $f_{ \theta_{s} }$ is fine-tuned, teacher $f_{ \theta_{t} }$ is a frozen copy of the same net after adversarial learning
+- optim $\theta_{s}$ by: <img width="352" alt="Screen Shot 2022-12-21 at 22 47 43" src="https://user-images.githubusercontent.com/46414159/208908961-84eb2908-ba9c-4509-b292-d89a1acd19b1.png">, where knowledge distillation loss is <img width="337" alt="Screen Shot 2022-12-21 at 22 48 12" src="https://user-images.githubusercontent.com/46414159/208909048-c0d02f9c-0731-4188-a574-f05ffbc1b33f.png">. $\sigma$ is softmax and $\tau$ is tempature.
+
 
 ### Experiments
 - some few-shot knowledge during validation:
