@@ -5,9 +5,8 @@ ICCV2021
 Ranking: 4
 
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- Conventional CNN-based methods has context-local intersaction trade off.
+![1671767208772](https://user-images.githubusercontent.com/46414159/209267083-e74d09eb-7d1f-4306-a3ec-9527a78905f3.png)
 
 ### Method
 
