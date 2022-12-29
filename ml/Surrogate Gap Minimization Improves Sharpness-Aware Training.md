@@ -13,8 +13,14 @@ Ranking: 4
     - 3. 基於參數 w+ε 對 S 計算 gradient G’ 
     - 4. 用 G’ 更新原本的的參數 w 
     - (官方code中實際上做法就是對梯度除以所有梯度的平方和開根號)
-- xxx
-- xxx
+- This paper found **both sharp and ﬂat minima can have a low perturbed loss**, implying that SAM does not always prefer ﬂat minima.
+
+<img width="1000" alt="Screen Shot 2022-12-29 at 17 35 32" src="https://user-images.githubusercontent.com/46414159/209918805-d4dac5ba-042a-4aa2-83ac-cde67cfff0cc.png">
+
+- Jointly minimizes the perturbed loss $f_{p}$ and the surrogate gap h: 
+  - a low perturbed loss $f_{p}$ indicates a low training loss within the neighborhood (SAM), 
+  - and a small surrogate gap h avoids solutions in sharp valleys and hence narrows the generalization gap between training and test performances. 
+  - When both criteria are satisﬁed, we ﬁnd a generalizable model with good performances.
 
 ### Method
 
