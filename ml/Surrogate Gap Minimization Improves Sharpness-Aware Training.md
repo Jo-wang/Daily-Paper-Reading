@@ -49,3 +49,4 @@ Minimize both perturbed loss $f_{p}$ and the surrogate gap h: $min_{w}(f_{p}(w),
 <img width="700" alt="Screen Shot 2022-12-29 at 22 09 45" src="https://user-images.githubusercontent.com/46414159/209949265-10b7e30d-68f1-48ae-8fc3-de6cafefba7a.png">
 
 ### Notes
+- [ ] Could replace the gradient descent at source pretraining in SFDA
