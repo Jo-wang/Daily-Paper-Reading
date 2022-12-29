@@ -4,7 +4,8 @@ ICLR2022
 
 Ranking: 4
 ### Introduction and background
-- xxx
+- About SAM (Sharpness-Aware Minimization):
+  - SAM is a generalization method to find out the **flat minima** rather than the sharp minima when doing optimization. 
 - xxx
 - xxx
 
