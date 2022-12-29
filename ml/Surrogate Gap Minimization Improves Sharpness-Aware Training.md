@@ -23,7 +23,26 @@ Ranking: 4
   - When both criteria are satisﬁed, we ﬁnd a generalizable model with good performances.
 
 ### Method
+<img width="1000" alt="Screen Shot 2022-12-29 at 18 19 24" src="https://user-images.githubusercontent.com/46414159/209923690-42e01659-edbd-4e30-9415-4e58446b8973.png">
+
+#### Surrogate Gap
+
+<img width="1000" alt="Screen Shot 2022-12-29 at 18 25 10" src="https://user-images.githubusercontent.com/46414159/209924297-f287e85f-efb9-42fa-94b8-b5183614f4ee.png">
+
+#### Surrogate Gap Guided Sharpness-Aware Minimzation (GSAM)
+Minimize both perturbed loss $f_{p}$ and the surrogate gap h: $min_{w}(f_{p}(w), (\lambda) h(w))$ (gradient descent for the surrogate gap could potentially increase the loss $f_{p}$)
+- Weighted perturbed loss and surrogate loss is not good as GSAM
+<img width="780" alt="Screen Shot 2022-12-29 at 22 00 13" src="https://user-images.githubusercontent.com/46414159/209948235-7b48970c-7a4c-4737-a84e-2cc6197f61de.png">
+- A Toy Example
+<img width="790" alt="Screen Shot 2022-12-29 at 22 00 50" src="https://user-images.githubusercontent.com/46414159/209948282-8510b0c7-d39f-4974-b013-865295fc9548.png">
+
 
 ### Experiments
+
+<img width="700" alt="Screen Shot 2022-12-29 at 22 07 01" src="https://user-images.githubusercontent.com/46414159/209948947-eff12969-e443-4d0d-a26e-afb6624fdda7.png">
+
+<img width="700" alt="Screen Shot 2022-12-29 at 22 07 46" src="https://user-images.githubusercontent.com/46414159/209949049-f2883cbf-fb96-4a83-b3d2-192064723a81.png">
+
+<img width="700" alt="Screen Shot 2022-12-29 at 22 09 45" src="https://user-images.githubusercontent.com/46414159/209949265-10b7e30d-68f1-48ae-8fc3-de6cafefba7a.png">
 
 ### Notes
