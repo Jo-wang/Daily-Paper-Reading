@@ -38,8 +38,7 @@ Daily paper reading records
 ## Transformer-based segmentation
 [Segmenter: Transformer for Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer-seg/Segmenter:%20Transformer%20for%20Semantic%20Segmentation.md)
 
-[Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective
-with Transformers]()
+[Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer-seg/Rethinking%20Semantic%20Segmentation%20from%20a%20Sequence-to-Sequence%20Perspective%20with%20Transformers.md)
 
 ## Domain Generalization
 [SWAD: Domain Generalization by Seeking Flat Minima](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/dg/SWAD:%20Domain%20Generalization%20by%20Seeking%20Flat%20Minima.md)
