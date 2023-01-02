@@ -14,3 +14,4 @@ Ranking: 4
 ### Experiments
 
 ### Notes
+For the details of ViT, see https://github.com/wangshusen/DeepLearning/blob/master/Slides/10_ViT.pdf
