@@ -36,7 +36,7 @@ Daily paper reading records
 [4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/3D-seg/4D%20Spatio-Temporal%20ConvNets:%20Minkowski%20Convolutional%20Neural%20Networks.md)
 
 ## Transformer-based segmentation
-[Segmenter: Transformer for Semantic Segmentation]()
+[Segmenter: Transformer for Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer-seg/Segmenter:%20Transformer%20for%20Semantic%20Segmentation.md)
 
 ## Domain Generalization
 [SWAD: Domain Generalization by Seeking Flat Minima](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/dg/SWAD:%20Domain%20Generalization%20by%20Seeking%20Flat%20Minima.md)
