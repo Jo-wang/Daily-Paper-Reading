@@ -11,6 +11,14 @@ Ranking: 4
 ### Method
 ![1671767261638](https://user-images.githubusercontent.com/46414159/209267177-1c485e3a-ffd6-4116-9735-63bd49bb775d.png)
 
+![image](https://user-images.githubusercontent.com/46414159/210195538-820719aa-d387-4b39-92bc-c548ae5b2958.png)
+
+#### Encoder
+<img width="1250" alt="Screen Shot 2023-01-02 at 14 42 21" src="https://user-images.githubusercontent.com/46414159/210195699-12ac35ed-48e9-4f24-8015-1c1531f65299.png">
+
+#### Decoder
+<img width="1250" alt="Screen Shot 2023-01-02 at 14 43 16" src="https://user-images.githubusercontent.com/46414159/210195753-e1f6515b-bd53-497c-9dbe-563ec0a439c4.png">
+
 ### Experiments
 
 ### Notes
