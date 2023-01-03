@@ -54,6 +54,8 @@ Daily paper reading records
 
 [Visual Prompting via Image Inpainting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Visual%20Prompting%20via%20Image%20Inpainting.md)
 
+[Uncertainty Modeling for Out-of-Distribution Generalization]()
+
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
 
