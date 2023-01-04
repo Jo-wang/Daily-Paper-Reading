@@ -66,6 +66,20 @@ where $\sum$ is the uncertainty estimation of mean $\mu$ and std $\sigma$
 
 ![1672807383701](https://user-images.githubusercontent.com/46414159/210485980-4daa69a0-9267-475c-a5b5-fd667640a88d.png)
 
+### Baseline
+#### Domain generalization with mixstyle (ICLR2021)
+- 1. Instance Normalization: $\operatorname{IN}(x)=\gamma \frac{x-\mu(x)}{\sigma(x)}+\beta$, where $\gamma$ and $\beta$ are learnable affine transformation parameter, $\mu (x)$ and $\sigma (x)$ are mean and std across the spatial dim within each channel.    
+![1672809905680](https://user-images.githubusercontent.com/46414159/210489847-6b321363-7729-4314-bf0a-bba33441e5fe.png)
+- 2. AdaIN changes $\gamma$ and $\beta$ in **IN** to $\sigma (y)$ and $\mu (y)$ to achieve arbitrary style transfer: $\operatorname{AdaIN}(x)=\sigma(y) \frac{x-\mu(x)}{\sigma(x)}+\mu(y)$.
+- 3. MixStyle: mixes the feature statistics of two
+instances with a random convex weight to simulate new styles.
+  - Generate a reference batch $\tilde{x}$ from $x$. If $i$ and $j$ represent differnet domain, shuffle the position of $x_{i}$ and $x_{j}$, **if domain label not available**, shuffle $x$ as Fig.(b): 
+  ![1672810526536](https://user-images.githubusercontent.com/46414159/210490824-0eb56260-b662-4e2b-8b2a-c3e28c6e2061.png)
+  - Compute the mixed feature statistics:
+  $\gamma_{\operatorname{mix}}=\lambda \sigma(x)+(1-\lambda) \sigma(\tilde{x})$       
+  $\beta_{\text {mix }}=\lambda \mu(x)+(1-\lambda) \mu(\tilde{x})$, where $\lambda$ is instance-wise weights sampled from Beta Distribution $\lambda \sim Beta(\alpha, \alpha)$, and $\alpha=0.1$ is a hyper-parameter.
+  - Then we have: $\operatorname{MixStyle}(x)=\gamma_{m i x} \frac{x-\mu(x)}{\sigma(x)}+\beta_{m i x}$
+![1672811671780](https://user-images.githubusercontent.com/46414159/210492812-d11b8036-1471-4f5f-b90c-d568ab61fbda.png)
 
 ### Notes
 This method can be flexibly used in image classification or segmentation tasks as a trick.
