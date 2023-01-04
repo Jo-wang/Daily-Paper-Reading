@@ -16,7 +16,56 @@ Ranking: :star: :star: :star: :star:
 ### Method
 - Preliminaries: intermediate feature $x$, channel-wise mean $\mu$, and std $\sigma$
 ![1672795784429](https://user-images.githubusercontent.com/46414159/210467966-7767b4bf-c712-4400-96fd-4a9679c381e1.png)
+![1672803285549](https://user-images.githubusercontent.com/46414159/210479828-0dcf512e-6417-4e5f-a37f-f7e76cb2d2f8.png)
+
+- To model the domain shift by uncertainty, we assume the distribution of each feature statistic follows a multi-variate Gaussian distribution. Mean: $N(\mu, \Sigma_{\mu}^{2})$, and std $N(\sigma, \Sigma_{\sigma}^{2})$
+
+- To estimate the uncertainty, we can calculate the batch-wise uncertainty by:   
+
+  - $\Sigma_\mu^2(x)=\frac{1}{B} \sum \left(\mu(x)-\mathbb{E}_b[\mu(x)]\right)^2$     
+
+  - $\Sigma_\sigma^2(x)=\frac{1}{B} \sum \left(\sigma(x)-\mathbb{E}_b[\sigma(x)]\right)^2$, 
+where $\sum$ is the uncertainty estimation of mean $\mu$ and std $\sigma$
+
+- after get the distribution of the statistics, we can use random sample: mean $\beta (x) \sim N(\mu, \Sigma _{\mu}^{2})$, and std $\gamma (x) \sim N(\sigma, \Sigma _{\sigma}^{2})$
+  - $\beta(x)=\mu(x)+\epsilon_\mu \Sigma_\mu(x), \quad \epsilon_\mu \sim \mathcal{N}(\mathbf{0}, \mathbf{1})$
+  - $\gamma(x)=\sigma(x)+\epsilon_\sigma \Sigma_\sigma(x), \quad \epsilon_\sigma \sim \mathcal{N}(\mathbf{0}, \mathbf{1})$
+- The final form is:
+![image](https://user-images.githubusercontent.com/46414159/210482954-a1160c44-10e5-4e9e-bffa-829a718faa63.png)
 
 ### Experiments
+#### Classification
+- Setup: 
+  - PACS (single domain), with MixStyle (leave-one-out + ResNet18)
+  - OfficeHome (multi-domain)
+- exp:   
+![1672805646268](https://user-images.githubusercontent.com/46414159/210483384-9d2707a3-0006-418d-80eb-1769514d8ae2.png)
+![1672807619460](https://user-images.githubusercontent.com/46414159/210486343-371a1a97-c01f-47b8-8e48-3feb83bdf07e.png)
+
+#### Semantic Segmentation
+- Setup: GTA5 $\Rightarrow$ Cityscapes, FADA code with DeepLab-v2 (ResNet101)
+- exp:   
+![1672805951295](https://user-images.githubusercontent.com/46414159/210483888-53610b8a-2886-4909-af69-3b118004292c.png)
+
+#### Instance Retrieval & Robustness (see the paper for details)
+
+### Ablation Study
+- Inserted position (ConvBlock position)
+![1672807248114](https://user-images.githubusercontent.com/46414159/210485773-8f8ddc3d-9f49-4e92-aef9-e3a73c8ab4af.png)
+
+- Hyper-parameter 
+  - (probability $p$ om algorithm 1)
+![1672807266043](https://user-images.githubusercontent.com/46414159/210485804-ff572ee4-c3cc-4208-a343-4bb0d657f1e9.png)
+  - Batch size
+![1672807473768](https://user-images.githubusercontent.com/46414159/210486111-a72ed558-fd02-44e5-b038-7ef599995515.png)
+
+- Uncertainty Distribution
+![1672807288502](https://user-images.githubusercontent.com/46414159/210485832-dc693246-86f0-4a0f-b33f-0101f927fc33.png)
+
+**See the Appendix.3 for more choices of uncertainty distribution**
+
+![1672807383701](https://user-images.githubusercontent.com/46414159/210485980-4daa69a0-9267-475c-a5b5-fd667640a88d.png)
+
 
 ### Notes
+This method can be flexibly used in image classification or segmentation tasks as a trick.
