@@ -78,7 +78,10 @@ instances with a random convex weight to simulate new styles.
   - Compute the mixed feature statistics:
   $\gamma_{\operatorname{mix}}=\lambda \sigma(x)+(1-\lambda) \sigma(\tilde{x})$       
   $\beta_{\text {mix }}=\lambda \mu(x)+(1-\lambda) \mu(\tilde{x})$, where $\lambda$ is instance-wise weights sampled from Beta Distribution $\lambda \sim Beta(\alpha, \alpha)$, and $\alpha=0.1$ is a hyper-parameter.
-  - Then we have: $\operatorname{MixStyle}(x)=\gamma_{m i x} \frac{x-\mu(x)}{\sigma(x)}+\beta_{m i x}$
+  - Then we have: $\operatorname{MixStyle}(x)=\gamma_{m i x} \frac{x-\mu(x)}{\sigma(x)}+\beta_{m i x}$    
+  
+![1672812937214](https://user-images.githubusercontent.com/46414159/210495204-8ca022c1-d8a9-442e-a0b3-e9a46f40f1c8.png)
+
 ![1672811671780](https://user-images.githubusercontent.com/46414159/210492812-d11b8036-1471-4f5f-b90c-d568ab61fbda.png)
 
 ### Notes
