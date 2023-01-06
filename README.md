@@ -7,6 +7,8 @@ Daily paper reading records
 ## Test-time Adaptation
 [Efficient Test-Time Model Adaptation without Forgetting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Efficient%20Test-Time%20Model%20Adaptation%20without%20Forgetting.md)
 
+[Back to the Source: Diffusion-Driven Test-Time Adaptation]()
+
 ## Imbalanced Data
 [Learning to Re-weight Examples with Optimal Transport for Imbalanced Classification](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/Learning%20to%20Re-weight%20Examples%20with%20Optimal%20Transport%20for%20Imbalanced%20Classification.md)
 
