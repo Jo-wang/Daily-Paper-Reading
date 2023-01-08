@@ -37,6 +37,8 @@ Daily paper reading records
 
 :question: [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data]()
 
+:question: [Domain Transfer through Deep Activation Matching]()
+
 ### DA for online 3D segmentation
 [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation]()
 
