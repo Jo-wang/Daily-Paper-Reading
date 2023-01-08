@@ -20,6 +20,15 @@ Ranking: ⭐ ⭐ ⭐ ⭐
 <img width="800" alt="Screen Shot 2023-01-08 at 23 55 22" src="https://user-images.githubusercontent.com/46414159/211199993-197c0ae3-ebab-4fd6-a537-869efd80b09b.png">
 
 #### Historical Contrastive Instance Discrimination (HCID)
+- Learn from unlabeled target samples via contrastive learning over embeddings generated from current 🆚 historical models
+  - the positive pairs are pulled close  
+  - negative pairs are pushed apart  
+  - ♦️ this preserves source domain hypothesis by generating positive keys from historical models.   
+- Proposes HCID loss called $L_{HisNCE}$ which has similar form of InfoNCE.
+  - The basic idea is to use current model $E^{t}$ to encode query sample $x_{q}$ (org data) $q^{t}=E^{t}(x_{q})$ 
+  - and use historical model $E^{t-m}$ to encode a set of key samples $X_{k}$ (augmented data)  
+    $k_{n}^{t-m}=E^{t-m}(x_{kn})$   
+  - then pulls $q$ close to its positive key $k^{t-m}_{+}$ while pushing it apart from all other (negative) keys
 
 #### Historical Contrastive Category Discrimination (HCCD)
 
