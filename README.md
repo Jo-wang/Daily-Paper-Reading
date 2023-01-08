@@ -15,7 +15,7 @@ Daily paper reading records
 ## Domain Adaptation (DA)
 [Category Contrast for Unsupervised Domain Adaptation in Visual Tasks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Category%20Contrast%20for%20Unsupervised%20Domain%20Adaptation%20in%20Visual%20Tasks.md)
 
-[Graph-Relational Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Graph-Relational%20Domain%20Adaptation.md)
+:question: [Graph-Relational Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Graph-Relational%20Domain%20Adaptation.md)
 
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
@@ -53,12 +53,14 @@ Daily paper reading records
 
 [Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-generalization/Ensemble%20of%20Averages:%20Improving%20Model%20Selection%20and%20Boosting%20Performance%20in%20Domain%20Generalization.md)
 
+:question: [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts]()
+
 ## OOD 
 [Assaying Out-Of-Distribution Generalization in Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Assaying%20Out-Of-Distribution%20Generalization%20in%20Transfer%20Learning.md)
 
 [Visual Prompting via Image Inpainting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Visual%20Prompting%20via%20Image%20Inpainting.md)
 
-:star: [Uncertainty Modeling for Out-of-Distribution Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Uncertainty%20Modeling%20for%20Out-of-Distribution%20Generalization.md)
+[Uncertainty Modeling for Out-of-Distribution Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Uncertainty%20Modeling%20for%20Out-of-Distribution%20Generalization.md)
 
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
