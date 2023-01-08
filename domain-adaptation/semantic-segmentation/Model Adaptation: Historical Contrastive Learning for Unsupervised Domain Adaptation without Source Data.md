@@ -24,5 +24,20 @@ Ranking: ⭐ ⭐ ⭐ ⭐
 #### Historical Contrastive Category Discrimination (HCCD)
 
 ### Experiments
+- Semantic Segmentation
+  - Deeplab-v2
+  - GTA5 ➡️ Cityscapes, Synthia ➡️ Cityscapes
+  - <img width="600" alt="Screen Shot 2023-01-08 at 23 59 10" src="https://user-images.githubusercontent.com/46414159/211200189-c89d192c-36a1-49cf-9090-b3e34efeaf15.png">
+- Image Classification
+  - ResNet-101 and ResNet-50
+  - VisDA17 and Ofﬁce-31
+  - <img width="600" alt="Screen Shot 2023-01-09 at 00 01 35" src="https://user-images.githubusercontent.com/46414159/211200309-279cdc75-a846-4add-9c77-68218aeccea0.png">
+- Object Detection
+  - Faster R-CNN
+  - Cityscapes ➡️ Foggy Cityscapes, Cityscapes ➡️ BDD100k
+  - <img width="600" alt="Screen Shot 2023-01-09 at 00 03 33" src="https://user-images.githubusercontent.com/46414159/211200425-736e743c-a0cd-4c2c-95f7-8e94f604c2f8.png">
+
 
 ### Notes
+- t-SNE on GTA5 ➡️ Cityscapes
+- <img width="650" alt="Screen Shot 2023-01-09 at 00 04 40" src="https://user-images.githubusercontent.com/46414159/211200498-fa2a71ef-d0a9-4295-bec8-e907e3e3106b.png">
