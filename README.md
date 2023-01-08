@@ -35,7 +35,7 @@ Daily paper reading records
 
 :question: [TACS: Taxonomy Adaptive Cross-Domain Semantic Segmentation]()
 
-:question: [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data]()
+:question: [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Model%20Adaptation:%20Historical%20Contrastive%20Learning%20for%20Unsupervised%20Domain%20Adaptation%20without%20Source%20Data.md)
 
 :question: [Domain Transfer through Deep Activation Matching]()
 
