@@ -17,6 +17,8 @@ Daily paper reading records
 
 :question: [Graph-Relational Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Graph-Relational%20Domain%20Adaptation.md)
 
+:question: [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Model%20Adaptation:%20Historical%20Contrastive%20Learning%20for%20Unsupervised%20Domain%20Adaptation%20without%20Source%20Data.md)
+
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
 
@@ -34,8 +36,6 @@ Daily paper reading records
 [Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Pixel-by-Pixel%20Cross-Domain%20Alignment%20for%20Few-Shot%20Semantic%20Segmentation.md)
 
 :question: [TACS: Taxonomy Adaptive Cross-Domain Semantic Segmentation]()
-
-:question: [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Model%20Adaptation:%20Historical%20Contrastive%20Learning%20for%20Unsupervised%20Domain%20Adaptation%20without%20Source%20Data.md)
 
 :question: [Domain Transfer through Deep Activation Matching]()
 
