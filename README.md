@@ -15,6 +15,8 @@ Daily paper reading records
 ## Domain Adaptation (DA)
 [Category Contrast for Unsupervised Domain Adaptation in Visual Tasks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Category%20Contrast%20for%20Unsupervised%20Domain%20Adaptation%20in%20Visual%20Tasks.md)
 
+[Graph-Relational Domain Adaptation]()
+
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
 
