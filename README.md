@@ -33,6 +33,8 @@ Daily paper reading records
 
 [Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Pixel-by-Pixel%20Cross-Domain%20Alignment%20for%20Few-Shot%20Semantic%20Segmentation.md)
 
+:question: [TACS: Taxonomy Adaptive Cross-Domain Semantic Segmentation]()
+
 ### DA for online 3D segmentation
 [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation]()
 
