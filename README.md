@@ -35,6 +35,8 @@ Daily paper reading records
 
 :question: [TACS: Taxonomy Adaptive Cross-Domain Semantic Segmentation]()
 
+:question: [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data]()
+
 ### DA for online 3D segmentation
 [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation]()
 
