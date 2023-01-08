@@ -29,8 +29,17 @@ Ranking: ⭐ ⭐ ⭐ ⭐
   - and use historical model $E^{t-m}$ to encode a set of key samples $X_{k}$ (augmented data)  
     $k_{n}^{t-m}=E^{t-m}(x_{kn})$   
   - then pulls $q$ close to its positive key $k^{t-m}_{+}$ while pushing it apart from all other (negative) keys
+  - <img width="300" alt="Screen Shot 2023-01-09 at 00 28 34" src="https://user-images.githubusercontent.com/46414159/211201760-e8b24bb2-fcce-4163-afff-250627a778d0.png">
+  - r is reilability of each key $k_{n}^{t-m}$ (classiﬁcation entropy)
 
 #### Historical Contrastive Category Discrimination (HCCD)
+- Pseudo label generation
+  - $p^{t}=G^{t}(x)$ and $p^{t-m}=G^{t-m}(x)$ is the model output.
+  - <img width="300" alt="Screen Shot 2023-01-09 at 00 34 25" src="https://user-images.githubusercontent.com/46414159/211202096-e341837c-14c4-4533-8121-8b435eda7092.png">
+  - $\hat{y}$ is pseudo label and $h_{con}$ maintain the consistancy between current and historical models.
+- Weighted CE
+  - <img width="270" alt="Screen Shot 2023-01-09 at 00 37 12" src="https://user-images.githubusercontent.com/46414159/211202242-e52f20d4-89f7-4311-85c6-99f2cb247a01.png">
+  - After we get $h_{con}$ on sample level, use it to weight CE.
 
 ### Experiments
 - Semantic Segmentation
