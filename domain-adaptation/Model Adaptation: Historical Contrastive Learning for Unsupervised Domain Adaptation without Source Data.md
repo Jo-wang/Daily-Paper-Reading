@@ -1,1 +1,61 @@
+## [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](https://arxiv.org/abs/2110.03374)
 
+NeurIPS2021
+
+Ranking: ⭐ ⭐ ⭐ ⭐
+
+### Introduction and background
+<img width="500" alt="Screen Shot 2023-01-08 at 23 43 20" src="https://user-images.githubusercontent.com/46414159/211199347-737b2284-e5aa-4273-9532-efbb76751930.png">
+
+- This paper is mainly focusing on unsupervised model adaptation (another name of source-free DA ❓) to adapt source-trained models to ﬁt target data distribution without accessing the source-domain data.
+- This setting alleviates the concern of data privacy and intellectual property effectively.
+- More challenging and susceptible to collapse.
+- Tested on image classification, semantic segmentation and object detection.
+
+### Method
+⚖️ **Comparison between UDA and UMA**   
+<img width="800" alt="Screen Shot 2023-01-08 at 23 47 21" src="https://user-images.githubusercontent.com/46414159/211199525-5f782ba5-fdf8-45f8-aef3-a277f365043b.png">
+
+🔄 **Model framework**   
+<img width="800" alt="Screen Shot 2023-01-08 at 23 55 22" src="https://user-images.githubusercontent.com/46414159/211199993-197c0ae3-ebab-4fd6-a537-869efd80b09b.png">
+
+#### Historical Contrastive Instance Discrimination (HCID)
+- Learn from unlabeled target samples via contrastive learning over embeddings generated from current 🆚 historical models
+  - the positive pairs are pulled close  
+  - negative pairs are pushed apart  
+  - ♦️ this preserves source domain hypothesis by generating positive keys from historical models.   
+- Proposes HCID loss called $L_{HisNCE}$ which has similar form of InfoNCE.
+  - The basic idea is to use current model $E^{t}$ to encode query sample $x_{q}$ (org data) $q^{t}=E^{t}(x_{q})$ 
+  - and use historical model $E^{t-m}$ to encode a set of key samples $X_{k}$ (augmented data)  
+    $k_{n}^{t-m}=E^{t-m}(x_{kn})$   
+  - then pulls $q$ close to its positive key $k^{t-m}_{+}$ while pushing it apart from all other (negative) keys
+  - <img width="300" alt="Screen Shot 2023-01-09 at 00 28 34" src="https://user-images.githubusercontent.com/46414159/211201760-e8b24bb2-fcce-4163-afff-250627a778d0.png">
+  - r is reilability of each key $k_{n}^{t-m}$ (classiﬁcation entropy)
+
+#### Historical Contrastive Category Discrimination (HCCD)
+- Pseudo label generation
+  - $p^{t}=G^{t}(x)$ and $p^{t-m}=G^{t-m}(x)$ is the model output.
+  - <img width="300" alt="Screen Shot 2023-01-09 at 00 34 25" src="https://user-images.githubusercontent.com/46414159/211202096-e341837c-14c4-4533-8121-8b435eda7092.png">
+  - $\hat{y}$ is pseudo label and $h_{con}$ maintain the consistancy between current and historical models.
+- Weighted CE
+  - <img width="270" alt="Screen Shot 2023-01-09 at 00 37 12" src="https://user-images.githubusercontent.com/46414159/211202242-e52f20d4-89f7-4311-85c6-99f2cb247a01.png">
+  - After we get $h_{con}$ on sample level, use it to weight CE.
+
+### Experiments
+- Semantic Segmentation
+  - Deeplab-v2
+  - GTA5 ➡️ Cityscapes, Synthia ➡️ Cityscapes
+  - <img width="600" alt="Screen Shot 2023-01-08 at 23 59 10" src="https://user-images.githubusercontent.com/46414159/211200189-c89d192c-36a1-49cf-9090-b3e34efeaf15.png">
+- Image Classification
+  - ResNet-101 and ResNet-50
+  - VisDA17 and Ofﬁce-31
+  - <img width="600" alt="Screen Shot 2023-01-09 at 00 01 35" src="https://user-images.githubusercontent.com/46414159/211200309-279cdc75-a846-4add-9c77-68218aeccea0.png">
+- Object Detection
+  - Faster R-CNN
+  - Cityscapes ➡️ Foggy Cityscapes, Cityscapes ➡️ BDD100k
+  - <img width="600" alt="Screen Shot 2023-01-09 at 00 03 33" src="https://user-images.githubusercontent.com/46414159/211200425-736e743c-a0cd-4c2c-95f7-8e94f604c2f8.png">
+
+
+### Notes
+- t-SNE on GTA5 ➡️ Cityscapes
+- <img width="650" alt="Screen Shot 2023-01-09 at 00 04 40" src="https://user-images.githubusercontent.com/46414159/211200498-fa2a71ef-d0a9-4295-bec8-e907e3e3106b.png">
