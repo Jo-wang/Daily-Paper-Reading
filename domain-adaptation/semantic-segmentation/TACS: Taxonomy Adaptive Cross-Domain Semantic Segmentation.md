@@ -39,8 +39,26 @@ private part.
 
 ### Method
 <img width="700" alt="1673229781719" src="https://user-images.githubusercontent.com/46414159/211230850-96756066-cb7d-4ac5-9306-c1db8899b59e.png">
+- :star: The baisc way of training is a student-teacher manner. Do backpropogate on student and EMA update the parameter to teacher. Do pseudo labeling and target test on teacher model.
 
-- 
+- **Stochastic Label Mapping (SLM)**: deal with one(source)-to-many(target) e.g., person ➡️ {rider, pedestrian}   
+  - map the source domain classes to the corresponding target label space   
+  - $\widetilde{y}^{s(m,n)}=rand(c_{p}^t, c_{p+1}^t, \cdots, c_{p+q-1}^t)$, (m,n) is the (row, column) index.
+  - Then use $L_{slm}=CE(F_{\theta}(x_s), \widetilde{y}^s)$ to learn the model, where $F_{\theta}$ is the student model.
+- **Pseudo-Label based Relabeling (RL)**: 
+  - inteead of using SLM in the latter stage, we use model prediction pseudo labeling (on teacher model) to relabel the source data with a defined threshold. 
+  - $L_{rl}=CE(\widetilde{y}^s, F_{\theta}(x_s))$
+- **Bilateral Mixed Sampling (BMS)**: aims to unify the consistent and inconsistent taxonomy classes and augment the few-shot supervision for the target domain
+  - class-mixed sampling strategy from $x^s$ to $x^u$, and from $x^{t_{j}}$ to $x^u$
+  -  The bilateral mixed sampling mask $m^s$ of $x^s$ is:
+      <img width="260" alt="1673246914218" src="https://user-images.githubusercontent.com/46414159/211253788-fb188ba8-f1ea-451d-9fa6-d9ad1d9f1ed2.png">
+    class $c_r$ is randomly selected from the available classes in $\widetilde{y}^s$.   
+  
+  - The augmented target sample and corresponding pseudo label are:  
+      
+    <img width="350" alt="1673247335217" src="https://user-images.githubusercontent.com/46414159/211254585-bb456d51-715b-467a-a320-e0330467975f.png">
+    
+- **Image level: Uncertainty-Rectified Contrastive Learning (UCT)**:
 
 ### Experiments
 
