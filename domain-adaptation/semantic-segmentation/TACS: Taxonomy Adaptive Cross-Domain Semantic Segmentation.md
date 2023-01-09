@@ -59,6 +59,11 @@ private part.
     <img width="350" alt="1673247335217" src="https://user-images.githubusercontent.com/46414159/211254585-bb456d51-715b-467a-a320-e0330467975f.png">
     
 - **Image level: Uncertainty-Rectified Contrastive Learning (UCT)**:
+  - contrastive learning conducted on the augmented target domain image sample $\hat{x}^u$, and corresponding pseudo-label $\hat{y}^u$ in the BMS module
+  - model $F_\theta$ can be split into encoder $\varepsilon_\theta$ and decoder $M_\theta$, so we have feature $\hat{v}^u$ 
+  - pseudo-label based contrastive learning module loss: 
+    <img width="450" alt="Screen Shot 2023-01-09 at 20 48 30" src="https://user-images.githubusercontent.com/46414159/211291066-2b84de4b-6214-40f6-82c5-cda73f33b666.png">
+    where $P_v$ are positive samples. The positive samples in $P_v$ are the feature vectors whose corresponding pixels in $\hat{y}^u$ have the same class label as that of the corresponding pixel of v. The negative samples in $N_v$ are the feature vectors whose corresponding pixels in $\hat{y}^u$ have the different class label from that of the corresponding pixel of v.
 
 ### Experiments
 
