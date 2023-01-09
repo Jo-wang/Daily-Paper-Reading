@@ -58,13 +58,35 @@ private part.
       
     <img width="350" alt="1673247335217" src="https://user-images.githubusercontent.com/46414159/211254585-bb456d51-715b-467a-a320-e0330467975f.png">
     
-- **Image level: Uncertainty-Rectified Contrastive Learning (UCT)**:
+- **Image level: Uncertainty-Rectified Contrastive Learning (UCT)**: CT :arrow_right: UCT
+
   - contrastive learning conducted on the augmented target domain image sample $\hat{x}^u$, and corresponding pseudo-label $\hat{y}^u$ in the BMS module
   - model $F_\theta$ can be split into encoder $\varepsilon_\theta$ and decoder $M_\theta$, so we have feature $\hat{v}^u$ 
   - pseudo-label based contrastive learning module loss: 
     <img width="450" alt="Screen Shot 2023-01-09 at 20 48 30" src="https://user-images.githubusercontent.com/46414159/211291066-2b84de4b-6214-40f6-82c5-cda73f33b666.png">
-    where $P_v$ are positive samples. The positive samples in $P_v$ are the feature vectors whose corresponding pixels in $\hat{y}^u$ have the same class label as that of the corresponding pixel of v. The negative samples in $N_v$ are the feature vectors whose corresponding pixels in $\hat{y}^u$ have the different class label from that of the corresponding pixel of v.
+    where $P_v$ are positive samples. The positive samples in $P_v$ are the feature vectors whose corresponding pixels in $\hat{y}^u$ have the same class label as that of the corresponding pixel of v. The negative samples in $N_v$ are the feature vectors whose corresponding pixels in $\hat{y}^u$ have the different class label from that of the corresponding pixel of v.     
+  - pseudo label may have wrong labels, to alleviate the incorrect guidance, they propose **UCT**.
+  - use maximum prediction probability of $x^u$ as the uncertainty est. 
+    $\hat{\mathbf{u}}^u=\max_c\mathcal{F}_{\theta^{\prime}}\left(\hat{\mathbf{x}}^u\right)$.
+    Then the new loss: 
+    <img width="400" alt="Screen Shot 2023-01-09 at 22 28 35" src="https://user-images.githubusercontent.com/46414159/211308078-9b548962-3068-464f-bf90-4ac61ec28368.png">
+
+**Objective**:     
+<img width="400" alt="Screen Shot 2023-01-09 at 22 33 48" src="https://user-images.githubusercontent.com/46414159/211308995-2bf9809d-dff2-4122-9a09-bdd86c3738b5.png">
+
 
 ### Experiments
+- DeepLabv2-ResNet101
+- UDA: Consistent Taxonomy: Synthia :arrow_right: Cityscapes. same label space   
+<img width="900" alt="Screen Shot 2023-01-09 at 22 38 02" src="https://user-images.githubusercontent.com/46414159/211309775-d8238b52-0aa1-4090-94c5-3c46c62c6ab6.png">
+
+- TACS: Open Taxonomy: Synthia :arrow_right: Cityscapes. 13 of Synthia classes are labeled, 6 of Cityscapes are few-shot labeled.    
+<img width="900" alt="Screen Shot 2023-01-09 at 22 38 35" src="https://user-images.githubusercontent.com/46414159/211309899-fd3ee02a-887f-423d-97ee-a040b1e533b1.png">
+
+- TACS: Coarse-to-Fine Taxonomy: GTA5 :arrow_right: Cityscapes. one-to-many; few-shot labeled on target.      
+<img width="900" alt="Screen Shot 2023-01-09 at 22 41 02" src="https://user-images.githubusercontent.com/46414159/211310295-4b12fea6-5c4c-4d1b-a6fe-027e02e2db47.png">
+
+- TACS: Implicitly-Overlapping Taxonomy: Synscapes :arrow_right: Cityscapes. many-to-many; few-shot labeled target.    
+<img width="900" alt="Screen Shot 2023-01-09 at 22 43 43" src="https://user-images.githubusercontent.com/46414159/211310776-3cb47499-fe50-42ca-9fdb-d3c4c0d34ee8.png">
 
 ### Notes
