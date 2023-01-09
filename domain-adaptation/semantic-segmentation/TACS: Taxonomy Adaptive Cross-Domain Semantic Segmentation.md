@@ -78,15 +78,15 @@ private part.
 ### Experiments
 - DeepLabv2-ResNet101
 - UDA: Consistent Taxonomy: Synthia :arrow_right: Cityscapes. same label space   
-<img width="900" alt="Screen Shot 2023-01-09 at 22 38 02" src="https://user-images.githubusercontent.com/46414159/211309775-d8238b52-0aa1-4090-94c5-3c46c62c6ab6.png">
+<img width="800" alt="Screen Shot 2023-01-09 at 22 38 02" src="https://user-images.githubusercontent.com/46414159/211309775-d8238b52-0aa1-4090-94c5-3c46c62c6ab6.png">
 
 - TACS: Open Taxonomy: Synthia :arrow_right: Cityscapes. 13 of Synthia classes are labeled, 6 of Cityscapes are few-shot labeled.    
-<img width="900" alt="Screen Shot 2023-01-09 at 22 38 35" src="https://user-images.githubusercontent.com/46414159/211309899-fd3ee02a-887f-423d-97ee-a040b1e533b1.png">
+<img width="800" alt="Screen Shot 2023-01-09 at 22 38 35" src="https://user-images.githubusercontent.com/46414159/211309899-fd3ee02a-887f-423d-97ee-a040b1e533b1.png">
 
 - TACS: Coarse-to-Fine Taxonomy: GTA5 :arrow_right: Cityscapes. one-to-many; few-shot labeled on target.      
-<img width="900" alt="Screen Shot 2023-01-09 at 22 41 02" src="https://user-images.githubusercontent.com/46414159/211310295-4b12fea6-5c4c-4d1b-a6fe-027e02e2db47.png">
+<img width="800" alt="Screen Shot 2023-01-09 at 22 41 02" src="https://user-images.githubusercontent.com/46414159/211310295-4b12fea6-5c4c-4d1b-a6fe-027e02e2db47.png">
 
 - TACS: Implicitly-Overlapping Taxonomy: Synscapes :arrow_right: Cityscapes. many-to-many; few-shot labeled target.    
-<img width="900" alt="Screen Shot 2023-01-09 at 22 43 43" src="https://user-images.githubusercontent.com/46414159/211310776-3cb47499-fe50-42ca-9fdb-d3c4c0d34ee8.png">
+<img width="800" alt="Screen Shot 2023-01-09 at 22 43 43" src="https://user-images.githubusercontent.com/46414159/211310776-3cb47499-fe50-42ca-9fdb-d3c4c0d34ee8.png">
 
 ### Notes
