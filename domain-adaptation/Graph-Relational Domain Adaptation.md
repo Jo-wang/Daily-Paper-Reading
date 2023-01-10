@@ -19,7 +19,10 @@ Ranking: ⭐ ⭐ ⭐
 - In this setting, [data, label, domain index] for source & [data, domain index] for target are available.
 
 #### Graph-relational Domain Adaptation (GRDA)
-
+- Use a adversarial-based framework which has 3 component:
+  - Encoder $E$: generate encoding from data, domain label and domain graph: $\mathbf{e}_l=E\left(\mathbf{x}_l, u_l, \mathbf{A}\right)$
+  - Predictor $F$: makes prediction based on $\mathbf{e}_l$
+  - Graph discriminator $D$: guides the encoding to adapt across graph-relational domains. It takes in a mini-batch of B encodings $\mathbf{e}_l \left(l \in [B]\right)$, and tries to reconstruct the domain graph $\mathbf{A}$.
 ### Experiments
 
 ### Notes
