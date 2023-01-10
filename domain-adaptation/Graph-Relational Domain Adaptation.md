@@ -22,7 +22,14 @@ Ranking: ⭐ ⭐ ⭐
 - Use a adversarial-based framework which has 3 component:
   - Encoder $E$: generate encoding from data, domain label and domain graph: $\mathbf{e}_l=E\left(\mathbf{x}_l, u_l, \mathbf{A}\right)$
   - Predictor $F$: makes prediction based on $\mathbf{e}_l$
+  - <img width="350" alt="Screen Shot 2023-01-10 at 13 55 28" src="https://user-images.githubusercontent.com/46414159/211458402-4872b35e-9dc6-42ff-8998-52b3dc970b87.png">
   - Graph discriminator $D$: guides the encoding to adapt across graph-relational domains. It takes in a mini-batch of B encodings $\mathbf{e}_l \left(l \in [B]\right)$, and tries to reconstruct the domain graph $\mathbf{A}$.
+  - By letting the encoder E play adversarially against the discriminator D, the graph-relational information of domains will be removed from the encoding $\mathbf{e}_l$ in order to make the discriminator D incapable of reconstructing the graph.
+
+#### Predictor
+#### Encoder and Node Embeddings
+#### Graph Discriminator
+
 ### Experiments
 
 ### Notes
