@@ -17,6 +17,9 @@ Ranking: ⭐ ⭐ ⭐
 - We have $N$ domains in total for unsupervised domain adaptation; discrete domain index $u \in \mathcal{U}=[N] \triangleq\{1, \ldots, N\}$ could be either source index $\mathcal{U}_s$ or target $\mathcal{U}_t$.
 - The relationship between domains followed a domain graph $A=[A_{ij}]$
 - In this setting, [data, label, domain index] for source & [data, domain index] for target are available.
+
+#### Graph-relational Domain Adaptation (GRDA)
+
 ### Experiments
 
 ### Notes
