@@ -82,7 +82,6 @@ where $L_{CLS}$ is source CE loss.
   - ViT在不同层内逐渐消除不同级别语义的DS。
 
 #### Generalization   
-![1673422725859]()
 
 <img width="700" alt="imgg" src="https://user-images.githubusercontent.com/46414159/211745890-7b607f9e-0db3-4a2f-8326-76c4595da180.png">
 
