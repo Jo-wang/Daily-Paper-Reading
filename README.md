@@ -74,7 +74,7 @@ Daily paper reading records
 
 [Uncertainty Modeling for Out-of-Distribution Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Uncertainty%20Modeling%20for%20Out-of-Distribution%20Generalization.md)
 
-:question: [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts]()
+:question: [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Delving%20Deep%20into%20the%20Generalization%20of%20Vision%20Transformers%20under%20Distribution%20Shifts.md)
 
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
