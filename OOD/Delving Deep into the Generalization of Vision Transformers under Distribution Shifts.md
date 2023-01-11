@@ -52,7 +52,35 @@ The final objective is:
 where $L_{CLS}$ is source CE loss.
 
 ### Experiments
+- Background shift     
+  <img width="700" alt="1673422033511" src="https://user-images.githubusercontent.com/46414159/211743606-6c6a38b4-8c43-4203-be67-64903be64cc0.png">
 
+  - 相对于CNN模型，ViT表现出了更少的背景信息偏好。
+  - ViT越大，越会将更多注意力放在前景上，从而提取更加和背景无关的表征。
+
+- Corruption Shift     
+  <img width="700" alt="1673422141420" src="https://user-images.githubusercontent.com/46414159/211744139-f849b717-2819-4e45-8326-b132ae62def7.png">
+
+  - ViT相较于CNN应对corruption shift更好，且ViT在此情况下的泛化性能随模型尺寸提升而提高。
+  - ViT面对添加局部噪声图像的泛化能力部分受益于多样化的数据扩充，但其架构带来的增益不能被忽略。
+  - ViT训练过程中使用的patch尺寸并不会影响模型在IID和OOD数据上的差距，而是影响模型在IID数据上的泛化能力。
+
+- Texture Shift       
+  <img width="700" alt="1673422221537" src="https://user-images.githubusercontent.com/46414159/211744342-e766f9fd-0f4e-4278-8c56-329dbbaecdca.png">      
+  - ViT对于形状信息更强的偏好致使其在texture shift数据下表现得更好，同时这种对于形状的偏好与模型尺寸呈现正相关关系。
+  - 使用更大patch尺寸进行训练的 ViT有更强的形状信息偏好，从而局部的纹理信息的依赖更小。
+
+- Style Shift     
+  <img width="650" alt="1673422339534" src="https://user-images.githubusercontent.com/46414159/211744671-25185cdd-bd26-48a6-9f24-06f6b0ef6c28.png">      
+  - ViT在style shift下的IID/OOD generalization gap表现具有多样性。
+
+  <img width="650" alt="1673422445830" src="https://user-images.githubusercontent.com/46414159/211744987-44ab000a-eae0-4c57-bf3f-c019a4913ee1.png">       
+  - ViT表现出了更强的对结构信息的偏好。
+  <img width="650" alt="1673422518530" src="https://user-images.githubusercontent.com/46414159/211745196-3eb4de35-ca61-4d2e-9702-c0d4a544ba49.png">
+  - ViT在不同层内逐渐消除不同级别语义的DS。
+
+#### Generalization     
+<img width="700" alt="imgg" src="https://user-images.githubusercontent.com/46414159/211745457-ec825a0a-ecc9-4a48-9fc9-c42d31a9b3bd.png">
 
 ### Notes
 
