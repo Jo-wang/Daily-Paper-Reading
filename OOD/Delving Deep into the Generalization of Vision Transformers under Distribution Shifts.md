@@ -72,16 +72,20 @@ where $L_{CLS}$ is source CE loss.
 
 - Style Shift     
   <img width="650" alt="1673422339534" src="https://user-images.githubusercontent.com/46414159/211744671-25185cdd-bd26-48a6-9f24-06f6b0ef6c28.png">      
-  - ViT在style shift下的IID/OOD generalization gap表现具有多样性。
+  - ViT在style shift下的IID/OOD generalization gap表现具有多样性。 
 
   <img width="650" alt="1673422445830" src="https://user-images.githubusercontent.com/46414159/211744987-44ab000a-eae0-4c57-bf3f-c019a4913ee1.png">       
-  - ViT表现出了更强的对结构信息的偏好。
+  
+  - ViT表现出了更强的对结构信息的偏好。      
   <img width="650" alt="1673422518530" src="https://user-images.githubusercontent.com/46414159/211745196-3eb4de35-ca61-4d2e-9702-c0d4a544ba49.png">
+  
   - ViT在不同层内逐渐消除不同级别语义的DS。
 
-#### Generalization     
-<img width="700" alt="imgg" src="https://user-images.githubusercontent.com/46414159/211745457-ec825a0a-ecc9-4a48-9fc9-c42d31a9b3bd.png">
+#### Generalization   
+![1673422725859]()
 
-### Notes
+<img width="700" alt="imgg" src="https://user-images.githubusercontent.com/46414159/211745890-7b607f9e-0db3-4a2f-8326-76c4595da180.png">
+
+
 
 
