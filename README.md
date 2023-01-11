@@ -65,7 +65,7 @@ Daily paper reading records
 
 [Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-generalization/Ensemble%20of%20Averages:%20Improving%20Model%20Selection%20and%20Boosting%20Performance%20in%20Domain%20Generalization.md)
 
-:question: [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts]()
+
 
 ## OOD 
 [Assaying Out-Of-Distribution Generalization in Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Assaying%20Out-Of-Distribution%20Generalization%20in%20Transfer%20Learning.md)
@@ -73,6 +73,8 @@ Daily paper reading records
 [Visual Prompting via Image Inpainting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Visual%20Prompting%20via%20Image%20Inpainting.md)
 
 [Uncertainty Modeling for Out-of-Distribution Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Uncertainty%20Modeling%20for%20Out-of-Distribution%20Generalization.md)
+
+:question: [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts]()
 
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
