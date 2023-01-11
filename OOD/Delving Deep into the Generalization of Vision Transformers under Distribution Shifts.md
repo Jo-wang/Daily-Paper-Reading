@@ -39,12 +39,14 @@ augmentation strategy from DeiTs for comparison, name them BiT and $\text{BiT}_{
   - 🥉Self-supervised Learning             
     <img width="500" alt="1673417856755" src="https://user-images.githubusercontent.com/46414159/211731828-db905414-910f-4a02-a816-154e26d1db16.png">      
     $V_s$ and $V_t$ are maintained to store feature vectors of every sample from source and target.
-    in-domain prototypical self-supervision loss: <img width="300" alt="IS" src="https://user-images.githubusercontent.com/46414159/211738004-ac4b7f7e-56c4-426b-a717-9de959947bab.png">        
-    where $c_s$ and $c_t$ return class index. $P_{i,j}^S=\frac{\exp \left(\mu_j^s \cdot f_i^s / \phi\right)}{\sum \exp \left(\mu_r^s \cdot f_i^s / \phi\right)}$
+    in-domain prototypical self-supervision loss:      
+    <img width="300" alt="IS" src="https://user-images.githubusercontent.com/46414159/211738004-ac4b7f7e-56c4-426b-a717-9de959947bab.png">        
+    where $c_s$ and $c_t$ return class index.        
+    $P_{i,j}^S=\frac{\exp \left(\mu_j^s \cdot f_i^s / \phi\right)}{\sum \exp \left(\mu_r^s \cdot f_i^s / \phi\right)}$
     
     since a network is desired to have highconfident and diversified predictions, an objective is set for maximizing the mutual information between the input image and the network prediction: $L_{MIM}=E_X [H(p(y \mid x; \theta))] - H(E_{x \in {D_s \cup D_t}}[p(y\mid x; \theta)])$
 
-The final objective is:
+The final objective is:        
 <img width="400" alt="img2" src="https://user-images.githubusercontent.com/46414159/211742456-5d20c30b-7126-4572-8201-bf10bd9e92f8.png">
 
 where $L_{CLS}$ is source CE loss.
