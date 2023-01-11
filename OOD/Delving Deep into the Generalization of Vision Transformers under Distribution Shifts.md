@@ -86,5 +86,6 @@ where $L_{CLS}$ is source CE loss.
 <img width="700" alt="imgg" src="https://user-images.githubusercontent.com/46414159/211745890-7b607f9e-0db3-4a2f-8326-76c4595da180.png">
 
 
-
+### Note
+https://blog.csdn.net/hanseywho/article/details/125000241
 
