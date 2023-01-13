@@ -76,7 +76,7 @@ Daily paper reading records
 
 [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Delving%20Deep%20into%20the%20Generalization%20of%20Vision%20Transformers%20under%20Distribution%20Shifts.md)
 
-:question: [A Fine-Grained Analysis on Distribution Shift]()
+:question: [A Fine-Grained Analysis on Distribution Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/A%20Fine-Grained%20Analysis%20on%20Distribution%20Shift.md)
 
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
