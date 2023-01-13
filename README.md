@@ -19,11 +19,11 @@ Daily paper reading records
 ## Domain Adaptation (DA)
 [Category Contrast for Unsupervised Domain Adaptation in Visual Tasks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Category%20Contrast%20for%20Unsupervised%20Domain%20Adaptation%20in%20Visual%20Tasks.md)
 
-:question: [Graph-Relational Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Graph-Relational%20Domain%20Adaptation.md)
+[Graph-Relational Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Graph-Relational%20Domain%20Adaptation.md)
 
-:question: [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Model%20Adaptation:%20Historical%20Contrastive%20Learning%20for%20Unsupervised%20Domain%20Adaptation%20without%20Source%20Data.md)
+[Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Model%20Adaptation:%20Historical%20Contrastive%20Learning%20for%20Unsupervised%20Domain%20Adaptation%20without%20Source%20Data.md)
 
-:question: [Taskonomy: Disentangling Task Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Taskonomy:%20Disentangling%20Task%20Transfer%20Learning.md)
+[Taskonomy: Disentangling Task Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Taskonomy:%20Disentangling%20Task%20Transfer%20Learning.md)
 
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
@@ -41,7 +41,7 @@ Daily paper reading records
 
 [Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Pixel-by-Pixel%20Cross-Domain%20Alignment%20for%20Few-Shot%20Semantic%20Segmentation.md)
 
-:question: [TACS: Taxonomy Adaptive Cross-Domain Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/TACS:%20Taxonomy%20Adaptive%20Cross-Domain%20Semantic%20Segmentation.md)
+[TACS: Taxonomy Adaptive Cross-Domain Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/TACS:%20Taxonomy%20Adaptive%20Cross-Domain%20Semantic%20Segmentation.md)
 
 :question: [Domain Transfer through Deep Activation Matching]()
 
@@ -74,7 +74,9 @@ Daily paper reading records
 
 [Uncertainty Modeling for Out-of-Distribution Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Uncertainty%20Modeling%20for%20Out-of-Distribution%20Generalization.md)
 
-:question: [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Delving%20Deep%20into%20the%20Generalization%20of%20Vision%20Transformers%20under%20Distribution%20Shifts.md)
+[Delving Deep into the Generalization of Vision Transformers under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Delving%20Deep%20into%20the%20Generalization%20of%20Vision%20Transformers%20under%20Distribution%20Shifts.md)
+
+:question: [A Fine-Grained Analysis on Distribution Shift]()
 
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
