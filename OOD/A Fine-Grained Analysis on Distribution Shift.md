@@ -27,6 +27,24 @@ Ranking: ⭐ ⭐ 🌟
   
 
 ### Experiments
+- dataset: DSPRITES, MPI3D, SHAPES3D, SMALLNORB, CAMELYON17, IWILDCAM
+- model selection: ResNet-18, ResNet-50; choose the best model according to the in-distribution validation set; In the unseen data shift setting for the CAMELYON17 and IWILDCAM, use the given out-of-distribution validation set.
+- hyperparameter: sweep and 5 seeds
+
+### Takeaways:
+- While we can improve over ERM, no one method always performs best.
+- Pretraining is a powerful tool across different shifts and datasets.
+- Heuristic augmentation improves generalization if the augmentation describes an attribute.
+- Learned data augmentation is effective across different conditions and distribution shifts. 
+- Domain generalization algorithms offer limited performance improvement.
+- The best algorithms may differ under the precise conditions.
+- The precise attributes we consider directly impacts the results.
+
+### Tips:
+- Use, If heuristic augmentations approximate part of the true underlying generative model.
+- If heuristic augmentations do not help, learn the augmentation.
+- Use pretraining.
+- More complex approaches lead to limited improvements.
 
 ### Notes
 This is mainly a discussion about different types of distribution shift (with empirical study)
