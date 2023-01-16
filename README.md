@@ -25,6 +25,8 @@ Daily paper reading records
 
 [Taskonomy: Disentangling Task Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Taskonomy:%20Disentangling%20Task%20Transfer%20Learning.md)
 
+[Source-Free Adaptation to Measurement Shift via Bottom-Up Feature Restoration]()
+
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
 
