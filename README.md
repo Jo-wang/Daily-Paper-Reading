@@ -26,6 +26,9 @@ Daily paper reading records
 
 :question: [Where is the bottleneck in long-tailed classification?]()
 
+## Transfer Learning things
+:question: [Does Robustness on ImageNet Transfer to Downstream Tasks?]()
+
 ## Domain Adaptation (DA)
 [Category Contrast for Unsupervised Domain Adaptation in Visual Tasks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Category%20Contrast%20for%20Unsupervised%20Domain%20Adaptation%20in%20Visual%20Tasks.md)
 
