@@ -68,12 +68,16 @@ Daily paper reading records
 ## 3D point cloud
 [4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/3D-seg/4D%20Spatio-Temporal%20ConvNets:%20Minkowski%20Convolutional%20Neural%20Networks.md)
 
-## Transformer-based segmentation
+## Semantic Segmentation
+### Transformer-based segmentation
 [Segmenter: Transformer for Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer-seg/Segmenter:%20Transformer%20for%20Semantic%20Segmentation.md)
 
 [Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer-seg/Rethinking%20Semantic%20Segmentation%20from%20a%20Sequence-to-Sequence%20Perspective%20with%20Transformers.md)
 
 [SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer-seg/SegFormer:%20Simple%20and%20Efficient%20Design%20for%20Semantic%20Segmentation%20with%20Transformers.md)
+
+### Segmentation model
+❓ [Denoising Pretraining for Semantic Segmentation]()
 
 ## Domain Generalization
 [SWAD: Domain Generalization by Seeking Flat Minima](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/dg/SWAD:%20Domain%20Generalization%20by%20Seeking%20Flat%20Minima.md)
