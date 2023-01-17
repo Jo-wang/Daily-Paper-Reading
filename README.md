@@ -8,6 +8,12 @@ Daily paper reading records
 ## Machine Learning
 [Surrogate Gap Minimization Improves Sharpness-Aware Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Surrogate%20Gap%20Minimization%20Improves%20Sharpness-Aware%20Training.md)
 
+:question: [H-Entropy Search: Generalizing Bayesian Optimization with a Decision-theoretic Uncertainty Measure]()
+
+:question: [If your data distribution shifts, use self-learning]()
+
+:question: [Self-supervised Learning is More Robust to Dataset Imbalance]()
+
 ## Test-time Adaptation
 [Efficient Test-Time Model Adaptation without Forgetting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Efficient%20Test-Time%20Model%20Adaptation%20without%20Forgetting.md)
 
@@ -79,6 +85,8 @@ Daily paper reading records
 [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Delving%20Deep%20into%20the%20Generalization%20of%20Vision%20Transformers%20under%20Distribution%20Shifts.md)
 
 :question: [A Fine-Grained Analysis on Distribution Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/A%20Fine-Grained%20Analysis%20on%20Distribution%20Shift.md)
+
+:question: [Generalization to Out-of-Distribution transformations]()
 
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
