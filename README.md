@@ -14,6 +14,8 @@ Daily paper reading records
 
 :question: [Self-supervised Learning is More Robust to Dataset Imbalance]()
 
+:question: [Open-Set Recognition: A Good Closed-Set Classifier is All You Need]()
+
 ## Test-time Adaptation
 [Efficient Test-Time Model Adaptation without Forgetting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Efficient%20Test-Time%20Model%20Adaptation%20without%20Forgetting.md)
 
