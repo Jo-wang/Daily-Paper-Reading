@@ -22,6 +22,8 @@ Daily paper reading records
 ## Imbalanced Data
 [Learning to Re-weight Examples with Optimal Transport for Imbalanced Classification](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/Learning%20to%20Re-weight%20Examples%20with%20Optimal%20Transport%20for%20Imbalanced%20Classification.md)
 
+:question: [Where is the bottleneck in long-tailed classification?]()
+
 ## Domain Adaptation (DA)
 [Category Contrast for Unsupervised Domain Adaptation in Visual Tasks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Category%20Contrast%20for%20Unsupervised%20Domain%20Adaptation%20in%20Visual%20Tasks.md)
 
