@@ -77,6 +77,8 @@ Daily paper reading records
 
 :question: [Directional Domain Generalization]()
 
+:question: [Generalization Through the Lens of Leave-One-Out Error]()
+
 ## OOD 
 [Assaying Out-Of-Distribution Generalization in Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Assaying%20Out-Of-Distribution%20Generalization%20in%20Transfer%20Learning.md)
 
