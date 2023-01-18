@@ -51,6 +51,8 @@ $L_t=\text{CE}+\text{IoU}+w_a \text{ABL}$ where IoU is lovasz-softmax loss.
 
 ### Experiments
 - dataset: ADE20K, Cityscapes
+<img width="850" alt="1674014409587" src="https://user-images.githubusercontent.com/46414159/213080407-06b20dd9-5788-4670-bc80-17cd2be9ac6a.png">
+
 ### Notes
 - The distance transform: 
   <img width="700" alt="1674005307603" src="https://user-images.githubusercontent.com/46414159/213058684-c2c2ac6d-2a4e-4d9e-9bfd-782659967032.png">
