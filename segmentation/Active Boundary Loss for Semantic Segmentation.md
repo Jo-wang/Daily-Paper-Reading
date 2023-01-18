@@ -40,7 +40,7 @@ An 8D vector using the KL divergence between pixel i and its neighboring pixel j
 #### Conflict suppression      
 <img width="350" alt="1674001955105(1)" src="https://user-images.githubusercontent.com/46414159/213049355-feefa2b3-5eea-48e0-b02d-d9b3ab3db559.png">
 through the detaching operation, the gradient of ABL is computed only for the pixels on the PDBs, but not for its neighboring pixels. This process
-indicates that, for a 3 $\times$ 3 patch, we focus on the adjustment
+indicates that, for a $3\times 3$ patch, we focus on the adjustment
 of the class probability distribution of pixels on the PDBs only so as to move the PDBs towards the GTBs.
 
 Also set label smoothing to regularize the ABL by setting the largest probability of the one-hot target probability distribution to 0.8 and
@@ -52,6 +52,9 @@ $L_t=\text{CE}+\text{IoU}+w_a \text{ABL}$ where IoU is lovasz-softmax loss.
 ### Experiments
 - dataset: ADE20K, Cityscapes
 <img width="850" alt="1674014409587" src="https://user-images.githubusercontent.com/46414159/213080407-06b20dd9-5788-4670-bc80-17cd2be9ac6a.png">
+
+- **compare with strongest baseline Segfix
+<img width="800" alt="1674040539605" src="https://user-images.githubusercontent.com/46414159/213157708-d113c8cb-7e17-456d-9958-f2a209aa037d.png">
 
 ### Notes
 - The distance transform: 
