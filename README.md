@@ -8,12 +8,6 @@ Daily paper reading records
 ## Machine Learning
 [Surrogate Gap Minimization Improves Sharpness-Aware Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Surrogate%20Gap%20Minimization%20Improves%20Sharpness-Aware%20Training.md)
 
-:question: [H-Entropy Search: Generalizing Bayesian Optimization with a Decision-theoretic Uncertainty Measure]()
-
-:question: [If your data distribution shifts, use self-learning]()
-
-:question: [Self-supervised Learning is More Robust to Dataset Imbalance]()
-
 :question: [Open-Set Recognition: A Good Closed-Set Classifier is All You Need](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Open-Set%20Recognition:%20A%20Good%20Closed-Set%20Classifier%20is%20All%20You%20Need.md)
 
 ## Test-time Adaptation
@@ -38,9 +32,9 @@ Daily paper reading records
 
 [Taskonomy: Disentangling Task Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Taskonomy:%20Disentangling%20Task%20Transfer%20Learning.md)
 
-:question: [Source-Free Adaptation to Measurement Shift via Bottom-Up Feature Restoration](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Source-Free%20Adaptation%20to%20Measurement%20Shift%20via%20Bottom-Up%20Feature%20Restoration.md)
+[Source-Free Adaptation to Measurement Shift via Bottom-Up Feature Restoration](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Source-Free%20Adaptation%20to%20Measurement%20Shift%20via%20Bottom-Up%20Feature%20Restoration.md)
 
-❓ [DINE: Domain Adaptation From Single and Multiple Black-Box Predictors]()
+❓ [f-Domain-Adversarial Learning: Theory and Algorithms]()
 
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
@@ -92,9 +86,6 @@ Daily paper reading records
 
 [Ensemble of Averages: Improving Model Selection and Boosting Performance in Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-generalization/Ensemble%20of%20Averages:%20Improving%20Model%20Selection%20and%20Boosting%20Performance%20in%20Domain%20Generalization.md)
 
-:question: [Directional Domain Generalization]()
-
-:question: [Generalization Through the Lens of Leave-One-Out Error]()
 
 ## OOD 
 [Assaying Out-Of-Distribution Generalization in Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Assaying%20Out-Of-Distribution%20Generalization%20in%20Transfer%20Learning.md)
@@ -105,7 +96,7 @@ Daily paper reading records
 
 [Delving Deep into the Generalization of Vision Transformers under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Delving%20Deep%20into%20the%20Generalization%20of%20Vision%20Transformers%20under%20Distribution%20Shifts.md)
 
-:question: [A Fine-Grained Analysis on Distribution Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/A%20Fine-Grained%20Analysis%20on%20Distribution%20Shift.md)
+[A Fine-Grained Analysis on Distribution Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/A%20Fine-Grained%20Analysis%20on%20Distribution%20Shift.md)
 
 :question: [Generalization to Out-of-Distribution transformations]()
 
