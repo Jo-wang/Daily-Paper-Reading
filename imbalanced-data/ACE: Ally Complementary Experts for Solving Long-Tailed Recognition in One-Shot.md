@@ -6,6 +6,9 @@ ICCV2021
 
 
 ### Introduction and background
+
+<img width="500" alt="1674523337550" src="https://user-images.githubusercontent.com/46414159/214193796-f68aa5db-8e10-4f98-ba2a-ef4ee1671342.png">
+
 - Previously exist 3 types of framework to solve long-tailed problem:
   - one stage: re-balancing, including re-sampling and re-weighting; 🙅: accuracy of majority classes is sacrificed, indicating the under-representation of the heads
   - two stage with pretraining: firstly train the feature extractor (backbone) with the whole imbalanced set for generalizable representation learning, then re-adjust the classifier by re-sampled data or build diverse experts for various tasks in cascading stages; 🙅: heavily relying on the well-adjusted pretrained model and re-balancing skills make the frameworks sensitive to hyper-parameters and hard to find a sweet point. the accumulated training steps make the multi-stage models redundant and less practical to be integrated with other tasks simultaneously, e.g., detection and segmentation.
