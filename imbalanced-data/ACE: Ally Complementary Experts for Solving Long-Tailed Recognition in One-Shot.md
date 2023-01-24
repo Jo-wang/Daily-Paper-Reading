@@ -19,6 +19,17 @@ ICCV2021
 ### Method
 <img width="900" alt="1674478778054" src="https://user-images.githubusercontent.com/46414159/214045848-c70cec05-4f18-4215-be01-b793a7a769e1.png">
 
+**The overall framework is defined as:**
+
+- Shared backbone;
+- distribution-aware planner distributes diverse but overlapping category splits for each expert, including target categories (TC) and interfering categories (IC);
+- multiple experts (individual learnable blocks and a prediction layer);
+- distribution-adaptive optimizer is designed to guide the experts to update at their own paces;
+- predictions from the experts are aggregated by averaging
+over the re-scaled logits in each data split
+
+#### Distribution-aware planner
+
 ### Experiments
 
 ### Notes
