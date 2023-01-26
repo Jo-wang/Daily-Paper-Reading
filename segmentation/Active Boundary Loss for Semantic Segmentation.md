@@ -25,8 +25,8 @@ Ranking: ⭐ ⭐ ⭐ 🌟
   where $N_2 (i)$ is the 2-neighborhood of pixel i. ϵ is an adaptive threshold to ensure that **the number of boundary pixels in B is less than 1% of the total pixels of the input image**, where 1% is a ratio to approximate the number of boundary pixels in an image. 
 
 - for a pixel i on PDBs, its next candidate boundary pixel j is selected as its neighboring pixel **with the smallest distance value** computed by the distance transform (scipy.ndimage.morphology.distance_transform_edt) of the GTBs. 这个GTBs无需通过另外的edge detection得到，而是用上边的$B_i$ 但是 the KL divergence is replaced by checking whether the ground-truth class labels are equal between pixel i and $j \in N_2 (i)$.
-- $j$ is defined by compute a target direction map 
-  $D_g \in \{ 0,1 \} ^{8\times H\times W}$
+- $j$ is defined by compute a target direction map        
+  $D_g \in \{ 0,1 \} ^{8\times H\times W}$                  
   <img width="350" alt="1674005126093" src="https://user-images.githubusercontent.com/46414159/213058096-81d91e9c-0637-4800-9b5d-a0ad22a97467.png">
 
 #### Phase II      
