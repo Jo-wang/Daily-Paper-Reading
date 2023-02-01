@@ -36,6 +36,8 @@ Ranking: :star: :star: :star: :star:
 - Decoupled SOLO:
   
   <img width="450" alt="1675233154894" src="https://user-images.githubusercontent.com/46414159/215968827-1bf3c29f-4af4-4ff2-98e5-62d0ef4add51.png">
+  
+  <img width="600" alt="1675234052657" src="https://user-images.githubusercontent.com/46414159/215971497-f2bf9d5a-af44-4102-a182-a782d6b936a0.png">
 
 
 
@@ -45,6 +47,17 @@ Ranking: :star: :star: :star: :star:
 - Dataset: MS COCO
 
 <img width="700" alt="1675233343300" src="https://user-images.githubusercontent.com/46414159/215969289-ba34d837-3f07-4465-9f17-07625970e873.png">
+
+### Ablation Study
+<img width="600" alt="1675233695097" src="https://user-images.githubusercontent.com/46414159/215970380-4c4de53b-5be1-4e76-8073-4797be1b62ca.png">
+<img width="600" alt="1675233744768" src="https://user-images.githubusercontent.com/46414159/215970514-4e5ecb50-b17f-4de0-b008-d4b6ac0ca80a.png">
+<img width="600" alt="1675233784076" src="https://user-images.githubusercontent.com/46414159/215970647-3b0da9ef-7ec4-42e2-bbd7-c546a4d7dc8b.png">
+<img width="600" alt="1675233823084" src="https://user-images.githubusercontent.com/46414159/215970787-aa99c6d3-0269-480d-b57f-41e3511c0bb2.png">
+<img width="600" alt="1675233872173" src="https://user-images.githubusercontent.com/46414159/215970975-4692f9c8-ba6f-4b1f-9fc1-5672d16634c9.png">
+<img width="600" alt="1675233939121" src="https://user-images.githubusercontent.com/46414159/215971142-3a55469a-aab7-498f-83fc-c55adef1a495.png">
+
+
+
 
 ### Notes
 - CoordConv: https://zhuanlan.zhihu.com/p/39919038
