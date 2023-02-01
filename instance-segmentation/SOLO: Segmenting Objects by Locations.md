@@ -13,6 +13,8 @@ Ranking: :star: :star: :star: :star:
 - SOLO can directly segment (e.g., AdaptIS, PolarMask) the instance masks.End-to-end.
 
 ### Method
+<img width="700" alt="1675231816857" src="https://user-images.githubusercontent.com/46414159/215965301-0fc7669a-fae8-40f2-b42d-59a91727e754.png">
+
 - Divide the image into uniform grids (S*S). If the center of an object falls into a grid cell, that grid cell is responsible for
 
   - predicting the semantic category (belongs to which class, output is SSC.
@@ -25,3 +27,4 @@ Ranking: :star: :star: :star: :star:
 ### Experiments
 
 ### Notes
+- CoordConv: https://zhuanlan.zhihu.com/p/39919038
