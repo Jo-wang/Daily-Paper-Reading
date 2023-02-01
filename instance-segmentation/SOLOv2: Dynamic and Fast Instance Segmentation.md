@@ -13,8 +13,10 @@ NeurIPS2020
   - c) slow mask NMS.
 
 ### Method
-#### Mask Learning
-
+#### Dynamic instance segmentation
+- The masking learning in SOLOv1 spend too much unneeded computation. To improve that, SOLOv2 uses dynamic masking.
+- $M_{i,j}=G_{i,j}\times F$, where $G_{i,j}$ is the dynamic kernel learned, different grid will have different kernel parameters. $F$ is mask feature.
+- 
 #### Matrix NMS
 
 ### Experiments
