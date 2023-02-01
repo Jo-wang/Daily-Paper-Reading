@@ -115,6 +115,8 @@ Daily paper reading records
 
 :question: [SOLO: Segmenting Objects by Locations](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/instance-segmentation/SOLO:%20Segmenting%20Objects%20by%20Locations.md)
 
+:question: [SOLOv2: Dynamic and Fast Instance Segmentation]()
+
 ### Unsupervised instance segmentation
 :question: [Freesolo: Learning to segment objects without annotations](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/instance-segmentation/unsupervised-IS/Freesolo:%20Learning%20to%20segment%20objects%20without%20annotations.md)
 
