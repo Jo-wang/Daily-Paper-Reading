@@ -31,6 +31,7 @@ NeurIPS2020
   - The penalty of each prediction $m_i$ on $m_j$ ($s_i$  > $s_j$), where $s_i$ and $s_j$ are the confidence scores.  $\rightarrow$ monotonic decreasing function $f(iou)$
   - The probability of $m_i$ being suppressed. $\rightarrow$ the probability usually has positive correlation with the IoUs. So here we directly approximate the probability by the most overlapped prediction on $m_i$
   <img width="600" alt="1675301430417" src="https://user-images.githubusercontent.com/46414159/216208861-b5c91ea8-3b7d-4f48-9cdf-cd944855cf63.png">
+  <img width="600" alt="1675303691754" src="https://user-images.githubusercontent.com/46414159/216213660-0800dd01-dbba-4d1f-bd3b-4ddda7f2092e.png">
 
 ### Experiments
 - dataset: COCO test-dev; LVISv0.5
