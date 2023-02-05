@@ -36,7 +36,7 @@ Daily paper reading records
 
 [Source-Free Adaptation to Measurement Shift via Bottom-Up Feature Restoration](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Source-Free%20Adaptation%20to%20Measurement%20Shift%20via%20Bottom-Up%20Feature%20Restoration.md)
 
-❓ [f-Domain-Adversarial Learning: Theory and Algorithms](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/f-Domain-Adversarial%20Learning:%20Theory%20and%20Algorithms.md)
+[f-Domain-Adversarial Learning: Theory and Algorithms](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/f-Domain-Adversarial%20Learning:%20Theory%20and%20Algorithms.md)
 
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
