@@ -77,9 +77,9 @@ Daily paper reading records
 
 ❓ [Language-driven Semantic Segmentation]()
 
-:star: [Active Boundary Loss for Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/segmentation/Active%20Boundary%20Loss%20for%20Semantic%20Segmentation.md)
+[Active Boundary Loss for Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/segmentation/Active%20Boundary%20Loss%20for%20Semantic%20Segmentation.md)
 
-:star: [Segfix: Model-agnostic boundary refinement for segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/segmentation/Segfix:%20Model-agnostic%20boundary%20refinement%20for%20segmentation.md)
+[Segfix: Model-agnostic boundary refinement for segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/segmentation/Segfix:%20Model-agnostic%20boundary%20refinement%20for%20segmentation.md)
 
 ## Domain Generalization
 [SWAD: Domain Generalization by Seeking Flat Minima](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/dg/SWAD:%20Domain%20Generalization%20by%20Seeking%20Flat%20Minima.md)
