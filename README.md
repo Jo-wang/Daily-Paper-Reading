@@ -17,7 +17,7 @@ Daily paper reading records
 
 :question: [Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Adaptation%20via%20Self-Training%20with%20Nearest%20Neighbor%20Information.md)
 
-:question: [Towards Stable Test-time Adaptation in Dynamic Wild World]()
+:question: [Towards Stable Test-time Adaptation in Dynamic Wild World](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Towards%20Stable%20Test-time%20Adaptation%20in%20Dynamic%20Wild%20World.md)
 
 ## Imbalanced Data
 [Learning to Re-weight Examples with Optimal Transport for Imbalanced Classification](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/Learning%20to%20Re-weight%20Examples%20with%20Optimal%20Transport%20for%20Imbalanced%20Classification.md)
