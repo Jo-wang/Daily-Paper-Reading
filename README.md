@@ -124,6 +124,8 @@ Daily paper reading records
 ### Unsupervised instance segmentation
 :question: [Freesolo: Learning to segment objects without annotations](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/instance-segmentation/unsupervised-IS/Freesolo:%20Learning%20to%20segment%20objects%20without%20annotations.md)
 
+:question: [Dense Contrastive Learning for Self-Supervised Visual Pre-Training]()
+
 :question: [Cut and Learn for Unsupervised Object Detection and Instance Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/instance-segmentation/unsupervised-IS/Cut%20and%20Learn%20for%20Unsupervised%20Object%20Detection%20and%20Instance%20Segmentation.md)
 
 ## Transformer
