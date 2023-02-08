@@ -136,3 +136,5 @@ Daily paper reading records
 
 ## Calibration
 :question: [Revisiting the Calibration of Modern Neural Networks]()
+
+:question: [Mitigating Bias in Calibration Error Estimation]()
