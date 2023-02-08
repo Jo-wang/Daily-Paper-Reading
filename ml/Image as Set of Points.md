@@ -34,7 +34,7 @@ Ranking: :star: :star: :star:
 - tasks: image classification, object detection, instance segmentation, semantic segmentation
 - experiments:
 <img width="400" alt="1675828102837" src="https://user-images.githubusercontent.com/46414159/217427023-401459d3-990d-47a1-98f9-cae8d8029116.png">
-<img width="700" alt="1675828118924"https://user-images.githubusercontent.com/46414159/217427101-b6affa45-8b1c-44e5-9f25-eec838a9a429.png">
+<img width="700" alt="1675828118924" src="https://user-images.githubusercontent.com/46414159/217427101-b6affa45-8b1c-44e5-9f25-eec838a9a429.png">
 <img width="300" alt="1675828141231" src="https://user-images.githubusercontent.com/46414159/217427172-eca01250-5eb2-494e-a8e6-3af210a95e50.png">
 
 
