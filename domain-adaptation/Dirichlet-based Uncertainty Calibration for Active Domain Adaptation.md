@@ -45,9 +45,24 @@ simplex.
 
 - **target selection**: In each active selection step, we select samples in two rounds. In the first round, top κb target samples with highest $U_\text{dis}$ are selected. Then according to data uncertainty $U_\text{data}$, we choose the top b target samples from the candidates in the first round to query labels. 
 
+#### MODEL LEARNING
+<img width="800" alt="1675911642166" src="https://user-images.githubusercontent.com/46414159/217706902-cfa4b649-7095-4cda-ab63-d083b9b0b47a.png">
+
+
 ### Experiments
+- dataset: miniDomainNet, Office-home, GTA5 - Cityscapes; Synthia - Cityscapes
+
+![1675911873486](https://user-images.githubusercontent.com/46414159/217707421-a28e8e63-3dfc-4ae6-9bf9-aa463807a9fc.png)
+
+![1675911898753](https://user-images.githubusercontent.com/46414159/217707473-0f76aab5-ba17-459f-9ee4-34dda0e456c4.png)
+
+### Ablation Study
+<img width="350" alt="1675911984631" src="https://user-images.githubusercontent.com/46414159/217707648-4edd59db-09d4-4cba-b5db-08ef95e50b0d.png">
+
+<img width="350" alt="1675911924488" src="https://user-images.githubusercontent.com/46414159/217707527-2699091c-c0cf-4faf-b727-ea056d0706ef.png">
 
 ### Notes
 - Based on Subjective Logic, the Dirichlet-based evidential model intrinsically captures different origins of uncertainty: the lack of evidences and the conflict of evidences
   - the distribution uncertainty is to express the lack of evidences, which mainly arises from the distribution mismatch, i.e., the model is unfamiliar with the data and lacks knowledge about it
   - the conflict of evidences is expressed as the data uncertainty, which comes from the natural data complexity, e.g., low discriminability. 
+![1675912064597](https://user-images.githubusercontent.com/46414159/217707787-48f6f103-931e-475f-8236-7ab349a67a63.png)
