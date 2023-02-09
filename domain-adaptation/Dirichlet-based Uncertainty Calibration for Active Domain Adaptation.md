@@ -65,4 +65,5 @@ simplex.
 - Based on Subjective Logic, the Dirichlet-based evidential model intrinsically captures different origins of uncertainty: the lack of evidences and the conflict of evidences
   - the distribution uncertainty is to express the lack of evidences, which mainly arises from the distribution mismatch, i.e., the model is unfamiliar with the data and lacks knowledge about it
   - the conflict of evidences is expressed as the data uncertainty, which comes from the natural data complexity, e.g., low discriminability. 
+  
 ![1675912064597](https://user-images.githubusercontent.com/46414159/217707787-48f6f103-931e-475f-8236-7ab349a67a63.png)
