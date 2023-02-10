@@ -140,3 +140,10 @@ Daily paper reading records
 :question: [Revisiting the Calibration of Modern Neural Networks]()
 
 :question: [Mitigating Bias in Calibration Error Estimation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/calibration/Mitigating%20Bias%20in%20Calibration%20Error%20Estimation.md)
+
+## Model Selection
+❓ [LogME: Practical Assessment of Pre-trained Models for Transfer Learning]()
+❓ [Transferability Estimation Using Bhattacharyya Class Separability]()
+❓ [Scalable Diverse Model Selection for Accessible Transfer Learning]()
+❓ [Transferability Metrics for Selecting Source Model Ensembles]()
+❓ [Ranking and Tuning Pre-trained Models: A New Paradigm for Exploiting Model Hubs]()
