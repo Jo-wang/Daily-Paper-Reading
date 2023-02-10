@@ -143,7 +143,7 @@ Daily paper reading records
 
 ## Model Selection
 
-❓ [LogME: Practical Assessment of Pre-trained Models for Transfer Learning]()
+❓ [LogME: Practical Assessment of Pre-trained Models for Transfer Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/model-selection/LogME:%20Practical%20Assessment%20of%20Pre-trained%20Models%20for%20Transfer%20Learning.md)
 
 ❓ [Transferability Estimation Using Bhattacharyya Class Separability]()
 
