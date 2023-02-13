@@ -43,5 +43,13 @@ model with the BN statistics estimated on test data (only update BN parameters)
 
 
 ### Experiments
+- dataset: CIFAR-10C/100C, VLCS PACS OfficeHome TerraIncognita
+
+ <img width="700" alt="image777" src="https://user-images.githubusercontent.com/46414159/218365020-0e2515d7-d327-4ba6-b797-fadbc314d613.png">
+
+ <img width="300" alt="image77" src="https://user-images.githubusercontent.com/46414159/218365057-8690c236-a8d3-47b7-884c-e81d1f6a834d.png">
+
+
 
 ### Notes
+Not just train ones. Not exact TTA.
