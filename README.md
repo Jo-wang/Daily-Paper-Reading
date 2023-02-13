@@ -1,9 +1,13 @@
 # Daily-Paper-Reading
 Daily paper reading records
 
-:question: -> this week's plan
+:question: -> plan to read
 
-:star: -> this week's meeting
+:star: -> good paper
+
+:heavy_check_mark: -> finished for this week
+
+:pushpin: -> group meeting talk this week
 
 ## Machine Learning
 [Surrogate Gap Minimization Improves Sharpness-Aware Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Surrogate%20Gap%20Minimization%20Improves%20Sharpness-Aware%20Training.md)
