@@ -139,7 +139,7 @@ Daily paper reading records
 :question: [Transformers are Sample-Efficient World Models](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer/Transformers%20are%20Sample-Efficient%20World%20Models.md)
 
 ## Calibration
-:question: [Revisiting the Calibration of Modern Neural Networks]()
+:question: [Revisiting the Calibration of Modern Neural Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/calibration/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.md)
 
 :question: [Mitigating Bias in Calibration Error Estimation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/calibration/Mitigating%20Bias%20in%20Calibration%20Error%20Estimation.md)
 
