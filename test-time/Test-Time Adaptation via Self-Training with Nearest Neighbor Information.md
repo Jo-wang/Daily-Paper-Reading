@@ -36,7 +36,7 @@ model with the BN statistics estimated on test data (only update BN parameters)
 
 <img width="700" alt="image8" src="https://user-images.githubusercontent.com/46414159/218358483-7853a0fb-88f9-4c67-a70b-40745691a2bb.png">
 
-- 5. Variant: TAST-BN, that fine-tunes the BN layers instead of adaptation modules. The support set stores the test data itself instead of the feature representations since the embedding space of the feature extractor steadily changes during the test time. 
+- **5. Variant: TAST-BN**, that fine-tunes the BN layers instead of adaptation modules. The support set stores the test data itself instead of the feature representations since the embedding space of the feature extractor steadily changes during the test time. 
   <img width="700" alt="image7" src="https://user-images.githubusercontent.com/46414159/218358366-12966135-d593-46ec-a0aa-fcf497145b07.png">
 
 
