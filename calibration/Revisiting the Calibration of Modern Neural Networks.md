@@ -29,6 +29,3 @@ Ranking: :star: :star: :star: :star:
 - different measurement:
 ![image](https://user-images.githubusercontent.com/46414159/218646035-d723a87a-ad43-41e4-9a5e-cc5941a040ef.png)
 
-### Experiments
-
-### Notes
