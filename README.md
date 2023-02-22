@@ -151,7 +151,7 @@ Daily paper reading records
 
 :pushpin: [Transferability Estimation Using Bhattacharyya Class Separability](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/model-selection/Transferability%20Estimation%20Using%20Bhattacharyya%20Class%20Separability.md)
 
-:pushpin: [LEEP: A new measure to evaluate transferability of learned representations]()
+:pushpin: [LEEP: A new measure to evaluate transferability of learned representations](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/model-selection/LEEP:%20A%20new%20measure%20to%20evaluate%20transferability%20of%20learned%20representations.md)
 
 ❓ [Scalable Diverse Model Selection for Accessible Transfer Learning]()
 
