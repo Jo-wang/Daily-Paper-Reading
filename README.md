@@ -48,7 +48,7 @@ Daily paper reading records
 
 :star: [Dirichlet-based Uncertainty Calibration for Active Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Dirichlet-based%20Uncertainty%20Calibration%20for%20Active%20Domain%20Adaptation.md)
 
-:question: [Addressing Parameter Choice Issues in Unsupervised Domain Adaptation by Aggregation]()
+:question: [Addressing Parameter Choice Issues in Unsupervised Domain Adaptation by Aggregation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/Addressing%20Parameter%20Choice%20Issues%20in%20Unsupervised%20Domain%20Adaptation%20by%20Aggregation.md)
 
 ### DA for Image Classification
 [Cycle Self-Training for Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Cycle%20Self-Training%20for%20Domain%20Adaptation.md)
