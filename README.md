@@ -114,7 +114,7 @@ Daily paper reading records
 
 :question: [Generalization to Out-of-Distribution transformations]()
 
-:question: [Agree to Disagree: Diversity through Disagreement for Better Transferability]()
+:question: [Agree to Disagree: Diversity through Disagreement for Better Transferability](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Agree%20to%20Disagree:%20Diversity%20through%20Disagreement%20for%20Better%20Transferability.md)
 
 
 ## PU Learning
