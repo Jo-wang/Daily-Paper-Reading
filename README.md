@@ -114,6 +114,9 @@ Daily paper reading records
 
 :question: [Generalization to Out-of-Distribution transformations]()
 
+:question: [Agree to Disagree: Diversity through Disagreement for Better Transferability]()
+
+
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
 
