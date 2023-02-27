@@ -25,3 +25,5 @@ The final loss function is a weighted sum of these two terms, where the weight i
 ### Experiments
 
 ### Notes
+[ICLR'23 top 5%] Agree to Disagree: Diversity through Disagreement for Better Transferability - shjj的文章 - 知乎
+https://zhuanlan.zhihu.com/p/607128976
