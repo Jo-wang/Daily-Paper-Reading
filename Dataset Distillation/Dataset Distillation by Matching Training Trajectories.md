@@ -1,1 +1,3 @@
 Dataset Distillation by Matching Training Trajectories
+
+https://openaccess.thecvf.com/content/CVPR2022W/VDU/papers/Cazenavette_Dataset_Distillation_by_Matching_Training_Trajectories_CVPRW_2022_paper.pdf
