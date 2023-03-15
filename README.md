@@ -163,5 +163,7 @@ Daily paper reading records
 
 ❓ [Ranking and Tuning Pre-trained Models: A New Paradigm for Exploiting Model Hubs]()
 
-## New Topics
+## Dataset Distillation
+
+:question: [Dataset Distillation by Matching Training Trajectories]()
 
