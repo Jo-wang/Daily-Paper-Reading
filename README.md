@@ -59,6 +59,8 @@ Daily paper reading records
 
 [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.md)
 
+:question: [Upcycling Models under Domain and Category Shift]()
+
 **14/12/2022** [HyperDomainNet: Universal Domain Adaptation for Generative Adversarial Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/HyperDomainNet:%20Universal%20Domain%20Adaptation%20for%20Generative%20Adversarial%20Networks.md)
 
 ### DA for Semantic Segmentation
