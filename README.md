@@ -169,5 +169,5 @@ Daily paper reading records
 
 ## Dataset Distillation
 
-:question: [Dataset Distillation by Matching Training Trajectories](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/Dataset%20Distillation/Dataset%20Distillation%20by%20Matching%20Training%20Trajectories.md)
+[Dataset Distillation by Matching Training Trajectories](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/Dataset%20Distillation/Dataset%20Distillation%20by%20Matching%20Training%20Trajectories.md)
 
