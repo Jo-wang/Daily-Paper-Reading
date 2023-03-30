@@ -101,6 +101,8 @@ $\omega$ is 0.55.
 
 <img width=750, alt="1680132247299" src="https://user-images.githubusercontent.com/46414159/228689694-ab72a877-cae9-44ab-b397-6ac8b3763413.png">
 
+<img width=750, alt="1680148260313" src="https://user-images.githubusercontent.com/46414159/228724160-c5d377cd-bce1-44c2-be5c-541e4331710b.png">
+
 <img width=750, alt="1680132429334" src="https://user-images.githubusercontent.com/46414159/228690057-e6837d30-e2e2-415e-9405-768a8f66a63f.png">
 
 ### Notes
