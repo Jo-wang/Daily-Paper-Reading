@@ -30,7 +30,7 @@ Daily paper reading records
 
 :question: [ACE: Ally Complementary Experts for Solving Long-Tailed Recognition in One-Shot](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/ACE:%20Ally%20Complementary%20Experts%20for%20Solving%20Long-Tailed%20Recognition%20in%20One-Shot.md)
 
-:question: [Posterior Re-calibration for Imbalanced Datasets]()
+:question: [Posterior Re-calibration for Imbalanced Datasets](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/Posterior%20Re-calibration%20for%20Imbalanced%20Datasets.md)
 
 ## Transfer Learning things
 :question: [Does Robustness on ImageNet Transfer to Downstream Tasks?]()
