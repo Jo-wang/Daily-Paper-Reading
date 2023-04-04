@@ -2,7 +2,7 @@
 
 NeurIPS2020
 
-**Main idea:
+**Main idea:** 
 
 ### Introduction and background
 - it is important to study robust algorithms that can perform well with such imbalanced datasets and unseen situations during testing (label prior shift or non-semantic likelihood shift)
