@@ -17,6 +17,8 @@ NeurIPS2020
 
 - **non-semantic likelihood shift:** shift without introducing new semantic labels such as sensor degradations, changes in lighting, or presentation of the same categories in a different modality, i.e. $f_s(X \mid Y) \neq f_t(X \mid Y)$
 
+<img width=700 alt="1680592166128" src="https://user-images.githubusercontent.com/46414159/229715219-44c80950-6438-4eef-8903-d0689f629b5d.png">
+
 #### Imbalance Calibration (IC) with Prior Rebalancing
 
 #### Confidence Calibration with Likelihood Flattening
@@ -24,3 +26,4 @@ NeurIPS2020
 ### Experiments
 
 ### Notes
+UNO: Uncertainty-aware Noisy-Or Multimodal Fusion for Unanticipated Input Degradation
