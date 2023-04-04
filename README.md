@@ -120,7 +120,7 @@ Daily paper reading records
 :question: [Agree to Disagree: Diversity through Disagreement for Better Transferability](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/Agree%20to%20Disagree:%20Diversity%20through%20Disagreement%20for%20Better%20Transferability.md)
 
 ### OOD Detection
-📌 [Mitigating Neural Network Overconfidence with Logit Normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/OOD-Detection/Mitigating%20Neural%20Network%20Overconfidence%20with%20Logit%20Normalization.md)
+[Mitigating Neural Network Overconfidence with Logit Normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/OOD-Detection/Mitigating%20Neural%20Network%20Overconfidence%20with%20Logit%20Normalization.md)
 
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
