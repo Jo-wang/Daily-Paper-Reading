@@ -21,7 +21,7 @@ Daily paper reading records
 
 [Back to the Source: Diffusion-Driven Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Back%20to%20the%20Source:%20Diffusion-Driven%20Test-Time%20Adaptation.md)
 
-:heavy_check_mark: [Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Adaptation%20via%20Self-Training%20with%20Nearest%20Neighbor%20Information.md)
+[Test-Time Adaptation via Self-Training with Nearest Neighbor Information](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Adaptation%20via%20Self-Training%20with%20Nearest%20Neighbor%20Information.md)
 
 :question: [Towards Stable Test-time Adaptation in Dynamic Wild World](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Towards%20Stable%20Test-time%20Adaptation%20in%20Dynamic%20Wild%20World.md)
 
@@ -30,7 +30,7 @@ Daily paper reading records
 
 :question: [ACE: Ally Complementary Experts for Solving Long-Tailed Recognition in One-Shot](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/ACE:%20Ally%20Complementary%20Experts%20for%20Solving%20Long-Tailed%20Recognition%20in%20One-Shot.md)
 
-:question: [Posterior Re-calibration for Imbalanced Datasets](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/Posterior%20Re-calibration%20for%20Imbalanced%20Datasets.md)
+:heavy_check_mark: [Posterior Re-calibration for Imbalanced Datasets](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/Posterior%20Re-calibration%20for%20Imbalanced%20Datasets.md)
 
 ## Transfer Learning things
 :question: [Does Robustness on ImageNet Transfer to Downstream Tasks?]()
