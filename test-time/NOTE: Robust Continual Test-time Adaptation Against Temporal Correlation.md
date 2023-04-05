@@ -32,7 +32,30 @@ test data streams (with the time t changes)
 - when $\alpha$ is 0, this is IN and when it turns infinity, this is BN.
 
 #### Adaptation via Prediction-Balanced Reservoir Sampling
+**Problem:** Temporally correlated distributions lead to an bias in p(y).
+
+<img width=700 alt="1680678702191" src="https://user-images.githubusercontent.com/46414159/230007399-1362c9e9-198b-468c-8143-3972697c540b.png">
+
+**To solve it:** mimics i.i.d. samples from temporally correlated streams with the assistance of a small (e.g., a mini-batch size) memory.
+
+- Time-uniform sampling: reservoir sampling (RS) collect time-uniform data in a
+single pass on a stream without prior knowledge of the total length of data
+- Prediction-uniform sampling: use the predicted labels to compute the majority class(es) in the memory. We then replace a random instance of the majority class(es) with a new sample.
+
+- To avoid performance degraded if there's severe shift, uses EMA to update $\mu _t$ and   $\sigma _t$ from previous step (t-1) by the memory. e.g., $\mu _t=(1-m) \mu _{t-1}+m \frac{N}{N-1} \hat{\mu}_t$
+
+#### Inference   
+<img width=700 alt="1680679336207" src="https://user-images.githubusercontent.com/46414159/230009929-66460a1c-ad5f-4a90-8724-2bf40ec0be42.png">
 
 ### Experiments
+- dataset: CIFAR10-C, CIFAR100-C, and ImageNet-C 
+- exp:
+<img width=700 alt="1680679486733" src="https://user-images.githubusercontent.com/46414159/230010577-6f02ef54-84f2-483b-bef3-c1b033e92cd7.png">
+
+<img width=700 alt="1680679621688" src="https://user-images.githubusercontent.com/46414159/230011097-1ccc02ad-6730-4fe4-83d2-724627574c0a.png">
+
+- Ablation:
+<img width=700 alt="1680679653301" src="https://user-images.githubusercontent.com/46414159/230011212-daa8afdd-18be-4d53-94cf-c9f41904de6d.png">
+
 
 ### Notes
