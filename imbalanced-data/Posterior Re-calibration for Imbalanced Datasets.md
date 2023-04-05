@@ -21,9 +21,20 @@ NeurIPS2020
 
 #### Imbalance Calibration (IC) with Prior Rebalancing
 
+<img width=700 alt="1680667749992" src="https://user-images.githubusercontent.com/46414159/229978808-3829e5d2-1627-4870-9bbc-d91b1bcacbbe.png">
+
+<img width=700 alt="1680667923318" src="https://user-images.githubusercontent.com/46414159/229979163-af77338a-cff2-4b72-955e-6076637797c9.png">
+
+
 #### Confidence Calibration with Likelihood Flattening
 
+- From paper: Uno: Uncertaintyaware noisy-or multimodal fusion for unanticipated input degradation
+
+
 ### Experiments
+<img width=700 alt="1680669879223" src="https://user-images.githubusercontent.com/46414159/229983175-7cec5c0d-d92b-4420-8052-0eddc5361b95.png">
+
+<img width=700 alt="1680669931213" src="https://user-images.githubusercontent.com/46414159/229983287-f781cfc9-6559-455d-9162-b1832c20e464.png">
 
 ### Notes
 UNO: Uncertainty-aware Noisy-Or Multimodal Fusion for Unanticipated Input Degradation
