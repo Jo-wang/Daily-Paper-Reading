@@ -63,7 +63,7 @@ Daily paper reading records
 
 :question: [Upcycling Models under Domain and Category Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/Upcycling%20Models%20under%20Domain%20and%20Category%20Shift.md)
 
-**14/12/2022** [HyperDomainNet: Universal Domain Adaptation for Generative Adversarial Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/HyperDomainNet:%20Universal%20Domain%20Adaptation%20for%20Generative%20Adversarial%20Networks.md)
+[HyperDomainNet: Universal Domain Adaptation for Generative Adversarial Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/image-classification/HyperDomainNet:%20Universal%20Domain%20Adaptation%20for%20Generative%20Adversarial%20Networks.md)
 
 ### DA for Semantic Segmentation
 [Unsupervised Domain Adaptation for Semantic Segmentation using Depth Distribution](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/domain-adaptation/semantic-segmentation/Unsupervised%20Domain%20Adaptation%20for%20Semantic%20Segmentation%20using%20Depth%20Distribution.md)  
@@ -151,7 +151,7 @@ Daily paper reading records
 :question: [Transformers are Sample-Efficient World Models](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/transformer/Transformers%20are%20Sample-Efficient%20World%20Models.md)
 
 ## Calibration
-:question: [Revisiting the Calibration of Modern Neural Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/calibration/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.md)
+[Revisiting the Calibration of Modern Neural Networks](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/calibration/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.md)
 
 :question: [Mitigating Bias in Calibration Error Estimation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/calibration/Mitigating%20Bias%20in%20Calibration%20Error%20Estimation.md)
 
