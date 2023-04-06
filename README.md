@@ -99,7 +99,7 @@ Daily paper reading records
 
 [Segfix: Model-agnostic boundary refinement for segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/segmentation/Segfix:%20Model-agnostic%20boundary%20refinement%20for%20segmentation.md)
 
-❓ [Segment Anything]()
+❓ [Segment Anything](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/segmentation/Segment%20Anything.md)
 
 ## Domain Generalization
 [SWAD: Domain Generalization by Seeking Flat Minima](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/dg/SWAD:%20Domain%20Generalization%20by%20Seeking%20Flat%20Minima.md)
