@@ -27,6 +27,8 @@ Daily paper reading records
 
 :question: [Towards Stable Test-time Adaptation in Dynamic Wild World](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Towards%20Stable%20Test-time%20Adaptation%20in%20Dynamic%20Wild%20World.md)
 
+:question: **medical** [Test-Time Unsupervised Domain Adaptation]()
+
 ## Imbalanced Data
 [Learning to Re-weight Examples with Optimal Transport for Imbalanced Classification](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/imbalanced-data/Learning%20to%20Re-weight%20Examples%20with%20Optimal%20Transport%20for%20Imbalanced%20Classification.md)
 
