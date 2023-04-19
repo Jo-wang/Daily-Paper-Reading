@@ -12,6 +12,7 @@ CVPR2023
 - the Hebbian learning does not have an effective mechanism to consider external feedback, especially the feedback from the top network layers.
 
 ### Method
+![1681871055199](https://user-images.githubusercontent.com/46414159/232950283-a5a59707-4b19-4065-9f90-096b8fee4cac.png)
 
 ### Experiments
 
