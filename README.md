@@ -17,7 +17,7 @@ Daily paper reading records
 [Image as Set of Points](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Image%20as%20Set%20of%20Points.md)
 
 ## Test-time Adaptation
-:question: [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts]()
+:question: [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
 [Efficient Test-Time Model Adaptation without Forgetting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Efficient%20Test-Time%20Model%20Adaptation%20without%20Forgetting.md)
 
