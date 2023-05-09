@@ -21,10 +21,10 @@ once.
 <img width=400 alt="1683509941416" src="https://user-images.githubusercontent.com/46414159/236715575-268b5eaa-5174-446f-bb8e-3f78d1116a08.png">
 
 #### TTBA
-![1683531215912](https://user-images.githubusercontent.com/46414159/236763425-c5e74aad-9994-4445-a7fa-8f2c99e51da5.png)
+<img width=350 alt="1683531215912" src="https://user-images.githubusercontent.com/46414159/236763425-c5e74aad-9994-4445-a7fa-8f2c99e51da5.png">
 
 #### OTTA
+<img width=350 alt="1683591032411" src="https://user-images.githubusercontent.com/46414159/236962657-4a656dd9-45d0-449f-a508-9c65620f7f07.png">
 
-### Experiments
+#### TTPA
 
-### Notes
