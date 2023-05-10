@@ -21,7 +21,9 @@ Daily paper reading records
 
 [The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/The%20Norm%20Must%20Go%20On%3A%20Dynamic%20Unsupervised%20Domain%20Adaptation%20by%20Normalization.md)
 
-❓ [Online Adaptation to Label Distribution Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Online%20Adaptation%20to%20Label%20Distribution%20Shift.md)
+[Online Adaptation to Label Distribution Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Online%20Adaptation%20to%20Label%20Distribution%20Shift.md)
+
+❓ [MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation]()
 
 [Efficient Test-Time Model Adaptation without Forgetting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Efficient%20Test-Time%20Model%20Adaptation%20without%20Forgetting.md)
 
