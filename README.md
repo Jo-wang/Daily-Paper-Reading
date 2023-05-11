@@ -25,7 +25,7 @@ Daily paper reading records
 
 [Improving robustness against common corruptions by covariate shift adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improving%20robustness%20against%20common%20corruptions%20by%20covariate%20shift%20adaptation.md)
 
-❓ [MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MM-TTA%3A%20Multi-Modal%20Test-Time%20Adaptation%20for%203D%20Semantic%20Segmentation.md)
+[MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MM-TTA%3A%20Multi-Modal%20Test-Time%20Adaptation%20for%203D%20Semantic%20Segmentation.md)
 
 [Efficient Test-Time Model Adaptation without Forgetting](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Efficient%20Test-Time%20Model%20Adaptation%20without%20Forgetting.md)
 
