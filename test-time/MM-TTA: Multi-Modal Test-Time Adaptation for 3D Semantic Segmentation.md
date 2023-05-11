@@ -3,6 +3,7 @@
 CVPR2022
 
 ### Introduction and background
+- OTTA
 - There are two main issues occurred when directly using TENT to image and point cloud: 1. min ent tends to produce sharp output distribution, this may increase the cross-modal discrepancy. 2. If using consistency loss to min the discrepancy, the performance may worse due to the unavailability of the target label.
 - To solve above issue, our goal is to have reliable pseudo labels
 - Intra-modal Pseudo-label Generation (Intra-PG): only updating batch norm parameters by seeing the test data once. We have two branches, one is **slow modeling**, init para from source pre-trained model and momentum update the BN statistics. Another one is **fast modeling**, directly updated by the test data. Then fuse predictions from the slow-/fastupdated
