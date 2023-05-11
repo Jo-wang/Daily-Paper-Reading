@@ -13,5 +13,3 @@ ImageNet-C; ImageNet-A;  ImageNet-V2; ObjectNet; ImageNet-R
 where mCE is mean corruption error:
 
 <img width=300 alt="1683773308353" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f03a98b1-2087-49ec-b639-1323693b5b78">
-
-### Notes
