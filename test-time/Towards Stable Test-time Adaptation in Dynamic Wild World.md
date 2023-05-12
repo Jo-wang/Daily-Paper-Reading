@@ -6,6 +6,7 @@ Ranking: ⭐ ⭐ ⭐
 
 ### Introduction and background
 ![1683864036646](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/1cc6a706-80c7-4bd9-9d53-e25a46c4831e)
+- This is online setting, OTTA; also could be seen as 
 - Conventional TTA may fail when facing with mixed domain shift; simgle sample batch; or online imbalanced label shift.
 - Bn is the key obstacle
 - pre-trained models with batch-agnostic norm layers (i.e., group norm (GN) and layer norm (LN) are more beneficial for stable TTA
