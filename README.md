@@ -19,7 +19,9 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
-❓ [TTN: A Domain-Shift Aware Batch Normalization in Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTN%3A%20A%20Domain-Shift%20Aware%20Batch%20Normalization%20in%20Test-Time%20Adaptation.md)
+❓ [Extrapolative Continuous-time Bayesian Neural Network for Fast Training-free Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Extrapolative%20Continuous-time%20Bayesian%20Neural%20Network%20for%20Fast%20Training-free%20Test-time%20Adaptation.md)
+
+[TTN: A Domain-Shift Aware Batch Normalization in Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTN%3A%20A%20Domain-Shift%20Aware%20Batch%20Normalization%20in%20Test-Time%20Adaptation.md)
 
 [The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/The%20Norm%20Must%20Go%20On%3A%20Dynamic%20Unsupervised%20Domain%20Adaptation%20by%20Normalization.md)
 
