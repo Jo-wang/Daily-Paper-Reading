@@ -19,7 +19,14 @@ The main focus is the post-training process:
 
 ![1683947887304](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e43cdac5-dda8-4ab9-9641-00cd674bff6d)
 
-After that, treat the set of distances of each layer as a prior A and uses these info to optimize $\alpha$
+After that, treat the set of distances of each layer as a prior A and uses these info to optimize a learnable parameter $\alpha$:
+
+<img width=250 alt="1684109130731" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/0df4820e-b040-4c59-b512-3f225e8b0a98">
+
+1. The prior $A$ is defined as a set of distance for each layer from 1 to L.
+2. Initialize $\alpha$ 
+3. To simulate the test data, use augmented training data as input, optimize the $\alpha$ by CE loss and MSE between $\alpha$ and corresponding element in $A$. $\mathcal{L}_{\mathrm{MSE}} \equiv\|\alpha-\mathcal{A}\|^2$
+4. After we obtain the optimized $\alpha$, use it in test time to control the weight when updating $\mu$ and $\sigma$.
 
 ### Experiments
 
