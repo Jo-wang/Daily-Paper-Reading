@@ -29,5 +29,10 @@ After that, treat the set of distances of each layer as a prior A and uses these
 4. After we obtain the optimized $\alpha$, use it in test time to control the weight when updating $\mu$ and $\sigma$.
 
 ### Experiments
+- Dataset: img cla: CIFAR10/100-C, ImageNet-C. semantic segmentation: Cityscapes, GTA5, Synthia, Mapillary
+![1684110269407](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/372f3b4f-63e8-43e5-851c-87ff39bf5f7e)
 
-### Notes
+![1684110330840](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/45ec67a7-1027-4fe5-8479-f1f0a8d8173f)
+
+![1684110402824](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/15517a73-2ba0-400a-b484-aa296477a594)
+
