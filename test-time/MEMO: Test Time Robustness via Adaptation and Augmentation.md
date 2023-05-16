@@ -16,6 +16,10 @@ NeurIPS2022
   - We want the prediction consistency for different augmentations
   - We want the model to be confident for its predictions
 - min the Ent for the augmented data
+- Modify the BN statistics: channelwise mean and variance estimated from this point are mixed with the the mean and variance computed during training according to a prior strength N:
+
+<img width=250 alt="1684201204465" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/402a730c-92d9-4754-b436-b1aa3228818f">
+
 
 ### Experiments
 
