@@ -2,6 +2,8 @@
 
 ICML2020
 
+Could be OTTA 
+
 ### Introduction and background
 - 1. Traditional machine learning assumes that training and test data come from the same distribution, which may not be true in practice.
 - 2. Distribution shifts can occur due to changes in the environment, sensor noise, or other factors.
