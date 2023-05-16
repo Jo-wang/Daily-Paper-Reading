@@ -12,6 +12,21 @@ Could be OTTA
 - 5. TTT has several advantages over existing methods, including simplicity, flexibility, and effectiveness on diverse image classification benchmarks.
 
 ### Method
+1. Train a model on labeled data from the source domain using supervised learning.
+
+2. At test time, obtain an unlabeled sample from the target domain.
+
+3. Use the unlabeled sample to create a self-supervised learning problem, such as predicting rotations or colorization. This is done by applying a random transformation to the image (e.g., rotating it by a random angle) and then asking the model to predict the transformation that was applied.
+
+4. Update the model parameters using backpropagation on this self-supervised task. This involves computing gradients with respect to both the supervised loss on the source domain and the self-supervised loss on the target domain.
+
+5. Make a prediction on the original task (e.g., image classification) using the updated model parameters.
+
+6. Repeat steps 2-5 for each test sample, allowing for online adaptation to distribution shifts.
+
+The intuition behind TTT is that by creating a self-supervised learning problem at test time, we can use information from the target domain to update our model in a way that improves its performance on that domain. This allows us to adapt to distribution shifts without requiring labeled data from the target domain.
+
+TTT has several advantages over existing methods for addressing distribution shifts, including simplicity, flexibility, and effectiveness on diverse image classification benchmarks aimed at evaluating robustness to distribution shifts. However, it also has limitations, including sensitivity to hyperparameters and potential overfitting to specific self-supervised tasks.
 
 ### Experiments
 
