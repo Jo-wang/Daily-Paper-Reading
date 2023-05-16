@@ -28,7 +28,7 @@ The intuition behind TTT is that by creating a self-supervised learning problem 
 
 TTT has several advantages over existing methods for addressing distribution shifts, including simplicity, flexibility, and effectiveness on diverse image classification benchmarks aimed at evaluating robustness to distribution shifts. However, it also has limitations, including sensitivity to hyperparameters and potential overfitting to specific self-supervised tasks.
 
-**Note that the main exp replace the BN with GN.
+**Note that the main exp replace the BN with GN.**
 
 ### Experiments
 The paper used ResNets as the backbone architecture for all experiments, with different numbers of layers depending on the dataset. For CIFAR-10, a 26-layer ResNet was used, while for ImageNet, an 18-layer ResNet was used.
