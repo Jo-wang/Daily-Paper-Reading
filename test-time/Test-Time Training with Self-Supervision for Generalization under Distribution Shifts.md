@@ -22,8 +22,6 @@ Could be OTTA
 
 5. Make a prediction on the original task (e.g., image classification) using the updated model parameters.
 
-6. Repeat steps 2-5 for each test sample, allowing for online adaptation to distribution shifts.
-
 The intuition behind TTT is that by creating a self-supervised learning problem at test time, we can use information from the target domain to update our model in a way that improves its performance on that domain. This allows us to adapt to distribution shifts without requiring labeled data from the target domain.
 
 TTT has several advantages over existing methods for addressing distribution shifts, including simplicity, flexibility, and effectiveness on diverse image classification benchmarks aimed at evaluating robustness to distribution shifts. However, it also has limitations, including sensitivity to hyperparameters and potential overfitting to specific self-supervised tasks.
