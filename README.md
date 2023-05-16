@@ -19,7 +19,9 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
-❓ [MEMO: Test Time Robustness via Adaptation and Augmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MEMO:%20Test%20Time%20Robustness%20via%20Adaptation%20and%20Augmentation.md)
+❓ [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Self-Supervision%20for%20Generalization%20under%20Distribution%20Shifts.md)
+
+[MEMO: Test Time Robustness via Adaptation and Augmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MEMO:%20Test%20Time%20Robustness%20via%20Adaptation%20and%20Augmentation.md)
 
 ❓ [Extrapolative Continuous-time Bayesian Neural Network for Fast Training-free Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Extrapolative%20Continuous-time%20Bayesian%20Neural%20Network%20for%20Fast%20Training-free%20Test-time%20Adaptation.md)
 
