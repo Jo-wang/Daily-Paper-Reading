@@ -29,5 +29,8 @@ The intuition behind TTT is that by creating a self-supervised learning problem 
 TTT has several advantages over existing methods for addressing distribution shifts, including simplicity, flexibility, and effectiveness on diverse image classification benchmarks aimed at evaluating robustness to distribution shifts. However, it also has limitations, including sensitivity to hyperparameters and potential overfitting to specific self-supervised tasks.
 
 ### Experiments
+The paper used ResNets (He et al., 2016b) as the backbone architecture for all experiments, with different numbers of layers depending on the dataset. For CIFAR-10, a 26-layer ResNet was used, while for ImageNet, an 18-layer ResNet was used.
+
+The batch size used in the experiments varied depending on the dataset and method being evaluated. For example, in the CIFAR-10-C experiments, a batch size of 128 was used for TTT and TTT-Online, while a batch size of 256 was used for UDA-SS. In the ImageNet-C experiments, a batch size of 32 was used for TTT and fine-tuning, while a batch size of 16 was used for meta-learning.
 
 ### Notes
