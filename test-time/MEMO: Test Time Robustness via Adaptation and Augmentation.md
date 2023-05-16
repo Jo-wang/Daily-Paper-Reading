@@ -3,11 +3,19 @@
 NeurIPS2022
 
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- methods require specialized training procedures, and they typically rely on extracting information via batches or entire sets of test inputs, thus introducing additional assumptions.
+- Our method, "plug and play"; synergize with other robustification techniques
+- propose marginal entropy minimization with one test point (MEMO)
 
 ### Method
+![1684199636607](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/27171c9d-7fc3-49dd-854f-2707bf521ef3)
+
+![1684200138601](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/3ebbfe4d-12e3-45a8-bd1d-a790e225390a)
+
+- For each batch with batch size B, sample B augmentations in augmentation set and perform them to input data in order.
+  - We want the prediction consistency for different augmentations
+  - We want the model to be confident for its predictions
+- min the Ent for the augmented data
 
 ### Experiments
 
