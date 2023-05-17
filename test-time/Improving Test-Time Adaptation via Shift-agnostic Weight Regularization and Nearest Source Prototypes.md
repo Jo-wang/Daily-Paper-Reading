@@ -9,9 +9,9 @@ ECCV2022
 
 ### Method
 
-- The **shift-agnostic weight regularization** approach encourages updating the model parameters sensitive to distribution shift while slightly updating those insensitive to the shift, during test-time adaptation. This regularization enables the model to quickly adapt to the target domain without performance degradation by utilizing the benefit of a high learning rate. The authors propose a novel loss function that incorporates this regularization term, which can be easily integrated into any existing deep learning framework.
+- The **shift-agnostic weight regularization (SWR)** approach encourages updating the model parameters sensitive to distribution shift while slightly updating those insensitive to the shift, during test-time adaptation. This regularization enables the model to quickly adapt to the target domain without performance degradation by utilizing the benefit of a high learning rate. The authors propose a novel loss function that incorporates this regularization term, which can be easily integrated into any existing deep learning framework.
 
-- The **nearest source prototypes** approach is an auxiliary task that aligns the source and target features, which helps reduce distribution shift and leads to further performance improvement. The authors propose a nearest source prototype classifier that learns to classify unlabeled target data based on its similarity to labeled source data. This approach encourages the model to learn features that are invariant across domains and reduces the discrepancy between the source and target distributions.
+- The **(non-parametric) nearest source prototypes (NSP)** approach is an auxiliary task that aligns the source and target features, which helps reduce distribution shift and leads to further performance improvement. The authors propose a nearest source prototype classifier that learns to classify unlabeled target data based on its similarity to labeled source data. This approach encourages the model to learn features that are invariant across domains and reduces the discrepancy between the source and target distributions.
 
 ### Experiments
 
