@@ -50,5 +50,6 @@ After generating source prototype:
 - Summary: The **(non-parametric) nearest source prototypes (NSP)** approach is an auxiliary task that aligns the source and target features, which helps reduce distribution shift and leads to further performance improvement. The authors propose a nearest source prototype classifier that learns to classify unlabeled target data based on its similarity to labeled source data. This approach encourages the model to learn features that are invariant across domains and reduces the discrepancy between the source and target distributions.
 
 ### Experiments
+![Screen Shot 2023-05-17 at 23 35 52](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e3349eb7-71b7-45e6-82cf-0649f239753e)
 
 ### Notes
