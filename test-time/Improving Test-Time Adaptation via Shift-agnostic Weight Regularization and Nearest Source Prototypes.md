@@ -17,6 +17,12 @@ where e is encoder, c is classifier.
 
 ![1684312946872](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/1d5cdd12-0f98-4be5-b105-56a21ddd235e)
 
+Input the org img and aug img into source model and use cosine similarity to calculate the change of gradient. g is gradient vector. l is layer l, N is source sample.
+
+![1684313759806](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/6c671683-9cea-4751-8aab-a626c07c32c5)
+
+v is min-max normalization in range [0,1].
+
 - The **shift-agnostic weight regularization (SWR)** approach encourages updating the model parameters sensitive to distribution shift while slightly updating those insensitive to the shift, during test-time adaptation. This regularization enables the model to quickly adapt to the target domain without performance degradation by utilizing the benefit of a high learning rate. The authors propose a novel loss function that incorporates this regularization term, which can be easily integrated into any existing deep learning framework.
 
 ![1684312985893](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/ab6b62d5-4a7d-4fae-b094-1fc0e366d441)
