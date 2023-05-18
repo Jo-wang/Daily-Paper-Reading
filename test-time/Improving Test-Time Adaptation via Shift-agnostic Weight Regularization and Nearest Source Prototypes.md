@@ -11,7 +11,7 @@ ECCV2022
 
 <img width=700 alt="1684312515521" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/ad5299f1-ea95-4064-acc1-0c6c528eaa1e">
 
-<img width=700 alt="1684312857326 src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/97934ee9-937b-4496-ae70-bfabc722d924">
+<img width=700 alt="1684312857326" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/97934ee9-937b-4496-ae70-bfabc722d924">
 
 where e is encoder, c is classifier.
 
