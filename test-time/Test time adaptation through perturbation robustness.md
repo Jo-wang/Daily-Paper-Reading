@@ -18,5 +18,12 @@ min the KL between each output with the mean of all of them. And then, min the e
 <img width=700 alt="548e15390770068163a2dcbf80bbd5e" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/ac28817e-3a51-4fda-855e-62434e51cc26">
 
 ### Experiments
+<img width=700 alt="be1c4cc52cd392b01c4c529c88dd14e" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/c6d9fcf0-59a3-43b7-af8f-0ba8d8f6ef84">
+
+<img width=700 alt="88c77528014b29cae48ab2a06540b68" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/42599658-e87c-448b-992a-a39dba2b214d">
+
+<img width=700 alt="61f57b29d22f8b2e6416ad446d5c2ac" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f02e2043-08ee-4d76-b477-83bb3d77c697">
+
 
 ### Notes
+- AugMix could get the best performance
