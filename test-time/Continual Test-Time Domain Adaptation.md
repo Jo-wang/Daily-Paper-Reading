@@ -41,5 +41,8 @@ For a conv layer weight at t+1 step called $w_{t+1}$, we stochastic restore the 
 5. Update the model's parameters online based on the current target data using backpropagation and stochastic gradient descent.
 
 ### Experiments
+<img width=750 alt="1684806229983" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/8d97b3b6-5083-4242-9454-653befda76bd">
+<img width=750 alt="1684806268226" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/4fcefbe3-84a9-46e9-8fdb-a491e302c050">
+<img width=350 alt="1684806291586" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/34df6c4a-ab4b-4b5d-86a1-991428d68ecd">
 
 ### Notes
