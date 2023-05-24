@@ -19,16 +19,16 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
-❓ [Test-time Batch Statistics Calibration for Covariate Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20Batch%20Statistics%20Calibration%20for%20Covariate%20Shift.md)
+:heavy_check_mark: [Test-time Batch Statistics Calibration for Covariate Shift](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20Batch%20Statistics%20Calibration%20for%20Covariate%20Shift.md)
 
-❓ [Domain-agnostic Test-time Adaptation by Prototypical Training with Auxiliary Data](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Domain-agnostic%20test-time%20adaptation%20by%20prototypical%20training%20with%20auxiliary%20data.md)
+:heavy_check_mark: [Domain-agnostic Test-time Adaptation by Prototypical Training with Auxiliary Data](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Domain-agnostic%20test-time%20adaptation%20by%20prototypical%20training%20with%20auxiliary%20data.md)
 
-❓ [Test time Adaptation through Perturbation
+:heavy_check_mark: [Test time Adaptation through Perturbation
 Robustness](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test%20time%20adaptation%20through%20perturbation%20robustness.md)
 
-❓ [Continual Test-Time Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Continual%20Test-Time%20Domain%20Adaptation.md)
+:heavy_check_mark: [Continual Test-Time Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Continual%20Test-Time%20Domain%20Adaptation.md)
 
-❓ [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
+:heavy_check_mark: [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
 
 [Improving Test-Time Adaptation via Shift-agnostic Weight Regularization and Nearest Source Prototypes](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improving%20Test-Time%20Adaptation%20via%20Shift-agnostic%20Weight%20Regularization%20and%20Nearest%20Source%20Prototypes.md)
 
