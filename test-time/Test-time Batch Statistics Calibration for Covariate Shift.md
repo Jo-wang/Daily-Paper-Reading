@@ -10,7 +10,7 @@ Not published yet
 - The proposed approach called α-BN addresses this issue and improves the adaptation of deep models to novel environments.
 
 ### Method
-1. Mix up the source and target statistics in batch normalization (BN) layers to alleviate domain shift and preserve discriminative structures. This is called α-BN.
+**1. Mix up the source and target statistics in batch normalization (BN) layers to alleviate domain shift and preserve discriminative structures. This is called α-BN.**
 
 **2. Incorporate α-BN into mainstream deep neural networks to improve generalization on unseen domains without any training.**
 
