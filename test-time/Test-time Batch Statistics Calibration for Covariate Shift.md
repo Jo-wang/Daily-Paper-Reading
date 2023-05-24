@@ -35,5 +35,11 @@ Not published yet
 #### backbone etc
 - Resnet; WRN; Deeplabv3; AugMix
 
-####
+#### Exp
+<img width=300 alt="1684914294780" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/81b81fc0-82ba-42dc-83fe-57db710ef264">
+
+<img width=700 alt="1684914336730" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/69ff049d-c959-4b14-b532-cbc83bdf156f">
+
+<img width=700 alt="1684914395160" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/21f0363f-3f53-418a-a983-9db0ff07be32">
+
 ### Notes
