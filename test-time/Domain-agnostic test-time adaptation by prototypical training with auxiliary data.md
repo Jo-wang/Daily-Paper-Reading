@@ -31,7 +31,7 @@ where h is a cosine classifier whose weights can be regarded as the prototypes f
 
 Use aux data to suppliment the main task: we have two feature extractor, the $g(\cdot ; \theta)$ will be updated during TTA and $g(\cdot ; \theta_0)$ is fixed source version.
 - input aux data to get $z$ and $z_0$, let $Z^l$ and $Z^{l,0}$ be the activations of l-th layer from $g(\cdot ; \theta)$ and $g(\cdot ; \theta_0)$.
-- Calculate <img width=200 alt="1684894712846" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/a392694a-0877-4bd2-ab89-f1b4a8c877e0">
+- Calculate <img width=300 alt="1684894712846" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/a392694a-0877-4bd2-ab89-f1b4a8c877e0">
 - Compute loss <img width=200 alt="1684894752216" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/8a42bd7f-cfb5-4f50-a28e-f8fcf7057980">
 
 where $\|\cdot\|_F$ is the Frobenius norm. this is the $\mathcal{L}_{\text {aux }}$.
