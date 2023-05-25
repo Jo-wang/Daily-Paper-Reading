@@ -18,12 +18,24 @@ The main motivation of this paper is to address the domain shift problem in deep
 ### Method T3A
 <img width=550 alt="1684977500378" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9f0c5961-2172-489e-9e30-0b82de376acf">
 
-1. Train a deep neural network on multiple source domains.
-2. At test-time, use T3A to adjust the weights of the linear classifier (the last layer of deep neural networks).
-3. Create a pseudo-prototype for each class using online unlabeled data and the classifier trained in the source domains.
-4. Classify each sample based on its distance to the pseudo-prototype.
-5. The adjusted decision boundary avoids the high-data density region on the target domain and reduces the ambiguity (entropy) of predictions, which is known to be connected to classification error.
-6. Since T3A does not alter the training phase, it can be used together with existing DG algorithms.
+1. Freeze feature extractor, for the classifier with parameter $\omiga$, treat it as prototype. For the sample similarity for each of the prototype:
+
+<img width=300 alt="image" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/8d6da5b4-5e9c-49f5-93ac-195ab76bf7dd">
+
+2. Maintain K support set, for each sample x, according the prediction above, update the support set:
+
+<img width=300 alt="1684981180085" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/bed83a9c-a13d-4efc-9304-40a0e0d42bfa">
+
+where <img width=100 alt="1684981313209" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/827f6b6e-3631-4eda-9498-4123a6534c1e">
+
+3. Predict according to the new support set:
+
+<img width=600 alt="1684981555613" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e8cdb5cf-6933-458f-8170-8d2684921712">
+
+<img width=600 alt="1684981664104" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9e949bb9-f62a-4030-813b-3d9b8d935d75">
+
+- **Conclusion: T3A implicitly reduces prediction entropy; T3A is computationally light; Adjusting the linear classifier can significantly improve performance.
+
 ### Experiments
 
 ### Notes
