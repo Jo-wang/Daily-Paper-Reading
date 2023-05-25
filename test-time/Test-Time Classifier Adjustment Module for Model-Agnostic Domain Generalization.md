@@ -16,6 +16,8 @@ The main motivation of this paper is to address the domain shift problem in deep
   Overall, this paper seeks to improve the generalization performance of deep neural networks in real-world scenarios where the test data may come from a different distribution than the training data.
 
 ### Method T3A
+<img width=550 alt="1684977500378" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9f0c5961-2172-489e-9e30-0b82de376acf">
+
 1. Train a deep neural network on multiple source domains.
 2. At test-time, use T3A to adjust the weights of the linear classifier (the last layer of deep neural networks).
 3. Create a pseudo-prototype for each class using online unlabeled data and the classifier trained in the source domains.
