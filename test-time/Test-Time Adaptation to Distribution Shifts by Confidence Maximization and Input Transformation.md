@@ -7,7 +7,7 @@ Rejected
 
   Deep neural networks often exhibit poor performance on data that is unlikely under the train-time data distribution, for instance data affected by corruptions.
 
-- Motivation:
+- **Motivation:**
 
   The motivation of this paper is to address the problem of poor performance of deep neural networks on shifted distributions. 
   
