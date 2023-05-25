@@ -37,5 +37,14 @@ where <img width=100 alt="1684981313209" src="https://github.com/Jo-wang/Daily-P
 - **Conclusion: T3A implicitly reduces prediction entropy; T3A is computationally light; Adjusting the linear classifier can significantly improve performance.**
 
 ### Experiments
+Tent-C modulates the entire classifier to reduce prediction entropy.
+
+Tent-BN adds one BN layer just before the linear classifier and then modulates BN’s normalization and transformation parameters.
+
+<img width=600 alt="1684982089112" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f62d4072-4520-4c1a-a61b-d0ace80cc810">
+
+<img width=600 alt="1684982103629" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/ea1fc886-58bb-42d0-a4c3-795a727185ef">
+
+<img width=600 alt="1684982161807" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/dc5f4671-fed6-474d-868b-7b4f894ec38c">
 
 ### Notes
