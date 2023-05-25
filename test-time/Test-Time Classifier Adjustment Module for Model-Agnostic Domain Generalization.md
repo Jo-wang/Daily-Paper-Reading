@@ -34,7 +34,7 @@ where <img width=100 alt="1684981313209" src="https://github.com/Jo-wang/Daily-P
 
 <img width=600 alt="1684981664104" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9e949bb9-f62a-4030-813b-3d9b8d935d75">
 
-- **Conclusion: T3A implicitly reduces prediction entropy; T3A is computationally light; Adjusting the linear classifier can significantly improve performance.
+- **Conclusion: T3A implicitly reduces prediction entropy; T3A is computationally light; Adjusting the linear classifier can significantly improve performance.**
 
 ### Experiments
 
