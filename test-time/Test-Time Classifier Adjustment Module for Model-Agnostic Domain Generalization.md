@@ -7,7 +7,7 @@ NeurIPS2021
 - xxx
 - xxx
 
-### Method
+### Method T3A
 
 ### Experiments
 
