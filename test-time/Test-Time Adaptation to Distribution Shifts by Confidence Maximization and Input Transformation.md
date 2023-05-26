@@ -28,7 +28,13 @@ Rejected
 - Adapting only the affine parameters of normalization layers in f while keeping parameters of convolutional kernels unchanged. Additionally, batch normalization statistics (if any) are adapted to the target distribution.
 
 #### Adaptation Objective
+- **$L_{\text{div}}$**: encourages predictions of the network over the adaptation dataset X
+that match a target distribution
 
+  <img width=600 alt="1685064318356" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/be4a57e4-7cbd-449a-9e48-dd2273a75f8c">
+  
+  Minimize the KL between true target distribution and the estimated target distribution with per-batch.
+- **$L_{\text{conf}}$**: encourages high confidence prediction on individual datapoints (TENT loss)
 ### Experiments
 
 ### Notes
