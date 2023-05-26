@@ -18,6 +18,16 @@ Rejected
   The proposed method is shown to significantly improve the performance of different pretrained models on challenging benchmarks like ImageNet-C and ImageNet-R.
 
 ### Method
+#### Architecture
+- This paper define to adapt the target data by target model g as $g=f \circ d$; where f is source model and d is additional trainable network.
+
+  <img width=600 alt="1685062831281" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/31486797-4dc2-449a-b6e1-1f19aaf92d8e">
+
+- The network $r$ contains conv3*3 + Group Norm + ReLU. So that the modulation parapeters of $g$ are $\phi=\left(\beta, \gamma, \tau, \psi, \theta^{\prime}\right)$, where $\theta^{\prime} \subseteq \theta$ is the subset of parameter on source model $f(\theta)$. 
+
+- Adapting only the affine parameters of normalization layers in f while keeping parameters of convolutional kernels unchanged. Additionally, batch normalization statistics (if any) are adapted to the target distribution.
+
+#### Adaptation Objective
 
 ### Experiments
 
