@@ -34,7 +34,20 @@ that match a target distribution
   <img width=600 alt="1685064318356" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/be4a57e4-7cbd-449a-9e48-dd2273a75f8c">
   
   Minimize the KL between true target distribution and the estimated target distribution with per-batch.
-- **$L_{\text{conf}}$**: encourages high confidence prediction on individual datapoints (TENT loss)
+- **$L_{\text{conf}}$**: encourages high confidence prediction on individual datapoints
+  <img width=600 alt="1685065947686" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/6a3a355e-5891-42bd-8d80-432702858567">
+  
+  where: 
+  
+   <img width=600 alt="1685065970863" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/919c64c9-05fb-4b32-bb56-e46966fc2ba1">
+  
+  where o are the network’s logits
+
+  <img width=600 alt="1685066077815" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/db160a9c-8188-47bc-9f36-bfa9a1be5b1c">
+
 ### Experiments
+<img width=600 alt="1685066343208" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/22903d85-5800-4cd6-a62f-504bd03e0019">
+
+<img width=600 alt="1685066434614" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/86a19674-6bff-40d0-b708-886e3125d2d3">
 
 ### Notes
