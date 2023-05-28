@@ -26,5 +26,8 @@ The authors aim to demonstrate that their method outperforms existing TTA method
   where f is the logsumexp operation when the source model is trained by the CE loss.
 
 ### Experiments
+![1685317764983](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/a349b392-8a36-4886-a2cc-d39493fc174c)
+![1685317779120](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/19ee86bd-b621-45e3-b8e0-17109712c3cb)
+![1685317793947](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/fffa5219-e2bc-4fb1-ba7c-126d7bd77a85)
 
 ### Notes
