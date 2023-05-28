@@ -20,7 +20,11 @@ The authors aim to demonstrate that their method outperforms existing TTA method
 - This paper want to use meta-learning to find out which loss function is suitable for TTA task: 
   - **Observation 1:** for the classifier trained with CE, the meta-TTA loss is temperature-scaled softmax entropy.
   - **Observation 2:** for a classifier trained with squared loss, the meta-TTA loss is a negative squared loss.
-  - The best TTA loss is depends on the loss used to train the source classifier. 
+  - The best TTA loss is depends on the loss used to train the source classifier.
+- Conjugate Pseudo label:
+  <img width=600 alt="Screen Shot 2023-05-28 at 13 30 42" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f991a803-d978-4599-9e0c-ce767db98a5f">
+  where f is the logsumexp operation when the source model is trained by the CE loss.
+
 ### Experiments
 
 ### Notes
