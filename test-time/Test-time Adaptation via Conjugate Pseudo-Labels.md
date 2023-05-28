@@ -17,7 +17,7 @@ Instead, they propose a method called Conjugate Pseudo-labels for TTA, which inv
 The authors aim to demonstrate that their method outperforms existing TTA methods on several benchmark datasets and provide insights into how TTA can be improved in practice.
 
 ### Method
-
+- This paper want to use meta-learning to find out which loss function is suitable for TTA task: 
 ### Experiments
 
 ### Notes
