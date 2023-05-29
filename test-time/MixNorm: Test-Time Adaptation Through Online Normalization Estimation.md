@@ -35,3 +35,5 @@
 
 ### Notes
 Enables performance for single batch.
+
+RandomResized-Crop and RandomFlip as the augmentation methods.
