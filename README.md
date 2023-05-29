@@ -19,7 +19,7 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
-❓ [MixNorm: Test-Time Adaptation Through Online Normalization Estimation]()
+❓ [MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MixNorm%3A%20Test-Time%20Adaptation%20Through%20Online%20Normalization%20Estimation.md)
 
 ❓ [Domain Alignment Meets Fully Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Domain%20Alignment%20Meets%20Fully%20Test-Time%20Adaptation.md)
 
