@@ -3,9 +3,15 @@
 ACML 2023
 
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- This paper is to address the challenges associated with fully test-time adaptation (FTTA) in machine learning models. 
+
+- FTTA is a technique used to adapt a pre-trained model to new data at test time, without requiring access to the source data. 
+
+- However, FTTA faces several challenges, including low sample availability in the target domain and the need for unsupervised domain adaptation (UDA) methods that require access to source data. 
+
+- To address these challenges, the authors propose a new approach called CATTAn that bridges UDA and FTTA by relaxing the need for access to entire source data through a novel deep subspace alignment strategy. 
+
+- The authors aim to demonstrate significant gains in FTTA performance through extensive experimental evaluation on multiple 2D and 3D vision benchmarks and model architectures.
 
 ### Method
 <img width=600 alt="1685324855443" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/cd68ce6a-9c67-4988-9abd-cdb83b48224d">
