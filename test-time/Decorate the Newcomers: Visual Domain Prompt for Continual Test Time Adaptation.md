@@ -1,4 +1,14 @@
-Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation
-https://arxiv.org/abs/2212.04145
+## [Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation](https://arxiv.org/abs/2212.04145)
 
 AAAI2023
+
+### Introduction and background
+- xxx
+- xxx
+- xxx
+
+### Method
+
+### Experiments
+
+### Notes
