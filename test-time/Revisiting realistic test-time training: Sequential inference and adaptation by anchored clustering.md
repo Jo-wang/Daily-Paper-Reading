@@ -44,6 +44,8 @@ NeurIPS2022
 
 <img width=600 alt="1685428487146" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e1ae7c70-c4ad-436f-8a8a-4ea5eb80113f">
 
+<img width=600 alt="1685447583021" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/bb5643cd-8435-41e9-b4b4-a4dedcefc4b3">
+
 ### Experiments
 - Dataset: CIFAR10C/100C; ImageNet-C; VISDA-C; CIFAR10.1; ModelNet40-C
 ### Notes
