@@ -17,7 +17,11 @@ AAAI2023
 <img width=700 alt="1685492997711" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/25616c49-27ef-456c-af08-e99b7f2a258b">
 
 #### Continual test time adaptation via domain prompt
-
+- Two prompt: **domain-specific (DSP) $\psi_\delta$; domain-agnostic (DAP) $\omega_\phi$** added upon a portion of the input image and the decorated image is then input into the source model for predictions.
+- The input images $x^T$ is added by these two prompt by summing up point by point:  $x_p^T=x^T+\omega_\phi+\psi_\delta$
+- **Prompt updating:** Student-teacher model. Uuse student to update teacher through EMA while keep source model frozen. (DSP: CE loss; DAP: regularization term to constrain those domain-sensitive parameters to alleviate the instability when facing domain changes)
+- **DAP regularization: How to limit the parameter sensitive to domain change?** 
+- 
 #### Homeostasis-based prompt adapting strategy
 
 ### Experiments
