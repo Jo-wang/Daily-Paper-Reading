@@ -23,9 +23,15 @@ AAAI2023
 
 #### Homeostasis-based prompt adapting strategy
 - **DAP regularization: How to limit the parameter sensitive to domain change?** 
-- Use Homeostatic Factor: <img width=300 alt="1685498370922" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9b96c4e9-82cc-4712-8355-20b4175139ff">
+- Use Homeostatic Factor: 
+
+  <img width=300 alt="1685498370922" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9b96c4e9-82cc-4712-8355-20b4175139ff">
   
-  where $\theta ^*$ is the parameter for the last minibatch of the previous domain. $\theta$ is the parameter that needs to be inferred, $\Lambda_i^\tau$ is the weight learnt by: <img width=200 alt="1685504852654" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9feb0fef-f85b-4e22-9e43-03387bd0aadd"> and need to be updated **for every new domain**.
+  where $\theta ^*$ is the parameter for the last minibatch of the previous domain. $\theta$ is the parameter that needs to be inferred, $\Lambda_i^\tau$ is the weight learnt by: 
+  
+  <img width=200 alt="1685504852654" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9feb0fef-f85b-4e22-9e43-03387bd0aadd"> 
+  
+  and need to be updated **for every new domain**.
   
   <img width=300 alt="1685505011106" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/2db3c5f2-9675-4cd9-9011-d31065521017">
   
@@ -47,5 +53,8 @@ AAAI2023
 
 
 ### Experiments
+- CIFAR10-C/100-C; ImageNet-C, VLCS
 
 ### Notes
+- No BS for ImageNet-C; gradually changing case only on CIFAR10-C
+- Prompting arch design is not important, optim prompt is important
