@@ -37,7 +37,7 @@ AAAI2023
   
   and $\delta_i^\nu=\theta_{i(t)}^\nu-\theta_{i(t-1)}^\nu$
 
-  v is the domain.
+  v is the domain, g is the gradient.
 
 - To determine when need to update the wieght (when the target domain changed to another), uses confidence, if the confidence changed larger than the defined threshold S 
 
