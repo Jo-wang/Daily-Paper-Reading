@@ -9,6 +9,7 @@ ICLR2023 Poster
 - Mainly ofcusing on cache of BP (i.e., batch size, channel and layer number)
 
 ### Method
+<img width=700 alt="1685865614571" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/cbc207b6-46cc-4886-a0bd-e4efe2063fa2">
 
 ### Experiments
 - Dataset: CIFAR-10C/100C; ImageNet-C
