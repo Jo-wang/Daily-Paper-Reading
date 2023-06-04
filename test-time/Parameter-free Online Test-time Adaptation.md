@@ -31,3 +31,5 @@ CVPR2022
 - Validation for hyperparameter search: original validation set of ImageNet; ImageNet-C-Val; ImageNet-C16
 - Testing set: i.i.d. case: ImageNet-C-Test; ImageNet-V2. Non-i.i.d. case: ImageNet-V2; ImageNet-VID; LaSOT subset from TAO
 
+### Note
+- only have the result over all test set (avg), have no individual one
