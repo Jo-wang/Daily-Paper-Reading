@@ -9,6 +9,7 @@ CVPR2022
 - Additionally, these methods may over-adapt the model parameters, leading to poor performance or even catastrophic degradation of performance. 
 - **In this paper**, LAME runs efficient while requiring less memory than NAMs. 
 - It's provide a correction of the output probabilities.
+- This setting relex the original domain shift to represent with allow the hierarchical labels appear (especially sub-class) in test set.
 
 ### Method
 - Define a latent assignment vector $\tilde{\mathbf{Z}}_i$, we want to approximate the true distribution $p(z \mid \mathbf{x})$ by maximize the log likelihood:
@@ -25,5 +26,8 @@ CVPR2022
   <img width=200 alt="image3" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/5615ac1a-9a88-48ac-92bf-43dc9929c3f4">
 
 ### Experiments
+- Backbone: RN-18, RN-50, RN-101, EfficientNet (EN-B4), ViT-B
+- Pretrained dataset: trained on the standard ImageNet ILSVRC-12 training set, except for ViT-B which uses an additional ImageNet-21k pre-training step.
+- Validation for hyperparameter search: original validation set of ImageNet; ImageNet-C-Val; ImageNet-C16
+- Testing set: i.i.d. case: ImageNet-C-Test; ImageNet-V2. Non-i.i.d. case: ImageNet-V2; ImageNet-VID; LaSOT subset from TAO
 
-### Notes
