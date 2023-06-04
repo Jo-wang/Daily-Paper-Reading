@@ -11,6 +11,18 @@ CVPR2022
 - It's provide a correction of the output probabilities.
 
 ### Method
+- Define a latent assignment vector $\tilde{\mathbf{Z}}_i$, we want to approximate the true distribution $p(z \mid \mathbf{x})$ by maximize the log likelihood:
+  <img width=250 alt="image" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/6cddd1b2-f171-4e5f-833f-3ccb297b1eb1">
+- to prevent over-confident assignments, we consider a negative-entropy regularization that discourages one-hot assignements for $\tilde{\mathbf{Z}}$
+- So that we have: <img width=250 alt="image1" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/b064dcf4-695d-47be-87df-711a1841a03f">
+- But we cannot access p as p is the test distribution, in the contrast, we can access q (source distribution)
+- Add Laplacian regularization to encourage neighbouring points in the feature space to have consistent latent assignments.
+
+  <img width=250 alt="image2" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/5119be55-62a7-44e0-a8ba-1dc51fe3cf1f">
+  
+  where the first term is the log likelihood for source distribution q, and the second term if the regularization. But this regularization is not convex, so this paper use concave-convex proceduce:
+  
+  <img width=200 alt="image3" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/5615ac1a-9a88-48ac-92bf-43dc9929c3f4">
 
 ### Experiments
 
