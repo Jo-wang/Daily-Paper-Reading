@@ -19,6 +19,8 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
+❓ [MECTA: Memory-Economic Continual Test-Time Model Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MECTA%3A%20Memory-Economic%20Continual%20Test-Time%20Model%20Adaptation.md)
+
 ❓ [Parameter-free Online Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Parameter-free%20Online%20Test-time%20Adaptation.md)
 
 ❓ [Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Decorate%20the%20Newcomers%3A%20Visual%20Domain%20Prompt%20for%20Continual%20Test%20Time%20Adaptation.md)
