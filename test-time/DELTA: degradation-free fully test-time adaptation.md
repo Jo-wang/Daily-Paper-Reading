@@ -10,6 +10,17 @@ ICLR2023 Poster
 
 
 ### Method
+- **Diagnosis I**: Normalization statistics are inaccurate within each test mini-batch.
+- **Treatment I**: Test-time batch renormalization (TBR) is a simple and powerful tool to improve the normalization.
+- From: <img width=200 alt="image" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/76cecfaa-18c3-4df6-a662-a94e0c859706">
+
+- To: <img width=450 alt="image1" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/617d8afb-e24e-4e6c-93e9-5f8ef3ca2fc3">
+
+  <img width=450 alt="image2" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/61cef070-d2f1-4546-b1ee-a6b9ac63f42b">
+
+  where $v$ is the input feature and $v^*$ is the output feature.
+  
+<img width=700 alt="image3" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/20d06f10-2b34-4edd-8cf8-5aa403bbc66a">
 
 ### Experiments
 
