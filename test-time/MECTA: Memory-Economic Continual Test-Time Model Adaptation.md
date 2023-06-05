@@ -11,7 +11,7 @@ ICLR2023 Poster
 ### Method
 <img width=700 alt="1685865614571" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/cbc207b6-46cc-4886-a0bd-e4efe2063fa2">
 
-- **The fact**: assume we only update the affine parameter of batch norm layer, th3e cache consumption is maintained for each BN of its latent representations (B*C*W*H) for calculating the gradient.
+- **The fact**: assume we only update the affine parameter of batch norm layer, th3e cache consumption is maintained for each BN of its latent representations (B * C * W * H) for calculating the gradient.
 - Intuitively, we can think about reduce B, C and L (batch size, channel and number of layers)
 - **Reduce B**: use EMA to update the statistic parameters, while the decaying factor $\beta$ is adaptable and defined as: 
   <img width=550 alt="1685925548692" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/6cc57c8e-acf9-4abb-9433-8971d4eb8728">
