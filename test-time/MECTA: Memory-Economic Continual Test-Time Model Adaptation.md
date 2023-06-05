@@ -18,6 +18,10 @@ ICLR2023 Poster
   
   with the intuition that if the test data from single distribution, we need a small $\beta$ to remember the previous steps' info and if the test coming from different distribution, the $\beta$ should be large to focusing more on current batch statistics. $\\beta$ estimated layer by layer.
 
+- **Reduce C**: trivially pruning channels would cast serious issues, especially when some channels are critical for OOD generalization. 
+  - This paper: unconditioned pruning strategy by repeatedly generating a stochastic mask M per iteration such that q*100% entries of the mask are zeros and the rest are ones. Given the input tensor z to the affine layer, we mask the tensor by z = Mz.
+  - Pros: pruning lowers memory usage significantly with much smaller intermediate caches and gradients; mitigates catastrophic forgetting since only a subset of affine weights are updated and the low-magnitude parameters are not updated.
+
 ### Experiments
 - Dataset: CIFAR-10C/100C; ImageNet-C
 ### Notes
