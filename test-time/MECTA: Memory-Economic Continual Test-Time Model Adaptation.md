@@ -16,7 +16,7 @@ ICLR2023 Poster
 - **Reduce B**: use EMA to update the statistic parameters, while the decaying factor $\beta$ is adaptable and defined as: 
   <img width=550 alt="1685925548692" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/6cc57c8e-acf9-4abb-9433-8971d4eb8728">
   
-  with the intuition that if the test data from single distribution, we need a small $\beta$ to remember the previous steps' info and if the test coming from different distribution, the $\beta$ should be large to focusing more on current batch statistics.
+  with the intuition that if the test data from single distribution, we need a small $\beta$ to remember the previous steps' info and if the test coming from different distribution, the $\beta$ should be large to focusing more on current batch statistics. $\\beta$ estimated layer by layer.
 
 ### Experiments
 - Dataset: CIFAR-10C/100C; ImageNet-C
