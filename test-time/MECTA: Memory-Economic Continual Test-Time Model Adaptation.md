@@ -22,6 +22,13 @@ ICLR2023 Poster
   - This paper: unconditioned pruning strategy by repeatedly generating a stochastic mask M per iteration such that q*100% entries of the mask are zeros and the rest are ones. Given the input tensor z to the affine layer, we mask the tensor by z = Mz.
   - Pros: pruning lowers memory usage significantly with much smaller intermediate caches and gradients; mitigates catastrophic forgetting since only a subset of affine weights are updated and the low-magnitude parameters are not updated.
 
+- **Dynamic L** (Train layers on demand): define a threshold $\beta_{\text{th}}$, if $\beta$ in reducing B is larger than this threshold, apply [Reduce C] above.
+
+ <img width=700 alt="1685931298880" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/6db9e7cf-1206-4bcb-867b-583ab7499c17">
+
 ### Experiments
 - Dataset: CIFAR-10C/100C; ImageNet-C
+- <img width=700 alt="1685931702092" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/cb3effb9-8f00-43b9-84f0-1d535529501e">
+- <img width=700 alt="1685931884551" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/0f91f3c9-4ee5-447a-892c-ce547e3881c3">
+
 ### Notes
