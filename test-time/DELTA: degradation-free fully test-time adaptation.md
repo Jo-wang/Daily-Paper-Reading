@@ -3,9 +3,11 @@
 ICLR2023 Poster
 
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- test-time BN are completely affected by the currently received test samples, resulting in inaccurate estimates.
+- parameter update is biased towards some dominant classes
+- the defects can be exacerbated in more complicated test environments, such as (time) dependent or class-imbalanced data
+- previous approaches work well in certain scenarios while show performance degradation in others due to their faults
+
 
 ### Method
 
