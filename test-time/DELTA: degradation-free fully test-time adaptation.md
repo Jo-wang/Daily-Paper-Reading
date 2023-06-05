@@ -19,7 +19,9 @@ ICLR2023 Poster
     <img width=450 alt="image2" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/61cef070-d2f1-4546-b1ee-a6b9ac63f42b">
 
     where $v$ is the input feature and $v^*$ is the output feature.
-  
+    
+    <img width=700 alt="image4" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/b0812a0e-d6a7-42bf-8ff8-fe49540fdc85">
+
 - **Diagnosis II**: the test-time optimization is biased towards dominant classes.
   - Predictions are imbalanced, even for a model trained on class-balanced training data and tested on a class-balanced test set with Ptest(x; y) = Ptrain(x; y)
   - Predictions becomes more imbalanced when Ptest(x; y) != Ptrain(x; y)
