@@ -62,5 +62,8 @@ averaging the teacher model’s outputs on multiple weakly augmented image views
 **Overall loss**: <img width=300 alt="image10" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/c6ff7482-5553-48ca-8602-ab379b408f24">
 
 ### Experiments
+- Image classification; semantic segmentation; Medical
+- CIFAR10C/100C; ImageNet-C
 
-### Notes
+<img width=650 alt="image11" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e6066163-563e-4da1-b3e7-14c1e9989c07">
+
