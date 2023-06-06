@@ -3,9 +3,11 @@
 CVPR2023
 
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- most of SFDA or TTA methods are applied: 
+  - (i) only to classification tasks
+  - (ii) evaluated on the non-real-world domain shifts, e.g., the non-measurement shift
+  - (iii) destroy model calibration—entropy minimizing with overconfident predictions on incorrectly classified samples
+  - (iv) use specialized network architectures or rely on the source dataset feature statistics
 
 ### Method
 
