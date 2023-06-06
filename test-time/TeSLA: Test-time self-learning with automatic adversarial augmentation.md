@@ -67,3 +67,6 @@ averaging the teacher model’s outputs on multiple weakly augmented image views
 
 <img width=650 alt="image11" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e6066163-563e-4da1-b3e7-14c1e9989c07">
 
+N: no source info (Y: have source info)
+
+O: one pass (M: multiple passes)
