@@ -10,6 +10,9 @@ CVPR2023
   - (iv) use specialized network architectures or rely on the source dataset feature statistics
 
 ### Method
+- **Flipped Cross Entropy Loss**:
+- **KD via Augmentation**:
+- **Adversarial Data Augmentation**:
 
 ### Experiments
 
