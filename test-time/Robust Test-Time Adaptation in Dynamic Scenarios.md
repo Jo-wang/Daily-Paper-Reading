@@ -31,5 +31,8 @@ Eq 6 is Heuristic score: $\mathcal{H}=\lambda_t \frac{1}{1+\exp (-\mathcal{A} / 
 
 - $\mathcal{L}\left(x_i^{\mathcal{M}}, \mathcal{A}_i ; \theta_t^T, \theta_t^S\right)=E\left(\mathcal{A}_i\right) \ell\left(x_i^{\prime}, x_i^{\prime \prime}\right)$
 ### Experiments
+- CIFAR10-C/100-C; DomainNet
+- 10C: WRN-28; 100-C: ResNeXt-29; DomainNet: ResNet-101
+- <img width=700 alt="img4" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/faffcf57-6684-4625-b49f-f122bde9893e">
 
 ### Notes
