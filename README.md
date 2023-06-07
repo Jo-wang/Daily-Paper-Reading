@@ -19,6 +19,8 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
+❓ [Robust mean teacher for continual and gradual test-time adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robust%20mean%20teacher%20for%20continual%20and%20gradual%20test-time%20adaptation.md)
+
 [Multi-step test-time adaptation with entropy minimization and pseudo-labeling](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Multi-step%20test-time%20adaptation%20with%20entropy%20minimization%20and%20pseudo-labeling.md)
 
 ❓ [Robust Test-Time Adaptation in Dynamic Scenarios](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robust%20Test-Time%20Adaptation%20in%20Dynamic%20Scenarios.md)
