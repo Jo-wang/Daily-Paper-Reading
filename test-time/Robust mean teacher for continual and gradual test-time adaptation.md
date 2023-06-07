@@ -19,7 +19,9 @@ Ranking: 1 - 5, 5 means very important
 - Mean teacher warm-up for more accurate predictions: Warm-up is conducted offline with the same batch size used during test time by minimizing $\mathcal{L}_{\mathrm{SCE}}$ for one epoch on 50, 000 source training samples. Note that no augmentation is applied during warm-up.
 
 #### Contrastive Learning
-
+- Get source prototype for each class c by averaging $r_c^{\mathrm{S}}$
+- For each test sample $i$, get the closest source prototype and agumented view.
+- 
 #### Source Replay
 
 ### Experiments
