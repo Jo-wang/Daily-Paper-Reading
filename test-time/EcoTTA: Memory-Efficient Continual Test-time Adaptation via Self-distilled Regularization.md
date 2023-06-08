@@ -17,7 +17,7 @@ CVPR2023
 - Warm up the meta network for a small amount of epochs (10 epochs for CIFAR)
 
 #### TTA
-- Only adapt the meta network during adaptation
+- Only adapt the meta network during adaptation (TinyTL shows that activations occupy the majority of the memory required for training the model rather than learnable parameters)
 
   <img width=180 alt="img" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e1c4567e-dabf-4016-b4cf-7af206794526">
 
