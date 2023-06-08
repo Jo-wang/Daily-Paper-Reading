@@ -35,17 +35,17 @@ Daily paper reading records
 
 :heavy_check_mark: [Parameter-free Online Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Parameter-free%20Online%20Test-time%20Adaptation.md)
 
-❓ [Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Decorate%20the%20Newcomers%3A%20Visual%20Domain%20Prompt%20for%20Continual%20Test%20Time%20Adaptation.md)
+[Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Decorate%20the%20Newcomers%3A%20Visual%20Domain%20Prompt%20for%20Continual%20Test%20Time%20Adaptation.md)
 
-❓ [Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20realistic%20test-time%20training:%20Sequential%20inference%20and%20adaptation%20by%20anchored%20clustering.md)
+[Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20realistic%20test-time%20training:%20Sequential%20inference%20and%20adaptation%20by%20anchored%20clustering.md)
 
-❓ [MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MixNorm%3A%20Test-Time%20Adaptation%20Through%20Online%20Normalization%20Estimation.md)
+[MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MixNorm%3A%20Test-Time%20Adaptation%20Through%20Online%20Normalization%20Estimation.md)
 
-❓ [Domain Alignment Meets Fully Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Domain%20Alignment%20Meets%20Fully%20Test-Time%20Adaptation.md)
+[Domain Alignment Meets Fully Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Domain%20Alignment%20Meets%20Fully%20Test-Time%20Adaptation.md)
 
-❓ [Test-time Adaptation via Conjugate Pseudo-Labels](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20Adaptation%20via%20Conjugate%20Pseudo-Labels.md)
+[Test-time Adaptation via Conjugate Pseudo-Labels](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20Adaptation%20via%20Conjugate%20Pseudo-Labels.md)
 
-✔️ [Test-Time Adaptation to Distribution Shifts by Confidence Maximization and Input Transformation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Adaptation%20to%20Distribution%20Shifts%20by%20Confidence%20Maximization%20and%20Input%20Transformation.md)
+[Test-Time Adaptation to Distribution Shifts by Confidence Maximization and Input Transformation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Adaptation%20to%20Distribution%20Shifts%20by%20Confidence%20Maximization%20and%20Input%20Transformation.md)
 
 [Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Classifier%20Adjustment%20Module%20for%20Model-Agnostic%20Domain%20Generalization.md)
 
