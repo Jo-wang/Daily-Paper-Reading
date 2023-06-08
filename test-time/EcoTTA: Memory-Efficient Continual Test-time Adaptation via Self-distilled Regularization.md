@@ -11,6 +11,8 @@ CVPR2023
 
 <img width=700 alt="framework" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e4f37a0d-d335-4b29-b7e2-ae53d1e64260">
 
+<img width=700 alt="framework2" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/03e3bc1e-664a-4a57-8708-a08a9e3ea4f5">
+
 #### Source pretraining
 - Pretrain the source model in a simple supervised manner
 - Freeze original pretrained model, Split the encoder of the pretrained model into K parts, for each part, insert a **meta network** consists of a BN and a Conv block (Conv + Bn + ReLU)
