@@ -21,8 +21,15 @@ Ranking: 1 - 5, 5 means very important
 #### Contrastive Learning
 - Get source prototype for each class c by averaging $r_c^{\mathrm{S}}$
 - For each test sample $i$, get the closest source prototype and agumented view.
-- 
+- Use contrastive loss for source/test/augmented test samples:
+- For each sample $i$, we have a closest source prototype and a augmented view. So the total sample number is $3\cdot N$
+
+  <img width=300 alt="img" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/cb501b88-ffee-42a6-926e-a43412041f1a">
+  
+  where $i$ is $i \in I:=\{1, \ldots, 3 N\}$, and $z$ is the output of the non-linear projection of input samples' feature. $z_v$ is test sample augmented view feature. $z_a$ is any other sample feature exclude $i$.
+  
 #### Source Replay
+- **Part of source data can be saved in a buffer**, then use CE loss to replay these data to update the model parameter.
 
 ### Experiments
 
