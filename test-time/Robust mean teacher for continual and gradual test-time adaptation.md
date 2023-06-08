@@ -36,5 +36,6 @@ Ranking: 1 - 5, 5 means very important
 - Continual online TTA
 
 <img width=700 alt="img1" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f35d7c7a-6ce5-481e-bdf6-331af60d804d">
+
 - See paper for exp of gradual TTA.
 ### Notes
