@@ -13,10 +13,13 @@ CVPR2023
 - Modify the model during testing as two BN layers if there's BN in original model. One is for the statistic of $x$ and another is for $x^{\prime}$. But they share the affine parameter.
 
 - Uses invariance regularization:
+  <img width=320 alt="img3" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/7232e2c2-2f7c-4d0f-878e-c53d130368f1">
  
- <img width=260 alt="img" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/7cd363d9-6e76-4eb6-a4c3-fc7f4e5c8e1f">
+  where h is:
+ 
+  <img width=260 alt="img" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/7cd363d9-6e76-4eb6-a4c3-fc7f4e5c8e1f">
 
- where $p_T$ is the distribution of a transformation will be sampled. $x^{\prime}$ is the transformed target data. This is a inversed KL.
+  where $p_T$ is the distribution of a transformation will be sampled. $x^{\prime}$ is the transformed target data. This is a reversed KL.
 
 - The transformation is obtained from single-step adversarial method FGSM. (PGD will be more better.) 
 
