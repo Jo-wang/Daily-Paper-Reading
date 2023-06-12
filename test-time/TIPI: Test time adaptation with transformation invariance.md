@@ -12,7 +12,7 @@ CVPR2023
 
 - Modify the model during testing as two BN layers if there's BN in original model. One is for the statistic of $x$ and another is for $x^{\prime}$. But they share the affine parameter.
 
-- Uses invariance regularization:
+- Uses invariance regularization as upper bound:
   <img width=320 alt="img3" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/7232e2c2-2f7c-4d0f-878e-c53d130368f1">
  
   where h is:
