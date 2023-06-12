@@ -19,6 +19,8 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
+[A Probabilistic Framework for Lifelong Test-Time Adaptation]()
+
 ✔️ [TIPI: Test time adaptation with transformation invariance](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TIPI%3A%20Test%20time%20adaptation%20with%20transformation%20invariance.md)
 
 :heavy_check_mark: [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/EcoTTA%3A%20Memory-Efficient%20Continual%20Test-time%20Adaptation%20via%20Self-distilled%20Regularization.md)
