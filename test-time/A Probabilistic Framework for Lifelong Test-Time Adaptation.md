@@ -25,4 +25,11 @@ Fisher matrix measure the amount of information for parameter estimation. If $F_
 ### Experiments
 - Setting: continual/gradual adaptation
 - Dataset: CIFAR10C/100C; ImageNet-C; ImageNet3DCC
+
+<img width=600 alt="exp1" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/147a4ce7-8206-4eb8-8a1c-ed8cd709720c">
+
+<img width=600 alt="exp2" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/e23951ad-34bd-4d87-82bc-3e9dbbab5078">
+
+<img width=400 alt="exp3" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/4f90e44e-0ca3-4892-8226-92438696df3e">
+
 ### Notes
