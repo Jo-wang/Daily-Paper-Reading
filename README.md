@@ -1,4 +1,4 @@
-# Daily-Paper-Reading [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Daily-Paper-Reading [![Awesome](https://awesome.re/badge.svg)]
 Daily paper reading records
 
 :question: -> plan to read
