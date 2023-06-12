@@ -25,21 +25,21 @@ Daily paper reading records
 
 ✔️ [TIPI: Test time adaptation with transformation invariance](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TIPI%3A%20Test%20time%20adaptation%20with%20transformation%20invariance.md)
 
-:heavy_check_mark: [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/EcoTTA%3A%20Memory-Efficient%20Continual%20Test-time%20Adaptation%20via%20Self-distilled%20Regularization.md)
+[EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/EcoTTA%3A%20Memory-Efficient%20Continual%20Test-time%20Adaptation%20via%20Self-distilled%20Regularization.md)
 
-:heavy_check_mark: [Robust mean teacher for continual and gradual test-time adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robust%20mean%20teacher%20for%20continual%20and%20gradual%20test-time%20adaptation.md)
+[Robust mean teacher for continual and gradual test-time adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robust%20mean%20teacher%20for%20continual%20and%20gradual%20test-time%20adaptation.md)
 
-:heavy_check_mark: [Multi-step test-time adaptation with entropy minimization and pseudo-labeling](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Multi-step%20test-time%20adaptation%20with%20entropy%20minimization%20and%20pseudo-labeling.md)
+[Multi-step test-time adaptation with entropy minimization and pseudo-labeling](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Multi-step%20test-time%20adaptation%20with%20entropy%20minimization%20and%20pseudo-labeling.md)
 
-:heavy_check_mark: [Robust Test-Time Adaptation in Dynamic Scenarios](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robust%20Test-Time%20Adaptation%20in%20Dynamic%20Scenarios.md)
+[Robust Test-Time Adaptation in Dynamic Scenarios](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robust%20Test-Time%20Adaptation%20in%20Dynamic%20Scenarios.md)
 
-:heavy_check_mark: [TeSLA: Test-time self-learning with automatic adversarial augmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TeSLA%3A%20Test-time%20self-learning%20with%20automatic%20adversarial%20augmentation.md)
+[TeSLA: Test-time self-learning with automatic adversarial augmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TeSLA%3A%20Test-time%20self-learning%20with%20automatic%20adversarial%20augmentation.md)
 
-:heavy_check_mark: [DELTA: degradation-free fully test-time adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/DELTA%3A%20degradation-free%20fully%20test-time%20adaptation.md)
+[DELTA: degradation-free fully test-time adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/DELTA%3A%20degradation-free%20fully%20test-time%20adaptation.md)
 
-:heavy_check_mark: [MECTA: Memory-Economic Continual Test-Time Model Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MECTA%3A%20Memory-Economic%20Continual%20Test-Time%20Model%20Adaptation.md)
+[MECTA: Memory-Economic Continual Test-Time Model Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MECTA%3A%20Memory-Economic%20Continual%20Test-Time%20Model%20Adaptation.md)
 
-:heavy_check_mark: [Parameter-free Online Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Parameter-free%20Online%20Test-time%20Adaptation.md)
+[Parameter-free Online Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Parameter-free%20Online%20Test-time%20Adaptation.md)
 
 [Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Decorate%20the%20Newcomers%3A%20Visual%20Domain%20Prompt%20for%20Continual%20Test%20Time%20Adaptation.md)
 
