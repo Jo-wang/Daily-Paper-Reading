@@ -9,6 +9,13 @@ CVPR2023
 ### Method
 <img width=700 alt="framework" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/72115b4b-377d-427e-ae67-652aa32cd4c8">
 
+<img width=400 alt="alg" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/d5b01332-2e59-4f94-95d9-ca65e47d8700">
+
+$H^{xe}$ is the conditional cross-entropy of labels conditioned on the inputs. 
+
+If the teacher prediction is confident, use the prediction of augmented data as $y^{\prime}$, else, use the average of all agumentations of one data sample $x$ as $y^{\prime}$.
+
+Fisher matrix measure the amount of information for parameter estimation. If $F_p$ < $\gamma$, the useful info for current parameter is less, so we reset back to the source pretrained parameter.
 ### Experiments
 - Setting: continual/gradual adaptation
 - Dataset: CIFAR10C/100C; ImageNet-C; ImageNet3DCC
