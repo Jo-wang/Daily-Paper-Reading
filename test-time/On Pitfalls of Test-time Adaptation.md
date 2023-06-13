@@ -8,7 +8,11 @@ ICML2023
 - The authors hope that their work will not only facilitate rigorous evaluations of TTA algorithms but also stimulate further research into the assumptions that underpin the viability of TTA in challenging scenarios. 
 
 ### Method
+<img width=650 alt="1" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/c0d44a09-91d1-4962-b4a5-eeafd86438f1">
+
+<img width=650 alt="2" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/573b2bc8-5e8f-42cb-a303-d1acb67d713c">
 
 ### Experiments
-
+- CIFAR10C/100C; ImageNet-C; PACS, CIFAR10.1; ColoredMNIST; OfficeHome
+- online/episodic; Aux regularization; batch dependency; checkpoint selection; pretrained model (feature extractor; classifier; augmentation); domain shift (common distribution shift: covariant shift,natural shift, DG; spurious correlation shift; label shift; non-stationary shift)
 ### Notes
