@@ -14,5 +14,6 @@ ICML2023
 
 ### Experiments
 - CIFAR10C/100C; ImageNet-C; PACS, CIFAR10.1; ColoredMNIST; OfficeHome
+- ResNet-18/ResNet26/ResNet-50 as the base model on ColoredMNIST/CIFAR10-C/large-scale image datasets
 - online/episodic; Aux regularization; batch dependency; checkpoint selection; pretrained model (feature extractor; classifier; augmentation); domain shift (common distribution shift: covariant shift,natural shift, DG; spurious correlation shift; label shift; non-stationary shift)
 ### Notes
