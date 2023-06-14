@@ -10,6 +10,9 @@ where $\gamma$ is the affine parameter and $\sigma _r$ is the running average va
 - To stabilize the adaptation process, we perfer $\mu$ and $\sigma$ to be dataset-level. $\mu_r^t=\lambda \mu_c+(1-\lambda) \mu_r^t ;\left(\sigma_r^t\right)^2=\lambda \sigma_c^2+(1-\lambda)\left(\sigma_r^t\right)^2$
   where $\mu_r^t$ are current running mean. $\mu_c$ is batch level mean, $\lambda$ is . 
 - Then mix the currrent running mean with source mean $\mu_r$: $\mu=\theta \mu_r^t+(1-\theta) \mu_r ; \sigma^2=\theta\left(\sigma_r^t\right)^2+(1-\theta) \sigma_r^2$
-### Experiments
 
+- <img width=600 alt="a" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/d4af3660-1dac-468f-bbd6-b9a0c5b5a33d">
+- Uses this new classification head. And adapting all layers.
+### Experiments
+- Dataset: PACS, VLCS, OfficeHome, TerraIncognita, CIFAR10-C, CIFAR100-C, ImageNet-C
 ### Notes
