@@ -8,7 +8,7 @@ where $\gamma$ is the affine parameter and $\sigma _r$ is the running average va
 - The backpropogation of GpreBN is: $\frac{\partial \mathcal{L}}{\partial x_i}=\frac{\partial \mathcal{L}}{\partial y_i} \frac{\partial}{\partial x_i}\left(\frac{x_i-\mu_c}{\sigma_c}\right) \frac{\bar{\sigma}_c}{\sigma} \gamma$ (originally is: $\frac{\partial \mathcal{L}}{\partial x_i}=\frac{\partial \mathcal{L}}{\partial y_i} \frac{\partial}{\partial x_i}\left(\frac{x_i-\mu}{\sigma}\right) \gamma$)
 - This decoupled the backpropogation form (via $\mu_c$ and $\sigma_c$) and the selection of normalization statistics (via $\mu$ and $\sigma$)
 - To stabilize the adaptation process, we perfer $\mu$ and $\sigma$ to be dataset-level. $\mu_r^t=\lambda \mu_c+(1-\lambda) \mu_r^t ;\left(\sigma_r^t\right)^2=\lambda \sigma_c^2+(1-\lambda)\left(\sigma_r^t\right)^2$
-  where $\mu_r^t$ are current running mean. $\mu_c$ is batch level mean. 
+  where $\mu_r^t$ are current running mean. $\mu_c$ is batch level mean, $\lambda$ is . 
 - Then mix the currrent running mean with source mean $\mu_r$: $\mu=\theta \mu_r^t+(1-\theta) \mu_r ; \sigma^2=\theta\left(\sigma_r^t\right)^2+(1-\theta) \sigma_r^2$
 ### Experiments
 
