@@ -19,6 +19,8 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
+❓ [A Simple Test-time Adaptation Method for Source-free Domain Generalization]()
+
 ✔️ [Test-time batch normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20batch%20normalization.md)
 
 ✔️ [On Pitfalls of Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/On%20Pitfalls%20of%20Test-time%20Adaptation.md)
