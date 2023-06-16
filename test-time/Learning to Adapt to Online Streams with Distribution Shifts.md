@@ -13,6 +13,8 @@
 
 <img width=400 alt="a23" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/37fc036c-8676-4228-8de2-41db5e3d1ef2">
 
+(the fig not clear, see 4.2 for details)
+
 - First sample source in a stream of data and update the model for self-supervised learning (rotation prediction) in the inner loop. 
 - Outer loop: (sample K samples for D domains and 1 for D' domains, on total N = KD + D') update the network from learned feature extractor $w_L$ and init classifer $\phi_0$ by CE.
 - Uses learned feature extractor by both inner and outer loop + learned self-supervised head at inner loop + learned classifier (at outer loop) to do TTA.
