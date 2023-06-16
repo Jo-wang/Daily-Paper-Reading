@@ -10,7 +10,8 @@ NeurIPS2021
 #### Online feature alignment
 - offline feature summarization: calculate the the first and the second moments of source (i.e., mean and variance)
 - minimizing the distance between the feature statistics estimated **from a mini-batch of test samples** (i.e., $\mu_z^{\prime}$ and $\Sigma_z^{\prime}$) and the pre-stored quantities about the training domain: $\mathcal{L}_{f, z}=\left\||\mu_z-\mu_z^{\prime}\right\||_2^2+\left\||\Sigma_z-\Sigma_z^{\prime}\right\||_F^2$ where $\||\cdot\||_2$ is Euclidean norm and $\||\cdot\||_F$ is Frobenius norm.
- 
+- To solve the problem of low-order statistics may be insufficient to fully capture complex distributions in high dimensions, align the feature distributions at both the **output of the encoder and the output of the self-supervised head**.
+- 
 #### Online dynamic queue
 
 #### TTT through contrastive learning
