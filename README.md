@@ -21,7 +21,7 @@ Daily paper reading records
 
 ❓ [A Simple Test-time Adaptation Method for Source-free Domain Generalization]()
 
-✔️ [Robustifying vision transformer without retraining from scratch by test-time class-conditional feature alignment]()
+✔️ [Robustifying vision transformer without retraining from scratch by test-time class-conditional feature alignment](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robustifying%20vision%20transformer%20without%20retraining%20from%20scratch%20by%20test-time%20class-conditional%20feature%20alignment.md)
 
 ✔️ [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
 
