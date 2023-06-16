@@ -23,19 +23,19 @@ Daily paper reading records
 
 ✔️ [A Simple Test-time Adaptation Method for Source-free Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Simple%20Test-time%20Adaptation%20Method%20for%20Source-free%20Domain%20Generalization.md)
 
-✔️ [Robustifying vision transformer without retraining from scratch by test-time class-conditional feature alignment](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robustifying%20vision%20transformer%20without%20retraining%20from%20scratch%20by%20test-time%20class-conditional%20feature%20alignment.md)
+[Robustifying vision transformer without retraining from scratch by test-time class-conditional feature alignment](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robustifying%20vision%20transformer%20without%20retraining%20from%20scratch%20by%20test-time%20class-conditional%20feature%20alignment.md)
 
-✔️ [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
+[TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
 
-✔️ [Test-time batch normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20batch%20normalization.md)
+[Test-time batch normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20batch%20normalization.md)
 
-✔️ [On Pitfalls of Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/On%20Pitfalls%20of%20Test-time%20Adaptation.md)
+[On Pitfalls of Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/On%20Pitfalls%20of%20Test-time%20Adaptation.md)
 
-✔️ [Feature Alignment and Uniformity for Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Feature%20Alignment%20and%20Uniformity%20for%20Test%20Time%20Adaptation.md)
+[Feature Alignment and Uniformity for Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Feature%20Alignment%20and%20Uniformity%20for%20Test%20Time%20Adaptation.md)
 
-✔️ [A Probabilistic Framework for Lifelong Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Probabilistic%20Framework%20for%20Lifelong%20Test-Time%20Adaptation.md)
+[A Probabilistic Framework for Lifelong Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Probabilistic%20Framework%20for%20Lifelong%20Test-Time%20Adaptation.md)
 
-✔️ [TIPI: Test time adaptation with transformation invariance](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TIPI%3A%20Test%20time%20adaptation%20with%20transformation%20invariance.md)
+[TIPI: Test time adaptation with transformation invariance](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TIPI%3A%20Test%20time%20adaptation%20with%20transformation%20invariance.md)
 
 [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/EcoTTA%3A%20Memory-Efficient%20Continual%20Test-time%20Adaptation%20via%20Self-distilled%20Regularization.md)
 
