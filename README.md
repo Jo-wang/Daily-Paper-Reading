@@ -21,6 +21,10 @@ Daily paper reading records
 
 ❓ [A Simple Test-time Adaptation Method for Source-free Domain Generalization]()
 
+✔️ [Robustifying vision transformer without retraining from scratch by test-time class-conditional feature alignment]()
+
+✔️ [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
+
 ✔️ [Test-time batch normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20batch%20normalization.md)
 
 ✔️ [On Pitfalls of Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/On%20Pitfalls%20of%20Test-time%20Adaptation.md)
@@ -69,8 +73,6 @@ Daily paper reading records
 Robustness](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test%20time%20adaptation%20through%20perturbation%20robustness.md)
 
 [Continual Test-Time Domain Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Continual%20Test-Time%20Domain%20Adaptation.md)
-
-❓ [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
 
 [Improving Test-Time Adaptation via Shift-agnostic Weight Regularization and Nearest Source Prototypes](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improving%20Test-Time%20Adaptation%20via%20Shift-agnostic%20Weight%20Regularization%20and%20Nearest%20Source%20Prototypes.md)
 
