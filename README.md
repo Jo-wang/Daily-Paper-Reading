@@ -20,6 +20,7 @@ Daily paper reading records
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
 ❓ [Improved Test-time Adaptation for Domain Generalization]()
+
 ❓ [Towards Understanding GD with Hard and Conjugate Pseudo-labels for Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Towards%20Understanding%20GD%20with%20Hard%20and%20Conjugate%20Pseudo-labels%20for%20Test-Time%20Adaptation.md)
 
 ❓ [Benchmarking Test-time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Benchmarking%20Test-time%20Unsupervised%20Deep%20Neural%20Network%20Adaptation%20on%20Edge%20Devices.md)
