@@ -19,13 +19,13 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
-❓ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
+✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
 
 ❓ [Towards Understanding GD with Hard and Conjugate Pseudo-labels for Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Towards%20Understanding%20GD%20with%20Hard%20and%20Conjugate%20Pseudo-labels%20for%20Test-Time%20Adaptation.md)
 
-❓ [Benchmarking Test-time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Benchmarking%20Test-time%20Unsupervised%20Deep%20Neural%20Network%20Adaptation%20on%20Edge%20Devices.md)
+✔️ [Benchmarking Test-time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Benchmarking%20Test-time%20Unsupervised%20Deep%20Neural%20Network%20Adaptation%20on%20Edge%20Devices.md)
 
-❓ [Learning to Adapt to Online Streams with Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Learning%20to%20Adapt%20to%20Online%20Streams%20with%20Distribution%20Shifts.md)
+✔️ [Learning to Adapt to Online Streams with Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Learning%20to%20Adapt%20to%20Online%20Streams%20with%20Distribution%20Shifts.md)
 
 ✔️ [A Simple Test-time Adaptation Method for Source-free Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Simple%20Test-time%20Adaptation%20Method%20for%20Source-free%20Domain%20Generalization.md)
 
