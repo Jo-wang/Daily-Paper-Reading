@@ -10,7 +10,7 @@ NeurIPS2022
 - The motivation is to explore the potential of prompt tuning as a means to enhance the robustness and generalization of large-scale foundation models in machine learning systems.
 
 ### Method
-<img width=600 alt="aa" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/da54af86-520b-47c3-a5a6-48cabf069f5e">
+<img width=700 alt="aa" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/da54af86-520b-47c3-a5a6-48cabf069f5e">
 
 #### CLIP
 - CLIP has two parallelled encoders: $\mathcal{F}=\{E_{\text{visual}}, E_{\text{text}}\}$
@@ -31,7 +31,22 @@ NeurIPS2022
 - When applying CLIP to this task, we do not use additional training data because CLIP has learned abundant visual concepts and thus is a natural fit for such visual reasoning tasks.
 
 #### TPT: Test-Time Prompt Tuning
+1. generate randomly augmented views of the test image using a family of random augmentations $\mathcal{A}$
+2. minimize the entropy of the averaged prediction probability distribution:
+  <img width="700" alt="ent" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/d624bc7a-95b8-4953-a8dc-0a77f96b5638">
+
+To avoid noisy augmentation, setup a threshold $\tau$ to filter out any entropy larger than $\tau$ (note that this thresholding is done per sample)
+
+3. The averaged probability then becomes: <img width="400" alt="ent" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/bcd0a82e-4ff2-4c00-b100-01d799aca27f">
+
+<img width="700" alt="reasoning" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f5cc8e9d-59cd-430e-b4fa-a1e2e316335c">
+
+4. Above is the reasoning part
+<img width=700 alt="res" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/45da8ee1-9d32-463c-bf28-0e5e12c24ebf">
 
 ### Experiments
+- ImageNet-V2/A/R/Sketch
+- <img width=600 alt="tyg4eg" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f7eb1c4c-edee-4bc4-83f6-2c5c259b1222">
 
+- Also test on Cross-Datasets Generalization & Context-dependent Visual Reasoning on Bongard-HOI
 ### Notes
