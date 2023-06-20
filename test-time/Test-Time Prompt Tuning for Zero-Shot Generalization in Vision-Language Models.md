@@ -18,6 +18,20 @@ NeurIPS2022
 - We can get the image feature by $v=E_\text{visual}(X)$
 - Compute the similarity score and get the prediction probability by: <img width="200" alt="ssf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/ec8ef7b0-4b75-4b0e-b360-7c9b83755b6e">
 
+#### Prompt tuning on Downstream data
+- optimize the prompt $p$ in the text embedding space
+- <img width=300 alt="as" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/a17a7386-0b46-4b34-86aa-89b188455103">
+
+#### Context-dependent visual reasoning
+- a test sample contains two sets of support images and a query image for evaluation
+- The two sets of support images exemplify the presence and the absence of a human-object interaction (HOI) concept
+- The model is then asked to infer whether the query image contains the underlying concept
+- Each test sample $X$ captures a concept by presenting c = <s; a; o> (e.g., subject: human, action: ride, object: bike) in one set of support images (positive examples), while having the other set (negative examples) demonstrate c' = <s; a'; o>, where a' != a. $o$ and $a$ are not explicitly given but predicted by the model reasoning ability.
+- This is training the model on a collection of similar tasks (using the Bongard-HOI training split) to make similar inferences on test samples at test time.
+- When applying CLIP to this task, we do not use additional training data because CLIP has learned abundant visual concepts and thus is a natural fit for such visual reasoning tasks.
+
+#### TPT: Test-Time Prompt Tuning
+
 ### Experiments
 
 ### Notes
