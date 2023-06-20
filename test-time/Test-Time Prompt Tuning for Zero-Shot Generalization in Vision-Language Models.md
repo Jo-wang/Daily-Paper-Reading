@@ -8,6 +8,7 @@ NeurIPS2022
 - xxx
 
 ### Method
+<img width=600 alt="aa" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/da54af86-520b-47c3-a5a6-48cabf069f5e">
 
 ### Experiments
 
