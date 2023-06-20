@@ -1,4 +1,4 @@
-## [paper name](link)
+## [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](link)
 Publish? Conference?
 
 Ranking: 1 - 5, 5 means very important
