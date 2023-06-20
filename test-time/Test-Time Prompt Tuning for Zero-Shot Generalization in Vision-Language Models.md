@@ -12,6 +12,12 @@ NeurIPS2022
 ### Method
 <img width=600 alt="aa" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/da54af86-520b-47c3-a5a6-48cabf069f5e">
 
+#### CLIP
+- CLIP has two parallelled encoders: $\mathcal{F}=\{E_{\text{visual}}, E_{\text{text}}\}$
+- For a sample $X$, we have a hand-crafted prompt prefix $p=\text{"A photo of a "}$ to every $y_i$ in the label set $\mathcal{Y}$. We can get the text feature $t_i$ for each label $i$ by $t_i=E_\text{text}(p ; y_i)$
+- We can get the image feature by $v=E_\text{visual}(X)$
+- Compute the similarity score and get the prediction probability by: <img width="200" alt="ssf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/ec8ef7b0-4b75-4b0e-b360-7c9b83755b6e">
+
 ### Experiments
 
 ### Notes
