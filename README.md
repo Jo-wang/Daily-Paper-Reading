@@ -19,8 +19,16 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
-❓ [Test-Time Training with Masked Autoencoders]()
+### Test-time Training
+❓ [Test-Time Training with Masked Autoencoders](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Masked%20Autoencoders.md)
 
+[TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
+
+[Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20realistic%20test-time%20training:%20Sequential%20inference%20and%20adaptation%20by%20anchored%20clustering.md)
+
+[Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Self-Supervision%20for%20Generalization%20under%20Distribution%20Shifts.md)
+
+### Test-time DG
 ❓ [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Prompt%20Tuning%20for%20Zero-Shot%20Generalization%20in%20Vision-Language%20Models.md)
 
 ✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
@@ -34,8 +42,6 @@ Daily paper reading records
 ✔️ [A Simple Test-time Adaptation Method for Source-free Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Simple%20Test-time%20Adaptation%20Method%20for%20Source-free%20Domain%20Generalization.md)
 
 [Robustifying vision transformer without retraining from scratch by test-time class-conditional feature alignment](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Robustifying%20vision%20transformer%20without%20retraining%20from%20scratch%20by%20test-time%20class-conditional%20feature%20alignment.md)
-
-[TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
 
 [Test-time batch normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-time%20batch%20normalization.md)
 
@@ -65,8 +71,6 @@ Daily paper reading records
 
 [Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Decorate%20the%20Newcomers%3A%20Visual%20Domain%20Prompt%20for%20Continual%20Test%20Time%20Adaptation.md)
 
-[Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20realistic%20test-time%20training:%20Sequential%20inference%20and%20adaptation%20by%20anchored%20clustering.md)
-
 [MixNorm: Test-Time Adaptation Through Online Normalization Estimation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MixNorm%3A%20Test-Time%20Adaptation%20Through%20Online%20Normalization%20Estimation.md)
 
 [Domain Alignment Meets Fully Test-Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Domain%20Alignment%20Meets%20Fully%20Test-Time%20Adaptation.md)
@@ -88,7 +92,6 @@ Robustness](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/T
 
 [Improving Test-Time Adaptation via Shift-agnostic Weight Regularization and Nearest Source Prototypes](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improving%20Test-Time%20Adaptation%20via%20Shift-agnostic%20Weight%20Regularization%20and%20Nearest%20Source%20Prototypes.md)
 
-[Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Self-Supervision%20for%20Generalization%20under%20Distribution%20Shifts.md)
 
 [MEMO: Test Time Robustness via Adaptation and Augmentation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/MEMO:%20Test%20Time%20Robustness%20via%20Adaptation%20and%20Augmentation.md)
 
