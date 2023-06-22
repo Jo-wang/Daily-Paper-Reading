@@ -19,6 +19,8 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
+❓ [Revisiting Test Time Adaptation under Online Evaluation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20Test%20Time%20Adaptation%20under%20Online%20Evaluation.md)
+
 ### Test-time Training
 ❓ [Test-Time Training with Masked Autoencoders](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Masked%20Autoencoders.md)
 
