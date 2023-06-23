@@ -22,6 +22,8 @@ Daily paper reading records
 ❓ [Revisiting Test Time Adaptation under Online Evaluation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20Test%20Time%20Adaptation%20under%20Online%20Evaluation.md)
 
 ### Test-time Training
+❓ [ActMAD: Activation Matching to Align Distributions for Test-Time-Training]()
+
 ❓ [Test-Time Training with Masked Autoencoders](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Masked%20Autoencoders.md)
 
 [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
