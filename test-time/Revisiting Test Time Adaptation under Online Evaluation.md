@@ -11,7 +11,8 @@
 
   <img width=400 alt="a" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/7f2a970b-6ec7-406b-a81f-2bd3abadec53">
 
-- Online: measure the speed of method processing data x as R, R will join the speed measuring process. (because some methods process data depending on the data itself, so the time to process each data is different)
+- Online: measure the speed of the method processing data x as R; R will join the speed measuring process. (because some methods process data depending on the data itself, the time to process each piece of data is different.)
 ### Experiments
-
+![1687484544046](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/670f80d0-ca9d-4209-97f2-a08936ce008e)
+- ImageNet-C/R/3DCC
 ### Notes
