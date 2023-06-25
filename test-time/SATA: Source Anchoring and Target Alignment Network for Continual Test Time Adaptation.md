@@ -28,7 +28,8 @@ Then use contrastive learning-like loss:
        
 <img width=300 alt="fh" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/d7a4dc56-dede-45fe-aa75-b6cca6658d09">
 
-The overall loss: $\mathcal{L}_{\mathrm{SATA}}=\mathcal{L}_{\mathrm{SA}}+\mathcal{L}_{\mathrm{TA}}$
+
+The overall loss: $\mathcal{L}_{SATA} = \mathcal{L}_{SA} + \mathcal{L}_{TA}$
 
 ### Experiments
 - CIFAR10C/100C; ImageNet-C
