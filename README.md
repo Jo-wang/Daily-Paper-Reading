@@ -40,7 +40,9 @@ Daily paper reading records
 ✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
 
 ### TTA
-❓ [Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Covariance-aware%20Feature%20Alignment%20with%20Pre-computed%20Source%20Statistics%20for%20Test-time%20Adaptation.md)
+❓ [Adaptive Domain Generalization via Online Disagreement Minimization]()
+
+✔️ [Covariance-aware Feature Alignment with Pre-computed Source Statistics for Test-time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Covariance-aware%20Feature%20Alignment%20with%20Pre-computed%20Source%20Statistics%20for%20Test-time%20Adaptation.md)
 
 ✔️ [SATA: Source Anchoring and Target Alignment Network for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/SATA%3A%20Source%20Anchoring%20and%20Target%20Alignment%20Network%20for%20Continual%20Test%20Time%20Adaptation.md)
 
