@@ -32,7 +32,10 @@ Before computing $\mathcal{L}_a$, we perform feature grouping to break down the 
 
 <img width=700 alt="dfewcwf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/07c41847-31c7-4d72-aa55-35b5cbe03d06">
 
-The highlighted green part looks not correct.
+```diff
++ The highlighted green part looks not correct.
+```
+
 
 ### Experiments
 - CIFAR10C/100C; ImageNet-C/R
