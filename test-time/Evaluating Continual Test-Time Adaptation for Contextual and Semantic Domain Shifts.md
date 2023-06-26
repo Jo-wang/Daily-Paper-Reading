@@ -10,7 +10,33 @@
   - iii) BN is the most reliable and robust
 
 ### Method
+- **Forget Rate**: the difference in accuracy before and after continually adapting to the target domains.
 
-### Experiments
+#### Test for Short-term adaptation: contextual shift
+- Can only see the test sample once
+- Default train domains -> default test domains:
+          
+  <img width=600 alt="a" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/023e61b1-622e-4bea-9493-e738cacd24a8">
+     
+- Outdoor -> indoor:
+     
+  <img width=600 alt="adf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/60dc879a-2001-4db0-9621-5f85dc02433e">
+    
+- Single domain -> all other domains:
+    
+  <img width=600 alt="afdf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/8ebc85a6-2461-4088-9061-14e51bd4b43a">
+     
+#### Test for Short-term adaptation: semantic shift
+- Can only see the test sample once
+- Real images -> paintings, clipart and sketches:
+        
+  <img width=600 alt="afddf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/1477c8a5-1afc-46cb-bdb7-5482cf210024">
+      
+- Paintings -> real images, cliparts and sketches:
+       
+  <img width=600 alt="affeddf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/ca019bfb-9a93-4461-ac94-21341940a49c">
+
+#### Test for Long-term adaptation
+- can see the test sample multiple times.
 
 ### Notes
