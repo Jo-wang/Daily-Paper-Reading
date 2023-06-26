@@ -8,6 +8,10 @@
 ### Method
 <img width=500 alt="a" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/3f0fca23-8f58-4f82-b55f-98d5ed1cdb04">
 
+<img width=600 alt="adgfew" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/2f0a21af-6fdc-4b88-aaf6-ce38db0ccad0">
+
+<img width=600 alt="agreg" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/5c8d142d-ddce-4384-9b6e-84211964d31e">
+
 #### Pre-computing the Statistics
 <img width=700 alt="dwa" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/d672eeb4-6e24-428c-b0fa-b73f976b9235">
 
@@ -31,5 +35,13 @@ Before computing $\mathcal{L}_a$, we perform feature grouping to break down the 
 The highlighted green part looks not correct.
 
 ### Experiments
+- CIFAR10C/100C; ImageNet-C/R
+- R-26, R-50
+- BS=256
+- k=128
+    
+<img width=600 alt="agrhheg" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/a3929319-1f05-4a8a-a224-4bbfb15db1d2">
+    
+<img width=600 alt="agreeeg" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/993546d4-ca19-4693-a562-853d71562c8c">
 
 ### Notes
