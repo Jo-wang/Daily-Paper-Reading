@@ -21,6 +21,8 @@ Daily paper reading records
 
 ✔️ [Revisiting Test Time Adaptation under Online Evaluation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20Test%20Time%20Adaptation%20under%20Online%20Evaluation.md)
 
+❓ [Evaluating Continual Test-Time Adaptation for Contextual and Semantic Domain Shifts]()
+
 ### Test-time Training
 ✔️ [ActMAD: Activation Matching to Align Distributions for Test-Time-Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/ActMAD%3A%20Activation%20Matching%20to%20Align%20Distributions%20for%20Test-Time-Training.md)
 
