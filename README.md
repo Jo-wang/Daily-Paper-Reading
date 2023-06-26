@@ -1,4 +1,4 @@
-# ![Awesome](https://awesome.re/badge.svg) Daily-Paper-Reading 
+# ![Awesome](https://awesome.re/badge.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) daily_paper_reading 
 Daily paper reading records
 
 :question: -> plan to read
