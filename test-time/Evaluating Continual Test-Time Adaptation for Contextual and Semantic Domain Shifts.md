@@ -12,6 +12,10 @@
 ### Method
 - **Forget Rate**: the difference in accuracy before and after continually adapting to the target domains.
 
+#### Effect of Batch Size
+
+<img width=600 alt="q" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/9ac26481-da44-49fa-af80-e48170040d6e">
+    
 #### Test for Short-term adaptation: contextual shift
 - Can only see the test sample once
 - Default train domains -> default test domains:
@@ -38,5 +42,14 @@
 
 #### Test for Long-term adaptation
 - can see the test sample multiple times.
+<img width=600 alt="affecdddf" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/cb55315b-0498-4433-94eb-60b4b4e5a0c3">
 
-### Notes
+### Experiment setting
+- 3 seeds
+- BS=128
+- ResNet-50
+- Pretrained on ImageNet-1k
+- See paper for dataset train/val/test segmentation.
+
+### Note
+Didn't include too many paper
