@@ -6,6 +6,7 @@
 - Second, naturally, not all shifts are gradual in practice.
 
 ### Method
+<img width=400 alt="a" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/a23be18e-7928-4581-acde-2d017eddcdda">
 
 ### Experiments
 
