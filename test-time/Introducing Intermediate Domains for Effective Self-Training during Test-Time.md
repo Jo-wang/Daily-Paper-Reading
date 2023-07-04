@@ -2,9 +2,8 @@
 
 
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- First, adapting a model to long test sequences that contain multiple domains can lead to error accumulation.
+- Second, naturally, not all shifts are gradual in practice.
 
 ### Method
 
