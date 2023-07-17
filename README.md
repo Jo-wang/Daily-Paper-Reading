@@ -40,6 +40,8 @@ Daily paper reading records
 ✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
 
 ### TTA
+✔️ [Gradual Test-Time Adaptation by Self-Training and Style Transfer]()
+
 ❓ [Introducing Intermediate Domains for Effective Self-Training during Test-Time](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Introducing%20Intermediate%20Domains%20for%20Effective%20Self-Training%20during%20Test-Time.md)
 
 ❓ [Rethinking Precision of Pseudo Label: Test-Time Adaptation via Complementary Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Rethinking%20Precision%20of%20Pseudo%20Label%3A%20Test-Time%20Adaptation%20via%20Complementary%20Learning.md) Done but haven't been updated
