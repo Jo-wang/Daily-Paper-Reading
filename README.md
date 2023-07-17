@@ -34,6 +34,9 @@ Daily paper reading records
 
 [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Self-Supervision%20for%20Generalization%20under%20Distribution%20Shifts.md)
 
+### Test-time Augmentation
+❓ [Better Aggregation in Test-Time Augmentation]()
+
 ### Test-time DG
 ✔️ [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Prompt%20Tuning%20for%20Zero-Shot%20Generalization%20in%20Vision-Language%20Models.md)
 
