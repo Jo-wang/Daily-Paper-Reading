@@ -9,6 +9,13 @@
 
 
 ### Method
+1. Style transfer
+
+<img width=600 alt="ad" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/fd6fa8ca-b6f3-43c8-a08a-81387ba17b55">
+
+2. self-training
+
+<img width=600 alt="aw" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/7bd240b1-256b-40d0-9f1a-b243c89983ad">
 
 ### Experiments
 
