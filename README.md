@@ -246,6 +246,8 @@ Robustness](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/T
 ### OOD Detection
 [Mitigating Neural Network Overconfidence with Logit Normalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/OOD/OOD-Detection/Mitigating%20Neural%20Network%20Overconfidence%20with%20Logit%20Normalization.md)
 
+❓[Beyond AUROC & Co. for Evaluating Out-of-Distribution Detection Performance]()
+
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
 
