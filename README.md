@@ -248,6 +248,8 @@ Robustness](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/T
 
 ❓[Beyond AUROC & Co. for Evaluating Out-of-Distribution Detection Performance]()
 
+❓[Decoupling MaxLogit for Out-of-Distribution Detection]()
+
 ## PU Learning
 [Positive-Unlabeled Learning with Non-Negative Risk Estimator]()
 
