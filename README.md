@@ -302,3 +302,4 @@ Robustness](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/T
 [Dataset Distillation by Matching Training Trajectories](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/Dataset%20Distillation/Dataset%20Distillation%20by%20Matching%20Training%20Trajectories.md)
 
 ## Open Vocabulary
+[A Simple Framework for Open-Vocabulary Segmentation and Detection]()
