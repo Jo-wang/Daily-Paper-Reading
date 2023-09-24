@@ -43,7 +43,7 @@ Daily paper reading records
 ✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
 
 ### TTA
-❓ [Label Shift Adapter for Test-Time Adaptation under Covariate and Label Shifts]()
+❓ [Label Shift Adapter for Test-Time Adaptation under Covariate and Label Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Label%20Shift%20Adapter%20for%20Test-Time%20Adaptation%20under%20Covariate%20and%20Label%20Shifts.md)
 
 [Uncovering Adversarial Risks of Test-Time Adaptation](https://docs.google.com/presentation/d/16O6xpYCefz5O6VkhhWLV0OaGmTGtC6QL2OE2Val9mPk/edit?usp=sharing)
 
