@@ -43,13 +43,15 @@ Daily paper reading records
 ✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
 
 ### TTA
-✔️ [Uncovering Adversarial Risks of Test-Time Adaptation](https://docs.google.com/presentation/d/16O6xpYCefz5O6VkhhWLV0OaGmTGtC6QL2OE2Val9mPk/edit?usp=sharing)
+❓ [Label Shift Adapter for Test-Time Adaptation under Covariate and Label Shifts]()
 
-✔️ [Gradual Test-Time Adaptation by Self-Training and Style Transfer](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Gradual%20Test-Time%20Adaptation%20by%20Self-Training%20and%20Style%20Transfer.md)
+[Uncovering Adversarial Risks of Test-Time Adaptation](https://docs.google.com/presentation/d/16O6xpYCefz5O6VkhhWLV0OaGmTGtC6QL2OE2Val9mPk/edit?usp=sharing)
+
+[Gradual Test-Time Adaptation by Self-Training and Style Transfer](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Gradual%20Test-Time%20Adaptation%20by%20Self-Training%20and%20Style%20Transfer.md)
 
 ❓ [Introducing Intermediate Domains for Effective Self-Training during Test-Time](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Introducing%20Intermediate%20Domains%20for%20Effective%20Self-Training%20during%20Test-Time.md)
 
-❓ [Rethinking Precision of Pseudo Label: Test-Time Adaptation via Complementary Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Rethinking%20Precision%20of%20Pseudo%20Label%3A%20Test-Time%20Adaptation%20via%20Complementary%20Learning.md) Done but haven't been updated
+[Rethinking Precision of Pseudo Label: Test-Time Adaptation via Complementary Learning](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Rethinking%20Precision%20of%20Pseudo%20Label%3A%20Test-Time%20Adaptation%20via%20Complementary%20Learning.md) Done but haven't been updated
 
 ✔️ [Adaptive Domain Generalization via Online Disagreement Minimization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Adaptive%20Domain%20Generalization%20via%20Online%20Disagreement%20Minimization.md)
 
