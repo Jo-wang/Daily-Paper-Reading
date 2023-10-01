@@ -11,7 +11,7 @@ ICCV2023
 - Otherwise,<img width=150 alt="a" src="https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/36cace78-2c80-464d-bc8c-6898d3ee6c91">
 - mean ent maximization.
 
-- The only difference between this paper and <Improving test-time adaptation via shift-agnostic weight regularization and nearest source prototypes> is the indicator.
+- The only difference between this paper and "Improving test-time adaptation via shift-agnostic weight regularization and nearest source prototypes" is the indicator.
 
 
 ### Experiments
