@@ -17,3 +17,7 @@ Intuitions:
 ### Method
 ![1701321560772](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/c159c9be-8ad0-476e-99cb-f35b2f43e7de)
 
+- fuse the low-rank and high-rank info at e.g., linear layer if it's a ViT.
+- The fusion weight is decided by the uncertainty (measurement about the distribution change)
+- Consistency loss is used to use teacher prediction to supervised student's.
+
