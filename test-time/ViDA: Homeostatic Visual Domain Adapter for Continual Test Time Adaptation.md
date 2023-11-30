@@ -11,5 +11,7 @@ Intuitions:
 
 - This ViDA could make low-rank adaptor focusing more on foreground while somewhat disregard the background, as the below image shows
 - ![1701321134550](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/2c9b32f8-36bf-4454-895c-fda30c89a36c)
-- High rank adaptor better suited to address error accumulation in the continual adaptation process, as the Figure 1. (b) shows.
+- High rank adaptor better suited to address error accumulation in the continual adaptation process, as the below image shows.
+- ![51f45b812fa8fffb35d056706e16a25](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f5656ea8-1807-4407-9b54-4c52ac5a5203)
+
 
