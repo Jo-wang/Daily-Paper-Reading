@@ -14,4 +14,6 @@ Intuitions:
 - High rank adaptor better suited to address error accumulation in the continual adaptation process, as the below image shows.
 - ![51f45b812fa8fffb35d056706e16a25](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/f5656ea8-1807-4407-9b54-4c52ac5a5203)
 
+### Method
+![1701321560772](https://github.com/Jo-wang/Daily-Paper-Reading/assets/46414159/c159c9be-8ad0-476e-99cb-f35b2f43e7de)
 
