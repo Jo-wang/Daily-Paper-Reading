@@ -43,7 +43,9 @@ Daily paper reading records
 ✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
 
 ### TTA
-❓[ViDA: Homeostatic Visual Domain Adapter for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/ViDA%3A%20Homeostatic%20Visual%20Domain%20Adapter%20for%20Continual%20Test%20Time%20Adaptation.md)
+❓[SODA: Robust Training of Test-Time Data Adaptors]()
+
+[ViDA: Homeostatic Visual Domain Adapter for Continual Test Time Adaptation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/ViDA%3A%20Homeostatic%20Visual%20Domain%20Adapter%20for%20Continual%20Test%20Time%20Adaptation.md)
 
 [Towards Open-Set Test-Time Adaptation Utilizing the Wisdom of Crowds in Entropy Minimization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Towards%20Open-Set%20Test-Time%20Adaptation%20Utilizing%20the%20Wisdom%20of%20Crowds%20in%20Entropy%20Minimization.md)
 
