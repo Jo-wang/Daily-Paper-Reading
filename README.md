@@ -19,14 +19,16 @@ Daily paper reading records
 ## Test-time Adaptation
 [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Comprehensive%20Survey%20on%20Test-Time%20Adaptation%20under%20Distribution%20Shifts.md)
 
-✔️ [Revisiting Test Time Adaptation under Online Evaluation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20Test%20Time%20Adaptation%20under%20Online%20Evaluation.md)
+[A Versatile Framework for Continual Test-Time Domain Adaptation: Balancing Discriminability and Generalizability](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/A%20Versatile%20Framework%20for%20Continual%20Test-Time%20Domain%20Adaptation%3A%20Balancing%20Discriminability%20and%20Generalizability.md)
 
-✔️ [Evaluating Continual Test-Time Adaptation for Contextual and Semantic Domain Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Evaluating%20Continual%20Test-Time%20Adaptation%20for%20Contextual%20and%20Semantic%20Domain%20Shifts.md)
+[Revisiting Test Time Adaptation under Online Evaluation](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Revisiting%20Test%20Time%20Adaptation%20under%20Online%20Evaluation.md)
+
+[Evaluating Continual Test-Time Adaptation for Contextual and Semantic Domain Shifts](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Evaluating%20Continual%20Test-Time%20Adaptation%20for%20Contextual%20and%20Semantic%20Domain%20Shifts.md)
 
 ### Test-time Training
-✔️ [ActMAD: Activation Matching to Align Distributions for Test-Time-Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/ActMAD%3A%20Activation%20Matching%20to%20Align%20Distributions%20for%20Test-Time-Training.md)
+[ActMAD: Activation Matching to Align Distributions for Test-Time-Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/ActMAD%3A%20Activation%20Matching%20to%20Align%20Distributions%20for%20Test-Time-Training.md)
 
-✔️ [Test-Time Training with Masked Autoencoders](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Masked%20Autoencoders.md)
+[Test-Time Training with Masked Autoencoders](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Training%20with%20Masked%20Autoencoders.md)
 
 [TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/TTT%2B%2B%3A%20When%20Does%20Self-Supervised%20Test-Time%20Training%20Fail%20or%20Thrive%3F.md)
 
@@ -38,9 +40,9 @@ Daily paper reading records
 ❓ [Better Aggregation in Test-Time Augmentation]()
 
 ### Test-time DG
-✔️ [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Prompt%20Tuning%20for%20Zero-Shot%20Generalization%20in%20Vision-Language%20Models.md)
+[Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Test-Time%20Prompt%20Tuning%20for%20Zero-Shot%20Generalization%20in%20Vision-Language%20Models.md)
 
-✔️ [Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
+[Improved Test-time Adaptation for Domain Generalization](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/Improved%20Test-time%20Adaptation%20for%20Domain%20Generalization.md)
 
 ### TTA
 ❓[SODA: Robust Training of Test-Time Data Adaptors]()
