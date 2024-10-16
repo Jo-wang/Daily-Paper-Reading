@@ -214,6 +214,8 @@ Robustness](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/test-time/T
 
 ## 3D Semantic Occupancy Prediction
 
+## Diffusion
+[Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think]()
 
 ## Semantic Segmentation
 ### Transformer-based segmentation
