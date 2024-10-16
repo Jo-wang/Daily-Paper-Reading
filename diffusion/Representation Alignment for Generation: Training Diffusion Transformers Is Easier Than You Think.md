@@ -4,9 +4,8 @@ Arxiv
 Ranking: 5
 
 ### Introduction and background
-- xxx
-- xxx
-- xxx
+- we identify that the main challenge in training diffusion models stems from the need to learn a high-quality internal representation h.
+- We demonstrate that the training process for generative diffusion models becomes significantly easier and more effective when supported by an external representation, $$y_*$$.
 
 ### Method
 
