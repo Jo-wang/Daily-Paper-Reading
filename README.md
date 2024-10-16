@@ -1,14 +1,13 @@
-# ![Awesome](https://awesome.re/badge.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) daily_paper_reading 
+# ![Awesome](https://awesome.re/badge.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) Daily Paper Reading
+
 Daily paper reading records
 
-:question: -> plan to read
+- :question: → Plan to read
+- :star: → Good paper
+- :heavy_check_mark: → Finished for this week
+- :pushpin: → Group meeting talk this week
 
-:star: -> good paper
-
-:heavy_check_mark: -> finished for this week
-
-:pushpin: -> group meeting talk this week
-
+---
 ## Machine Learning
 [Surrogate Gap Minimization Improves Sharpness-Aware Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Surrogate%20Gap%20Minimization%20Improves%20Sharpness-Aware%20Training.md)
 
