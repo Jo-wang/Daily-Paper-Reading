@@ -1,11 +1,15 @@
-# ![Awesome](https://awesome.re/badge.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) Daily Paper Reading
+# 🚀 **Daily Paper Reading Tracker**
 
-Daily paper reading records
+![Awesome](https://awesome.re/badge.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
-- :question: → Plan to read
-- :star: → Good paper
-- :heavy_check_mark: → Finished for this week
-- :pushpin: → Group meeting talk this week
+Welcome to the **Daily Paper Reading Tracker**! Stay on top of your research by keeping track of what you're reading, what's on your radar, and what you've found insightful. 🌟
+
+---
+## 📌 **Legend**
+- ❓ **Plan to Read** → Papers on the reading list
+- ⭐ **Good Paper** → Recommended reads
+- ✅ **Completed** → Finished this week
+- 📌 **Discussion** → Group meeting topic
 
 ---
 ## Machine Learning
