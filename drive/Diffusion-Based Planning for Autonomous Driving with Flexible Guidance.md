@@ -149,8 +149,8 @@ $$E_{\text{speed}} = \left[\max\left(\frac{\text{avg speed} - v_{\text{low}}}{1}
 2. **Comfort**: Penalizes excessive jerk (acceleration change), which causes discomfort.
 
 $$E_{\text{comfort}} = \mathbb{E}\left[ \max\left( j_{\max} - \left| \frac{d^3 x}{d\tau^3} \right|, 0 \right)^2 \right]$$
-	•	Lower jerk → smoother ride
-	•	Can be extended to lateral jerk, acceleration, etc.
+- Lower jerk → smoother ride
+- Can be extended to lateral jerk, acceleration, etc.
 
 
 3. **Collision Avoidance**: Penalizes proximity to other vehicles using signed distance.
@@ -219,5 +219,50 @@ Before feeding into the model:
 
 
 ### Experiments
+
+
+📍Datasets Used
+- nuPlan: Large-scale real-world autonomous driving benchmark
+- New 200-hour Delivery-Vehicle Dataset (collected by authors): More conservative driving; Bike lanes, pedestrian-heavy, diverse scenarios
+
+
+📊 Evaluation Protocol: Closed-loop simulation
+
+Two modes:
+- Non-reactive (NR): Environment doesn’t respond to ego
+- Reactive (R): Environment responds to ego behavior
+- Score range: 0–100 (higher = better)
+- Metrics: Score, collision rate, time-to-collision (TTC), comfort, drivable area, progress
+
+
+🔁 Baselines
+
+|	|Examples|
+|Rule-based	|IDM, PDM-Closed|
+|Hybrid (rules + learning)	|PDM-Hybrid, GameFormer|
+|Learning-based	|PlanTF, PLUTO, GameFormer w/o refine|
+
+
+
+🏆 Results: nuPlan
+
+
+
+
+🚚 Results: Delivery-Vehicle Dataset
+
+
+
+
+🔧 Ablations
+
+Removing:
+- z-score normalization → worse
+- interpolation → worse
+- data augmentation → much worse
+- Adding ego velocity/acc → causes shortcut learning
+- Varying number of neighbors M → too many harms performance
+
+
 
 ### Notes
