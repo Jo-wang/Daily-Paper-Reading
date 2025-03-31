@@ -263,6 +263,7 @@ Results
 
 
 Ablations
+![image](https://github.com/user-attachments/assets/887408fb-9b43-44bf-9c24-b5c8e45ea751)
 
 Removing:
 - z-score normalization → worse
