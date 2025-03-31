@@ -12,6 +12,9 @@ Welcome to the **Daily Paper Reading Tracker**! Stay on top of your research by 
 - 📌 **Discussion** → Group meeting topic
 
 ---
+## E2E Driving
+[Diffusion-Based Planning for Autonomous Driving with Flexible Guidance]()
+
 ## Machine Learning
 [Surrogate Gap Minimization Improves Sharpness-Aware Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Surrogate%20Gap%20Minimization%20Improves%20Sharpness-Aware%20Training.md)
 
