@@ -87,6 +87,49 @@ x_0 = x_t  # Denoised trajectory sample
 ### Method
 ![image](https://github.com/user-attachments/assets/4bf7380c-f1e8-497c-b3c3-68948b205c78)
 
+#### Task Redefinition
+
+Traditionally:
+- Planning = generate future trajectory for the ego vehicle.
+- Prediction = forecast trajectories of nearby agents (cars, bikes, etc.)
+- These are often handled separately, or with prediction treated as external input.
+
+This paper proposes to jointly model both **Trajectory generation for: ego + M nearest neighbors**
+
+This joint task is treated as one generative process, producing future states for all key agents conditioned on: current state, history, map, and navigation goal. This encourages cooperative interaction modeling, e.g., the ego slows down if a neighbor might cut in.
+
+Why Use Diffusion?
+
+Joint modeling of multiple agents is multi-modal and complex. A simple behavior cloning model:
+- Can’t capture diverse futures (e.g., left vs right turn).
+- Can’t model interactions well.
+- Needs rule-based correction.
+
+So, they use a diffusion model to capture the distribution over future trajectories, including uncertainty and multi-agent coordination.
+
+1. **Formulation**
+![image](https://github.com/user-attachments/assets/d7824650-db65-491b-a30b-42f1abe65ea5)
+
+- Each x contains position and orientation (e.g., [x, y, $$\cos\theta$$, $$\sin\theta]$$)
+- $$\tau$$: number of future steps
+- M: number of neighbor agents
+
+This is the target the diffusion model will generate.
+
+
+2. **Training Objective (Diffusion loss)**
+
+Train the model to recover clean trajectory $$x^{(0)}$$ from noisy version $$x^{(t)}$$, via:
+![image](https://github.com/user-attachments/assets/90c7a181-cca5-4b7a-87a3-b3d38a73e484)
+
+Where:
+- $$\mu_\theta$$: predicted denoised trajectory from the model
+- C: conditional inputs (scene, map, history, goal)
+- $$q_{t0}$$: forward noising process
+- The model learns to denoise trajectories, thus modeling the data distribution
+
+
+
 
 ### Experiments
 
