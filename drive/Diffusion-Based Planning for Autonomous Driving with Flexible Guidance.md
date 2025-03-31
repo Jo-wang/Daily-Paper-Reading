@@ -176,7 +176,46 @@ $$E_{\text{total}} = \lambda_1 E_{\text{collision}} + \lambda_2 E_{\text{comfort
 - All terms must be differentiable w.r.t. the trajectory
 - No retraining is needed
 
+#### Implementation
 
+Make the model:
+- Robust to perturbations and distribution shifts
+- Efficient at inference time
+- Compatible with control systems
+
+Key Components
+
+1. Data Augmentation (for Robustness)
+
+They add random perturbations to the current ego state during training with small random changes in:
+- Position (x, y)
+- Heading (\theta)
+- Speed, acceleration
+
+➡ This simulates out-of-distribution (OOD) conditions and trains the model to recover toward the correct trajectory.
+
+Then they apply interpolation to generate a physically feasible trajectory from the perturbed start to the original future path.
+
+
+2. Ego-Centric Transformation
+
+Before feeding into the model:
+- All coordinates are transformed into ego vehicle’s local frame
+- This reduces variation and simplifies learning
+
+
+3. Normalization
+- Apply z-score normalization to trajectory coordinates, especially longitudinal direction
+- Reason: ego’s longitudinal movement is much larger than lateral → imbalance hurts training
+
+
+4. Efficient Inference
+- Use DPM-Solver for fast sampling (denoising)
+- Use low-temperature sampling to reduce randomness and improve trajectory determinism
+
+➡ They achieve:
+- 20 Hz inference speed
+- Plan for 8 seconds at 10 Hz (i.e., 80 trajectory points)
 
 
 ### Experiments
