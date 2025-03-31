@@ -13,7 +13,7 @@ Welcome to the **Daily Paper Reading Tracker**! Stay on top of your research by 
 
 ---
 ## E2E Driving
-[Diffusion-Based Planning for Autonomous Driving with Flexible Guidance]()
+[Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/drive/Diffusion-Based%20Planning%20for%20Autonomous%20Driving%20with%20Flexible%20Guidance.md)
 
 ## Machine Learning
 [Surrogate Gap Minimization Improves Sharpness-Aware Training](https://github.com/Jo-wang/Daily-Paper-Reading/blob/main/ml/Surrogate%20Gap%20Minimization%20Improves%20Sharpness-Aware%20Training.md)
