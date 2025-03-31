@@ -35,6 +35,18 @@ with $$f(t)$$, $$g(t)$$ derived from $$\alpha_t$$, $$\sigma_t$$.
 $$\tilde{s}\theta(x^{(t)}, t) = s\theta(x^{(t)}, t) - \nabla_{x^{(t)}} E_\phi(x^{(t)}, t)$$
 - Compared to rule-based refinement, guidance modifies the generation internally, leveraging the model’s structure to produce high-quality, tailored results.
 
+Intuition:
+- Imagine the model wants to generate a path that might collide with another car.
+- The classifier says “this path is unsafe” → high energy.
+- The gradient $$\nabla_{x^{(t)}} E_\phi$$ points away from the unsafe trajectory.
+- So subtract this gradient → the model shifts its output toward a safer trajectory.
+
+Key Points:
+- No retraining required — guidance is applied only at inference.
+- Can be used for multi-objective planning: safety, comfort, speed control, lane keeping.
+- Can combine multiple guidance terms (sum of gradients).
+- Can be training-free if you approximate E using existing model outputs.
+
 
 ```python
 # Inputs:
@@ -73,6 +85,8 @@ x_0 = x_t  # Denoised trajectory sample
 ```
 
 ### Method
+![image](https://github.com/user-attachments/assets/4bf7380c-f1e8-497c-b3c3-68948b205c78)
+
 
 ### Experiments
 
