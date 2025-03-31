@@ -237,24 +237,32 @@ Two modes:
 
 🔁 Baselines
 
-|	|Examples|
-|Rule-based	|IDM, PDM-Closed|
-|Hybrid (rules + learning)	|PDM-Hybrid, GameFormer|
-|Learning-based	|PlanTF, PLUTO, GameFormer w/o refine|
+| Type             | Planner               | Description                                                                 |
+|------------------|------------------------|-----------------------------------------------------------------------------|
+| **Rule-based**   | IDM                   | Classic rule-based planner                                                  |
+|                  | PDM-Closed            | Rule-based version of PDM, follows centerline                              |
+| **Hybrid**       | PDM-Hybrid            | Combines rule-based and learning-based elements                            |
+|                  | GameFormer            | Game-theoretic model + rule-based refinement                               |
+|                  | PLUTO                 | Complex model with contrastive learning + post-processing                   |
+| **Learning-based** | PDM-Open*           | Learning-based version of PDM with reference line                          |
+|                  | UrbanDriver           | Policy-gradient based learning method from nuPlan                          |
+|                  | GameFormer w/o refine | GameFormer without rule-based refinement                                   |
+|                  | PlanTF                | Transformer-based imitation learning planner                                |
+|                  | PLUTO w/o refine*     | PLUTO without post-processing refinement                                   |
+
+\* Indicates methods that use reference lines as input, which gives them a prior advantage.
 
 
 
-🏆 Results: nuPlan
+Results
+
+<img width="628" alt="Screenshot 2025-03-31 at 1 47 59 PM" src="https://github.com/user-attachments/assets/7fc7a8bc-d565-49ea-a7de-ba2202253398" />
 
 
 
 
-🚚 Results: Delivery-Vehicle Dataset
 
-
-
-
-🔧 Ablations
+Ablations
 
 Removing:
 - z-score normalization → worse
