@@ -128,6 +128,13 @@ Where:
 - $$q_{t0}$$: forward noising process
 - The model learns to denoise trajectories, thus modeling the data distribution
 
+#### Model
+<img width="826" alt="Screenshot 2025-03-31 at 12 47 32 PM" src="https://github.com/user-attachments/assets/9965fa14-7065-4846-9d4e-a22ddf9f3e97" />
+
+<img width="826" alt="Screenshot 2025-03-31 at 12 50 12 PM" src="https://github.com/user-attachments/assets/7950553a-fe0e-4296-b83a-9f4f4279f003" />
+
+<img width="826" alt="Screenshot 2025-03-31 at 12 55 59 PM" src="https://github.com/user-attachments/assets/e42f169f-5ca6-4803-8a75-18c4c322b636" />
+
 
 
 
