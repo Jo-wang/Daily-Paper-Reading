@@ -135,6 +135,47 @@ Where:
 
 <img width="826" alt="Screenshot 2025-03-31 at 12 55 59 PM" src="https://github.com/user-attachments/assets/e42f169f-5ca6-4803-8a75-18c4c322b636" />
 
+<img width="826" alt="Screenshot 2025-03-31 at 1 27 29 PM" src="https://github.com/user-attachments/assets/bb99173e-87e9-4fdb-a296-c5a2f32332c2" />
+
+✅ Applicable Energy Functions
+
+1. **Target Speed Maintenance**: Encourages the ego vehicle to maintain a desired average speed.
+
+$$E_{\text{speed}} = \left[\max\left(\frac{\text{avg speed} - v_{\text{low}}}{1}, 0\right)^2 + \max\left(\frac{v_{\text{high}} - \text{avg speed}}{1}, 0\right)^2 \right]$$
+- Helps avoid driving too slow or too fast.
+- Good for aligning with speed limits or passenger preferences.
+
+
+2. **Comfort**: Penalizes excessive jerk (acceleration change), which causes discomfort.
+
+$$E_{\text{comfort}} = \mathbb{E}\left[ \max\left( j_{\max} - \left| \frac{d^3 x}{d\tau^3} \right|, 0 \right)^2 \right]$$
+	•	Lower jerk → smoother ride
+	•	Can be extended to lateral jerk, acceleration, etc.
+
+
+3. **Collision Avoidance**: Penalizes proximity to other vehicles using signed distance.
+
+$$E_{\text{collision}} = \sum_{m, \tau} \Psi\left(\omega \cdot \max\left(1 - \frac{D^\tau_m}{r}, 0\right)\right)$$
+- $$D^\tau_m$$: distance between ego and neighbor m at time $$\tau$$
+- $$\Psi(x) = e^x - x$$: smooth energy function
+- High gradient only when near collision
+
+
+4. **Staying within Drivable Area**: Penalizes deviation from the drivable lane area.
+
+$$E_{\text{drivable}} = \sum_{\tau} \Psi\left(\omega_d \cdot \text{SignedDistanceFromLane}(x^\tau_{\text{ego}})\right)$$
+- Encourages the vehicle to stay inside legal lanes
+- Works well with map-based signed distance fields (SDF)
+
+
+Combination
+
+We can linearly combine multiple energies at inference time:
+
+$$E_{\text{total}} = \lambda_1 E_{\text{collision}} + \lambda_2 E_{\text{comfort}} + \lambda_3 E_{\text{speed}} + \cdots$$
+- All terms must be differentiable w.r.t. the trajectory
+- No retraining is needed
+
 
 
 
